@@ -54,6 +54,7 @@ cak = Cakchiquel
 ckb = Centralkurdiska
 cnh = Burmesiska
 co = Korsikanska
+crh = Krim-tatariska
 cs = Tjeckiska
 cv = Tjuvasjiska
 cy = Walesiska
@@ -69,16 +70,20 @@ eo = Esperanto
 es = Spanska
 et = Estländska
 eu = Baskiska
+ewo = Ewondo
 fa = Persiska
 ff = Fula
 fi = Finska
 fo = Färöiska
 fr = Franska
+fuf = Pular Guinea
 fy-NL = Frisiska
 ga-IE = Irländska
 gl = Galiciska
 gn = Guarani
 gom = Goa-konkani
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebreiska
 hi = Hindi
@@ -98,6 +103,7 @@ it = Italienska
 izh = Ingriska
 ja = Japanska
 jbo = Lojban
+jv = Javanesiska
 ka = Georgiska
 kaa = Karakalpakiska
 kab = Kabyliska
@@ -120,6 +126,7 @@ lo = Laotiska
 lt = Litauiska
 ltg = Lettgalliska
 lv = Lettiska
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagassiska
@@ -151,6 +158,7 @@ nyn = Nyankole
 oc = Occitanska
 om = Oromo
 or = Odia
+os = Ossetiska
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polska
@@ -158,6 +166,7 @@ ps = Pashto
 pt = Portugisiska
 quc = Quiché
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Rätoromanska
 rm-vallader = Rätoromanska Vallader
 ro = Rumänska
@@ -167,6 +176,8 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardiska
 scn = Sicilianska
+sco = Lågskotska
+sd = Sindhi
 sdh = Sydkurdiska
 shi = Shilha
 si = Singalesiska
@@ -207,7 +218,9 @@ uz = Uzbekistanska
 ve = Venda
 vec = Venetianska
 vi = Vietnamesiska
+vmw = Emakhuwa
 vot = Votiska
+wep = Westfaliska
 wo = Wolof
 xh = Xhosa
 yi = Jiddisch
@@ -244,6 +257,7 @@ share-text = Hjälp till att lära maskiner hur riktiga människor pratar, doner
 link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
 logout = Logga ut
+donate = Donera
 
 ## Home Page
 
@@ -397,8 +411,12 @@ native-language =
 profile-form-add-accent = Lägg till ny anpassad accent "{ $inputValue }"
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
-male = Man
-female = Kvinna
+male_masculine = Man/Maskulin
+female_feminine = Kvinna/Feminin
+intersex = Intersex
+transgender = Transpersoner
+non-binary = Icke-binär
+do_not_wish_to_say = Vill inte säga
 # Gender
 other = Annat
 why-profile-title = Varför behövs en profil?
@@ -434,6 +452,8 @@ help-accent = Behöver du hjälp med accent?
 help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
 help-variants = Behöver du hjälp med dialekter?
 help-variants-explanation = Varianter är en specifik form av ett språk - till exempel delas av de som bor i ett visst geografiskt område eller ett visst samhälle. Ibland kallas dessa för dialekter.
+help-sex-or-gender-changes = Behöver du hjälp med köns- eller könsförändringar?
+help-sex-or-gender-changes-explanation = Vi erbjuder fler alternativ för att ge människor större valfrihet i vad de berättar om sitt kön eller könsidentitet. Beskriv själv på det sätt som känns mest naturligt för dig. <learnMoreLink>Lär dig mer om vårt förhållningssätt till sex och kön.</learnMoreLink>
 
 ## Profile - Email
 
@@ -466,7 +486,7 @@ faq-what-cv-a-2 =
     Teknologin för röstigenkänning revolutionerar sättet på hur vi interagerar med maskiner, men dagens tillgängliga system är både dyra och patentskyddade. 'Mozilla Common Voice' är ett initiativ för att göra röstigenkänningsteknologin både bättre och tillgängligt för alla.
     'Common Voice' är en massiv global databas med donerade röster som låter vem som helst, snabbt och lätt att träna appar med röstigenkänning i potentiellt vilket språk som helst.
     
-    Vi samlar inte bara på röster från dom största språken utan även ifrån mindre talade språk.
+    Vi samlar inte bara på röster från de största språken utan även ifrån mindre talade språk.
     Att publicera ett dataset med ett stort utbud av röster lägger grunden för att stimulera programutvecklare, entreprenörer och andra grupper att själva börja lägga till data som saknas.
 faq-why-important-q = Varför är det viktigt?
 faq-why-important-a =
@@ -621,7 +641,6 @@ about-playbook-how-add-sentences = Hur lägger jag till meningar?
 about-playbook-how-add-sentences-content-1 = <strong>Meningsinsamlaren</strong> är ett verktyg för att samla in och validera meningar som är allmän egendom. Du måste <scAccountLink>skapa ett konto</scAccountLink>. Lägg sedan till ditt språk i din <strong>profil</strong>. Du kan <strong>Lägga till</strong> meningar eller <strong>Granska</strong> tidigare tillagda meningar.
 about-playbook-how-add-sentences-content-2 = Meningar måste granskas och accepteras av två personer för att inkluderas i Common Voice. Du skapar riktlinjer för ditt språk <languageGuidelinesLink>här</languageGuidelinesLink>. Meningar måste vara <licenseLink>allmänna egendom</licenseLink> och kortare än 15 ord. Du kan be ägaren av en text att göra den till <waiverLink>CC0 med hjälp av vår dispensprocess</waiverLink> och skicka till oss på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Du kan använda <scraperLink>Meningsutdragaren</scraperLink> för att utnyttja korta meningar från Wikipedia.
-about-playbook-how-add-sentences-content-4 = Meningar som har validerats exporteras på onsdagar och är tillgängliga efter nästa release.
 
 ## How to record quality
 
@@ -668,6 +687,13 @@ about-playbook-how-project-governance-content-4 = Gemenskapens deltagande och be
 about-playbook-how-project-governance-content-5 = Värde och erkännande.
 about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Hur finansieras Common Voice?
+about-playbook-how-funded-content-1 = Common Voice är ett projekt av Mozilla Foundation, en US 501c3. Projektet finansieras för närvarande helt av <philantropicGrantLink>filantropiska anslag</filantropicGrantLink> och donationer från människor runt om i världen.
+about-playbook-how-funded-content-2 = Det kostar mycket pengar att kontinuerligt vara värd för och släppa datamängder, förbättra plattformen och köra <africaMradiLink>gemenskapsprogram</africaMradiLink>.
+about-playbook-how-funded-content-3 = Om du eller din organisation vill bidra till projektet kan ni göra en <donateLink>donation</donateLink> eller kontakta vårt partnerskapsteam på <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -744,10 +770,12 @@ validated-hr-total = Totalt validerade timmar
 overall-hr-total = Totalt antal timmar
 cv-license = Licens
 audio-format = Ljudformat
+dataset-splits = Uppdelning (ålder och kön)
 number-of-voices = Antal röster
 splits = Uppdelning
 email-to-download = Ange e-postadress för nedladdning
 why-email = <b>Varför en e-postadress?</b> Vi kanske behöver kontakta dig i framtiden om ändringar i datamängden, en e-postadress ger oss en kontaktmöjlighet.
+why-donate-datasets-page = Mozilla Common Voice är världens mest mångsidiga crowdsourced öppna datamängd - och vi drivs helt av donationer. Det kostar nästan en miljon dollar per år att vara värd för datamängder och förbättra plattformen för de över 100 språkgemenskaper som förlitar sig på det vi gör. Om du värderar öppen, inkluderande data - <b>donera idag!</b>
 confirm-size = Du är beredd att initiera en nedladdning av <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -766,6 +794,8 @@ subscribe = Prenumerera
 get-started-speech = Kom igång med taligenkänning
 other-datasets = Andra röstdatamängder
 feedback-q = Har du feedback?
+# This indicates that there is no data to display
+no-information = Ingen information
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ är en <docsLink>verktygslåda med öppen källkod</docsLink> för forskare som utvecklar toppmoderna AI-modeller för konversation.
 resource-deepspeech-info = Mozilla´s röstigenkänningsmotor 'Deep Speech', med öppen källkod, kan användas för att skapa röstigenkänningsapplikationer. Läs vår  <githubLink>Github överblick</githubLink> eller anslut dig till <discourseLink>DeepSpeech Discourse</discourseLink> för att lära dig hur du själv kommer igång.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> är dedikerat till att öppna upp teknologin för röstigenkänning. Deras projekt inkluderar STT- och TTS-baserade djupinlärningsmotorer.
@@ -788,6 +818,15 @@ dataset-version = Version
 sha256-checksum-copied = SHA256-kontrollsumma kopierad!
 sha256-checksum-copied-error = Det gick inte att kopiera SHA256-kontrollsumma
 clipboard-not-supported = Urklipp stöds inte
+no-information-available = Ingen information tillgänglig
+dataset-metadata-sex = Kön
+# dataset metadata - age of contributor
+dataset-metadata-age = Ålder
+donate-modal-message = Din datamängd laddas ner!
+dataset-donate-modal-heading = Visste du att…
+donate-modal-explanation-1 = Det kostar nästan en miljon dollar per år att vara värd för datamängder och förbättra plattformen för de över 100 språkgemenskaper som litar på det vi gör?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Om du värderar öppen, inkluderande data - donera idag!</bold>
 
 ## Download Modal
 
@@ -865,6 +904,8 @@ language-section-in-progress = Pågående
 language-section-in-progress-new-description = Dessa språk är för närvarande under utveckling. Förloppsindikatorn visar hur långt varje språk är i färd med <localizationGlossaryLink> webbplatsöversättning</localizationGlossaryLink> och <sentenceCollectionGlossaryLink>insamling av meningar</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanserad
 language-section-launched-description = För dessa lanserade språk har webbplatsen blivit <localizationGlossaryLink>översatt</localizationGlossaryLink> och har tillräckligt med <sentenceCollectionGlossaryLink>meningar insamlade</sentenceCollectionGlossaryLink> för att tillåta bidrag för <talkLink>Röst</speakLink> och <listenLink>Lyssna</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Senast uppdaterad: { $lastUpdatedTimeStamp }
 languages-show-more = Visa mer
 languages-show-less = Visa mindre
 language-meter-in-progress = Förlopp
@@ -934,6 +975,9 @@ listen-empty-state = Vi har slut på klipp för att validera på det här språk
 listen-loading-error =
     Vi kunde inte hitta några ljudklipp till dig att lyssna på.
     Vänligen försök igen senare.
+listen-abort-title = Slutför valideringen av klipp?
+listen-abort-cancel = Fortsätt validera
+listen-abort-confirm = Slutför valideringen
 speak-empty-state = Vi har slut på meningar att spela in på det här språket...
 speak-empty-state-cta = Bidra med meningar
 speak-loading-error =
@@ -1592,6 +1636,9 @@ continue-speaking-button = Nej tack, fortsätt tala
 create-profile-text = Vill du spara din information? <createProfile>Skapa en profil</createProfile>
 thanks-for-voice-toast = Tack för din röstinformation
 thanks-for-voice-toast-error = Ett fel uppstod när din röstinformation skickades
+first-cta-gender-select-default-option = Välj ett alternativ
+first-cta-gender-select-help-text =
+    .label = Hur skulle du beskriva ditt kön?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tack för att du bidrar med din röst!
 second-cta-subtitle-text = Med en profil kan du hålla reda på din aktivitet och få kontakt med en grupp bidragsgivare av röstdata.
@@ -1652,6 +1699,7 @@ public-domain = Allmän
 citing-sentences = Citerar meningar
 adding-sentences = Lägga till meningar
 reviewing-sentences = Granska meningar
+sentence-domain = Meningsdomän
 public-domain-explanation-1 = Det är mycket viktigt att alla textmeningar är <publicDomain>allmänna</publicDomain> (<cc0>cc0</cc0>) eftersom Common Voice-datauppsättningen släpps under en cc0-licens. Ladda bara upp en mening om du är säker och inkludera alltid relevant källa.
 public-domain-explanation-2 = De bästa meningarna för att bygga en användbar taligenkänningsmotor är vardagligt, modernt språkbruk. Några idéer som hjälper dig att skapa meningar är;
 public-domain-explanation-3 = Skapa moderna, vardagliga meningar själv eller med dina vänner eller språkgemenskap - till exempel genom ett "skriv-maraton"
@@ -1690,8 +1738,11 @@ reviewing-sentences-explanation-1 = Om meningen uppfyller kriterierna ovan, klic
 reviewing-sentences-explanation-2 = Om meningen inte uppfyller ovanstående kriterier, klicka på knappen "Nej".
 reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
-# WRITE PAGE
-write-instruction-second-part = en mening som är allmän egendom
+domain-explanation = Domän avser innehållet för meningen. För närvarande kan du välja mellan:
+
+## WRITE PAGE
+
+write-instruction = Lägg till <icon></icon> en mening som är allmän egendom
 write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
 sentence =
     .label = Mening
@@ -1699,7 +1750,8 @@ sentence-input-value = Ange din mening som är allmän egendom här
 citation-input-value = Källa till din mening
 citation =
     .label = Källhänvisning
-what-can-i-add = Vilka typer av meningar kan jag lägga till?
+sc-write-submit-confirm = Jag bekräftar att den här meningen är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillstånd att ladda upp den.
+sc-review-write-title = Vilka meningar kan jag lägga till?
 new-sentence-rule-1 = <noCopyright>Inga upphovsrättsbegränsningar</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Färre än 15 ord
 new-sentence-rule-3 = Använd korrekt grammatik
@@ -1716,16 +1768,88 @@ contact-us = Kontakta oss
 add-sentence-success = 1 mening insamlad
 add-sentence-error = Det gick inte att lägga till mening
 required-field = Var vänlig fyll i det här fältet.
-# REVIEW PAGE
-sc-review-instruction-first-part = Kontrollera
-sc-review-instruction-second-part = är detta en språkligt korrekt mening?
+single-sentence-submission = Inlämning av en enda mening
+bulk-sentence-submission = Massinlämning
+single-sentence = Enstaka mening
+bulk-sentences = Flera meningar
+sentence-domain-select =
+    .label = Meningsdomän
+sentence-domain-select-placeholder = Välj upp till tre domäner
+# Sentence Domain dropdown option
+agriculture = Lantbruk
+# Sentence Domain dropdown option
+automotive = Fordon
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+food_service_retail = Mat, service och detaljhandel
+# Sentence Domain dropdown option
+general = Allmänt
+# Sentence Domain dropdown option
+healthcare = Sjukvård
+# Sentence Domain dropdown option
+history_law_government = Historia, juridik och regering
+# Sentence Domain dropdown option
+language_fundamentals = Grundläggande språk (t.ex. siffror, bokstäver, pengar)
+# Sentence Domain dropdown option
+media_entertainment = Media och underhållning
+# Sentence Domain dropdown option
+nature_environment = Natur och miljö
+# Sentence Domain dropdown option
+news_current_affairs = Nyheter och aktuella frågor
+# Sentence Domain dropdown option
+technology_robotics = Teknik och robotik
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrollera <icon></icon> är detta en språkligt korrekt mening?
 sc-review-rules-title = Uppfyller meningen riktlinjerna?
 sc-review-empty-state = Det finns för närvarande inga meningar att granska på detta språk.
 report-sc-different-language = Annat språk
 report-sc-different-language-detail = Den är skriven på ett annat språk än det jag granskar.
 sentences-fetch-error = Ett fel uppstod när meningar skulle hämtas
 review-error = Ett fel uppstod när den här meningen granskades
+review-error-rate-limit-exceeded = Du är för snabb. Ta en stund att granska meningen för att se till att den är korrekt.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Vi gör några viktiga förändringar
 sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.
 sc-redirect-page-subtitle-2 = Ställ frågor till oss på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ladda upp <icon></icon> meningar som är allmän egendom
+sc-bulk-upload-instruction = Dra din fil hit eller <uploadButton>klicka för att ladda upp</uploadButton>
+sc-bulk-upload-instruction-drop = Släpp filen här för att ladda upp
+bulk-upload-additional-information = Om det finns ytterligare information som du vill ge om den här filen, vänligen kontakta <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Om det är ytterligare information som du vill ge om denna fil som inte ingår i mallen, vänligen kontakta <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Försök igen genom att dra filen hit
+try-upload-again-md = Försök att ladda upp igen
+select-file = Välj fil
+select-file-mobile = Välj fil att ladda upp
+accepted-files = Godkända filtyper: endast .tsv
+maximum-file-size = Maximal filstorlek: 25 MB
+what-needs-to-be-in-file = Vad måste finnas i min fil?
+what-needs-to-be-in-file-explanation = Kontrollera vår <templateFileLink>mallfil</templateFileLink>. Dina meningar bör vara upphovsrättsfria (CC0 eller tillåtet originalverk av insändaren) och vara tydliga, grammatiskt korrekta och lätta att läsa. Inskickade meningar bör ta ungefär 10-15 sekunder att läsa och bör undvika att inkludera siffror, egennamn och specialtecken.
+upload-progress-text = Uppladdning pågår...
+sc-bulk-submit-confirm = Jag bekräftar att dessa meningar är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillåtelse att ladda upp dem.
+bulk-upload-success-toast = Flera meningar uppladdade
+bulk-upload-failed-toast = Uppladdningen misslyckades, försök igen.
+bulk-submission-success-header = Tack för att du bidrar med din massinlämning!
+bulk-submission-success-subheader = Du hjälper Common Voice att nå våra dagliga meningsmål!
+upload-more-btn-text = Ladda upp fler meningar?
+file-invalid-type = Felaktig fil
+file-too-large = Filen är för stor
+file-too-small = Filen är för liten
+too-many-files = För många filer
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Vi behöver</mark><br/><mark>din hjälp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Det kostar nästan en miljon dollar per år att vara värd för datamängder och förbättra plattformen för de över 100 språkgemenskaper som förlitar sig på det vi gör. <strong>Om du värderar öppen, inkluderande data - donera idag!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Använder du CV för</mark><br/><mark>din forskning?</mark>
+languages-donate-banner-cta-explanation = Common Voice finansieras av donationer och bidrag! Vi älskar att samarbeta med akademiker, civilsamhället och forskare inom industrin. Common Voice är gratis att använda, men att bidra till plattforms- och värdkostnader genom bidragsförslag är verkligen användbart.

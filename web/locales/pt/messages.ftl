@@ -9,13 +9,13 @@ email-input =
 submit-form-action = Enviar
 loading = Carga em andamento…
 email-opt-in-info = Quero receber emails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
-email-opt-in-info-title = Participe da lista de discussão do Common Voice
+email-opt-in-info-title = Participe na lista de discussão do Common Voice
 email-opt-in-info-sub-with-challenge = Receba emails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
 email-opt-in-privacy-v2 = Ao optar por receber emails, você declara que concorda com a Mozilla lidar com essas informações, conforme explicado na <privacyLink>Política de privacidade</privacyLink> da Mozilla.
 indicates-required = * Indica campo obrigatório
 not-available-abbreviation = Não disponível
 banner-error-slow-1 = Desculpe, o Common Voice está lento. Obrigado pelo seu interesse.
-banner-error-slow-2 = Estamos recebendo muito tráfego no momento, estamos investigando problemas.
+banner-error-slow-2 = Estamos a receber muito tráfego de momento e estamos a investigar os problemas.
 banner-error-slow-link = Página de status
 error-something-went-wrong = Desculpe, houve um erro
 error-clip-upload = O envio deste clipe continua falhando. Continuar tentando?
@@ -54,6 +54,7 @@ cak = Caqchiquel
 ckb = Curdo central
 cnh = Hakha Chin
 co = Corso
+crh = Tártaro da Crimeia
 cs = Tcheco
 cv = Tchuvache
 cy = Galês
@@ -69,16 +70,20 @@ eo = Esperanto
 es = Espanhol
 et = Estoniano
 eu = Basco
+ewo = Euondo
 fa = Persa
 ff = Fula
 fi = Finlandês
 fo = Feroês
 fr = Francês
+fuf = Pular da Guiné
 fy-NL = Frisão
 ga-IE = Irlandês
 gl = Galego
 gn = Guarani
 gom = Konkani de Goa
+gu-IN = Guzerate
+guc = Wayuu
 ha = Hauçá
 he = Hebraico
 hi = Hindi
@@ -98,6 +103,7 @@ it = Italiano
 izh = Ijoriano
 ja = Japonês
 jbo = Lojban
+jv = Javanês
 ka = Georgiano
 kaa = Caracalpaque
 kab = Kabyle
@@ -120,6 +126,7 @@ lo = Lao
 lt = Lituano
 ltg = Latgaliano
 lv = Letão
+lzz = Laz
 mai = Maitili
 mdf = Moksha
 mg = Malgaxe
@@ -151,6 +158,7 @@ nyn = Ancolé
 oc = Occitânico
 om = Afaan Ormoo
 or = Odia
+os = Osseto
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polonês
@@ -158,6 +166,7 @@ ps = Pachto
 pt = Português
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romanche (Sursilvan)
 rm-vallader = Romanche (Vallader)
 ro = Romeno
@@ -167,6 +176,8 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sco = Ânglico Escocês (Scots)
+sd = Sindi
 sdh = Curdo do Sul
 shi = Tachelhit
 si = Cingalês
@@ -207,7 +218,9 @@ uz = Usbeque
 ve = Tshivenda
 vec = Veneziano
 vi = Vietnamita
+vmw = Emacua
 vot = Vótico
+wep = Westfaliano
 wo = Wolof
 xh = Xhosa
 yi = Iídiche
@@ -244,6 +257,7 @@ share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz
 link-copied = Link copiado
 back-top = Voltar para o início
 logout = Sair
+donate = Faça uma doação
 
 ## Home Page
 
@@ -270,7 +284,7 @@ listen-paragraph = Validar clipes doados é igualmente importante para a missão
 listen-goal-text = Clipes validados
 hours-recorded = Horas gravadas
 hours-validated = Horas validadas
-voices-online = Vozes on-line agora
+voices-online = Vozes online agora
 todays-progress = Progresso de hoje
 help-reach-goal = Ajude-nos a atingir { $goal }
 read-terms-q = Você leu nossos Termos?
@@ -394,8 +408,12 @@ native-language =
 profile-form-add-accent = Adicionar novo sotaque personalizado "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
-male = Masculino
-female = Feminino
+male_masculine = Homem/Masculino
+female_feminine = Mulher/Feminino
+intersex = Intersexo
+transgender = Transgênero
+non-binary = Não binário
+do_not_wish_to_say = Não quero dizer
 # Gender
 other = Outro
 why-profile-title = Por que um perfil?
@@ -431,6 +449,8 @@ help-accent = Precisa de ajuda com sotaque?
 help-accent-explanation = Seu sotaque é a maneira como você pronuncia as palavras. Ele pode ser moldado de acordo com o local onde você viveu, os outros idiomas que você fala e muitos outros fatores. Você pode compartilhar qualquer informação que considere relevante aqui.
 help-variants = Precisa de ajuda com variantes?
 help-variants-explanation = Variante é uma forma específica de um idioma. Por exemplo, compartilhada por quem vive em uma área geográfica ou comunidade. Às vezes, é chamada de dialeto.
+help-sex-or-gender-changes = Precisa de ajuda com as mudanças de sexo ou gênero?
+help-sex-or-gender-changes-explanation = Oferecemos mais opções para dar às pessoas mais escolhas sobre o que nos contam sobre seu sexo ou identidade de gênero. Descreva a si mesmo da maneira que sentir mais natural para você. <learnMoreLink>Saiba mais sobre nossa abordagem em relação a sexo e gênero.</learnMoreLink>
 
 ## Profile - Email
 
@@ -486,8 +506,8 @@ faq-why-different-speakers-a =
     É por isso que, no nosso banco de dados de voz, queremos variedade!
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
 faq-why-my-lang-a =
-    Common Voice é uma plataforma de terceirização coletiva (crowdsourcing), os idiomas foram todos adicionados por voluntários.
-    Adoraríamos que você adicionasse seu idioma! <languageRequestLink>Pergunte sobre como adicionar seu idioma.</languageRequestLink>
+    Common Voice é uma plataforma de colaboração pública (crowdsourcing), os idiomas foram todos adicionados por voluntários.
+    Adoraríamos que você adicionasse seu idioma! <languageRequestLink>Pergunte como adicionar seu idioma.</languageRequestLink>
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
 faq-what-quality-a = Queremos que o conjunto de dados do Common Voice reflita a qualidade de áudio que um mecanismo de conversão de fala para texto ouvirá no mundo real, por isso, estamos procurando variedade. Além de uma comunidade diversificada de falantes, um conjunto de dados com qualidade de áudio variada ensinará o mecanismo de conversão de fala para texto a lidar com várias situações do mundo real, desde conversas ao fundo até ruído de carro. Contanto que o seu clipe de voz seja inteligível, ele deve ser bom o suficiente para o conjunto de dados.
 faq-why-10k-hours-q = Por que 10.000 horas validadas é a meta por idioma de captura de áudio?
@@ -616,7 +636,6 @@ about-playbook-how-add-sentences = Como adicionar frases?
 about-playbook-how-add-sentences-content-1 = O <strong>coletor de frases</strong> é uma ferramenta para coletar e validar frases de domínio público. Você <scAccountLink>precisa criar uma conta</scAccountLink>. Depois adicione seu idioma ao seu <strong>perfil</strong>. Você pode <strong>adicionar</strong> frases ou <strong>revisar</strong> frases adicionadas anteriormente.
 about-playbook-how-add-sentences-content-2 = As frases devem ser revisadas e aceitas por duas pessoas para ser incluídas no Common Voice. Você cria diretrizes para seu idioma <languageGuidelinesLink>aqui</languageGuidelinesLink>. As frases devem ser de <licenseLink>domínio público</licenseLink> e ter menos de 15 palavras. Você pode pedir ao proprietário de um texto para torná-lo <waiverLink>CC0 (domínio público) usando nosso processo de renúncia de direitos</waiverLink> e nos enviar em commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Você pode usar o <scraperLink>extrator de frases</scraperLink> para aproveitar frases curtas do Wikipedia.
-about-playbook-how-add-sentences-content-4 = Frases validadas são exportadas às quartas-feiras e ficam disponíveis após o próximo lançamento.
 
 ## How to record quality
 
@@ -663,6 +682,13 @@ about-playbook-how-project-governance-content-4 = Participação e tomada de dec
 about-playbook-how-project-governance-content-5 = Valorização e reconhecimento.
 about-playbook-how-project-governance-content-6 = Responsabilidade mútua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Mais informações sobre nossos critérios de gerenciamento do projeto</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Como o Common Voice é financiado?
+about-playbook-how-funded-content-1 = Common Voice é um projeto da Fundação Mozilla, uma organização US 501c3. Atualmente, o projeto é financiado inteiramente por <philantropicGrantLink>subsídios filantrópicos</philantropicGrantLink> e doações de pessoas do mundo todo.
+about-playbook-how-funded-content-2 = Custa muito dinheiro continuamente hospedar e disponibilizar os conjuntos de dados, melhorar a plataforma e conduzir <africaMradiLink>programas comunitários</africaMradiLink>.
+about-playbook-how-funded-content-3 = Se você ou sua organização quiser contribuir com o projeto, pode fazer uma <donateLink>doação</donateLink> ou entrar em contato com nossa equipe de parcerias em <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -739,10 +765,12 @@ validated-hr-total = Total de horas validadas
 overall-hr-total = Total de horas
 cv-license = Licença
 audio-format = Formato de áudio
+dataset-splits = Grupos (idade e sexo)
 number-of-voices = Número de vozes
 splits = Divisões
 email-to-download = Informe um email para baixar
 why-email = <b>Por que um email?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados. Um email nos fornece um meio de contato.
+why-donate-datasets-page = O Mozilla Common Voice é o conjunto de dados de voz aberto de colaboração pública mais diversificado do mundo e é mantido inteiramente por doações. Custa quase um milhão de dólares por ano hospedar os conjuntos de dados e melhorar a plataforma para as mais de 100 comunidades de idiomas que dependem do que fazemos. Se você valoriza dados abertos e inclusivos, <b>faça uma doação!</b>
 confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -761,6 +789,8 @@ subscribe = Inscrever-se
 get-started-speech = Introdução ao reconhecimento de voz
 other-datasets = Outros conjuntos de dados de voz
 feedback-q = Quer fazer comentários?
+# This indicates that there is no data to display
+no-information = Nenhuma informação
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ é um <docsLink>toolkit de código aberto</docsLink> para pesquisadores que desenvolvem modelos de inteligência artificial de conversação de última geração.
 resource-deepspeech-info = O mecanismo de reconhecimento de voz de código aberto da Mozilla, Deep Speech, pode ser usado para construir aplicações de reconhecimento de voz. Leia nossa <githubLink>introdução no Github</githubLink> ou participe do <discourseLink>DeepSpeech Discourse</discourseLink> para saber como começar.
 resource-coqui-info = O <coquiLink>Coqui</coquiLink> é dedicado à tecnologia aberta de voz. Seus projetos incluem mecanismos STT e TTS baseados em aprendizagem profunda.
@@ -783,6 +813,15 @@ dataset-version = Versão
 sha256-checksum-copied = Soma de verificação SHA256 copiada!
 sha256-checksum-copied-error = Falha ao copiar a soma de verificação SHA256
 clipboard-not-supported = Área de transferência não suportada
+no-information-available = Nenhuma informação disponível
+dataset-metadata-sex = Sexo
+# dataset metadata - age of contributor
+dataset-metadata-age = Idade
+donate-modal-message = Seu conjunto de dados está sendo baixado!
+dataset-donate-modal-heading = Você sabia…
+donate-modal-explanation-1 = Custa quase um milhão de dólares por ano hospedar os conjuntos de dados e melhorar a plataforma para as mais de 100 comunidades de idiomas que dependem do que fazemos?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Se você valoriza dados abertos e inclusivos, faça uma doação!</bold>
 
 ## Download Modal
 
@@ -857,6 +896,8 @@ language-section-in-progress = Em andamento
 language-section-in-progress-new-description = Esses idiomas estão atualmente em desenvolvimento pela comunidade. As barras de progresso indicam em que ponto cada idioma está no processo de <localizationGlossaryLink>tradução do site</localizationGlossaryLink> e <sentenceCollectionGlossaryLink>coleta de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lançados
 language-section-launched-description = Nestes idiomas lançados, o site foi totalmente <localizationGlossaryLink>traduzido</localizationGlossaryLink> e há <sentenceCollectionGlossaryLink>frases coletadas</sentenceCollectionGlossaryLink> suficientes para permitir dar seguimento a contribuições de <speakLink>Falar</speakLink> e <listenLink>Ouvir</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Última atualização: { $lastUpdatedTimeStamp }
 languages-show-more = Ver mais
 languages-show-less = Ver menos
 language-meter-in-progress = Progresso
@@ -875,7 +916,7 @@ action-click = Clique em
 action-tap = Toque
 contribute = Contribua
 listen = Ouvir
-write = Escrita
+write = Escrever
 review = Revisão
 skip = Pular
 shortcuts = Atalhos
@@ -922,6 +963,9 @@ listen-empty-state = Nós ficamos sem clipes para validar neste idioma...
 listen-loading-error =
     Não foi possível obter nenhum clipe de áudio para você ouvir.
     Tente novamente mais tarde.
+listen-abort-title = Terminar a validação de clipes?
+listen-abort-cancel = Continuar a validar
+listen-abort-confirm = Terminar a validação
 speak-empty-state = Nós ficamos sem frases para gravar neste idioma...
 speak-empty-state-cta = Contribua com frases
 speak-loading-error =
@@ -1576,6 +1620,9 @@ continue-speaking-button = Não, obrigado, continuar falando
 create-profile-text = Quer salvar suas informações? <createProfile>Crie um perfil</createProfile>
 thanks-for-voice-toast = Obrigado por suas informações de voz
 thanks-for-voice-toast-error = Ocorreu um erro ao enviar suas informações de voz
+first-cta-gender-select-default-option = Selecione uma opção
+first-cta-gender-select-help-text =
+    .label = Como você descreveria seu sexo ou gênero?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Obrigado por contribuir com sua voz!
 second-cta-subtitle-text = Com um perfil, você pode acompanhar sua atividade e conectar-se a uma comunidade de contribuidores de dados de voz.
@@ -1636,6 +1683,7 @@ public-domain = Domínio público
 citing-sentences = Citação de frases
 adding-sentences = Adição de frases
 reviewing-sentences = Revisão de frases
+sentence-domain = Domínio da frase
 public-domain-explanation-1 = É muito importante que todas as sentenças de texto sejam de <publicDomain>domínio público</publicDomain> (<cc0>cc0</cc0>), pois o conjunto de dados do Common Voice é lançado sob uma licença cc0. Só envie uma frase se tiver certeza e sempre inclua a citação relevante.
 public-domain-explanation-2 = As melhores frases para construir um mecanismo útil de reconhecimento de voz são de linguagem coloquial e moderna. Eis algumas ideias para ajudar a gerar frases;
 public-domain-explanation-3 = Crie você mesmo frases modernas e coloquiais, com seus amigos ou comunidade linguística, por exemplo, através de uma 'maratona de redação'
@@ -1657,7 +1705,7 @@ adding-sentences-subheader-length = Tamanho
 adding-sentences-subheader-length-explanation = A frase deve ter menos de 15 palavras.
 adding-sentences-subheader-spelling-punctuation = Ortografia e pontuação
 adding-sentences-subheader-spelling-punctuation-explanation = A frase deve ser escrita corretamente.
-adding-sentences-subheader-speakable = Poder ser falado
+adding-sentences-subheader-speakable = Poder ser falada
 adding-sentences-subheader-speakable-explanation = As melhores frases são naturais e coloquiais, devem ser fáceis de ler. Embora seja importante diversidade fonética e palavras diferentes nas frases, também estamos tentando tornar as frases de gravação o mais envolvente e divertido possível para nossa comunidade de voluntários.
 adding-sentences-subheader-numbers = Números
 adding-sentences-subheader-numbers-explanation = Idealmente, não deve haver dígitos no texto de origem, pois podem causar problemas ao ser lidos em voz alta. A maneira como um número é lido depende do contexto e pode introduzir confusão no conjunto de dados. Por exemplo, o número “2409” pode ser lido com precisão tanto “vinte e quatro zero nove” como “dois mil quatrocentos e nove”.
@@ -1674,8 +1722,11 @@ reviewing-sentences-explanation-1 = Se a frase atender aos critérios acima, cli
 reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima, clique no botão "Não".
 reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
-# WRITE PAGE
-write-instruction-second-part = uma frase de domínio público
+domain-explanation = Domínio refere-se ao assunto da frase. Atualmente, você pode escolher entre:
+
+## WRITE PAGE
+
+write-instruction = Adicionar <icon></icon> uma frase de domínio público
 write-page-subtitle = As frases contribuídas aqui são adicionadas a um conjunto de dados disponível publicamente de licença cc-0.
 sentence =
     .label = Frase
@@ -1683,7 +1734,8 @@ sentence-input-value = Digite aqui sua frase de domínio público
 citation-input-value = Origem da sua frase
 citation =
     .label = Citação
-what-can-i-add = Que tipos de frases posso adicionar?
+sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>domínio público</wikipediaLink> e tenho permissão para enviar.
+sc-review-write-title = Que frases posso adicionar?
 new-sentence-rule-1 = <noCopyright>Sem restrições de direitos autorais</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menos de 15 palavras
 new-sentence-rule-3 = Usar gramática correta
@@ -1700,16 +1752,88 @@ contact-us = Contate-nos
 add-sentence-success = 1 frase coletada
 add-sentence-error = Erro ao adicionar frase
 required-field = Preencha este campo.
-# REVIEW PAGE
-sc-review-instruction-first-part = Verificação
-sc-review-instruction-second-part = Esta é uma frase linguisticamente correta?
+single-sentence-submission = Envio de uma única frase
+bulk-sentence-submission = Envio de grupo de frases
+single-sentence = Uma única frase
+bulk-sentences = Grupo de frases
+sentence-domain-select =
+    .label = Domínio da frase
+sentence-domain-select-placeholder = Selecione até três domínios
+# Sentence Domain dropdown option
+agriculture = Agricultura
+# Sentence Domain dropdown option
+automotive = Automotivo
+# Sentence Domain dropdown option
+finance = Finanças
+# Sentence Domain dropdown option
+food_service_retail = Alimentos, serviços e vendas à varejo
+# Sentence Domain dropdown option
+general = Geral
+# Sentence Domain dropdown option
+healthcare = Saúde
+# Sentence Domain dropdown option
+history_law_government = História, direito e governo
+# Sentence Domain dropdown option
+language_fundamentals = Fundamentos da linguagem (por exemplo, dígitos, letras, dinheiro)
+# Sentence Domain dropdown option
+media_entertainment = Mídia e entretenimento
+# Sentence Domain dropdown option
+nature_environment = Natureza e meio ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Notícias e atualidades
+# Sentence Domain dropdown option
+technology_robotics = Tecnologia e robótica
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Verificou <icon></icon> se é uma frase linguisticamente correta?
 sc-review-rules-title = A frase atende às diretrizes?
 sc-review-empty-state = No momento, não há frases a revisar neste idioma.
 report-sc-different-language = Outro idioma
 report-sc-different-language-detail = Está escrito em um idioma diferente do que estou revisando.
 sentences-fetch-error = Ocorreu um erro ao buscar frases
 review-error = Ocorreu um erro ao revisar esta frase
+review-error-rate-limit-exceeded = Você está indo rápido demais. Dedique um momento para revisar a frase e ter certeza de que está correta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos a fazer grandes mudanças
 sc-redirect-page-subtitle-1 = O coletor de frases está migrando para a plataforma principal do Common Voice. Agora você pode <writeURL>escrever</writeURL> uma frase ou <reviewURL>revisar</reviewURL> envios de uma única frase no Common Voice.
 sc-redirect-page-subtitle-2 = Faça-nos perguntas no <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Enviar <icon></icon> frases de domínio público
+sc-bulk-upload-instruction = Arraste seu arquivo para cá ou <uploadButton>clique para enviar</uploadButton>
+sc-bulk-upload-instruction-drop = Arraste arquivo para cá para enviar
+bulk-upload-additional-information = Se houver informações adicionais que você queira fornecer sobre este arquivo, entre em contato com <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Se houver informações adicionais que você queira fornecer sobre este arquivo, que não estejam incluídas no modelo, entre em contato com <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Tente novamente arrastando seu arquivo para cá
+try-upload-again-md = Tentar enviar novamente
+select-file = Selecionar arquivo
+select-file-mobile = Selecione um arquivo para enviar
+accepted-files = Tipos de arquivo aceitos: somente .tsv
+maximum-file-size = Tamanho máximo de arquivo: 25 MB
+what-needs-to-be-in-file = O que precisa ter no meu arquivo?
+what-needs-to-be-in-file-explanation = Verifique nosso <templateFileLink>arquivo de modelo</templateFileLink>. Suas frases devem ser livres de direitos autorais (licença CC0 ou trabalho original autorizado pelo remetente) e ser claras, gramaticalmente corretas e fáceis de ler. As frases enviadas devem levar cerca de 10 a 15 segundos para ser lidas e devem evitar incluir números, nomes próprios e caracteres especiais.
+upload-progress-text = Envio em andamento...
+sc-bulk-submit-confirm = Confirmo que estas frases são de <wikipediaLink>domínio público</wikipediaLink> e tenho permissão para enviar.
+bulk-upload-success-toast = Grupo de frases enviado
+bulk-upload-failed-toast = Falha no envio, tente novamente.
+bulk-submission-success-header = Obrigado por contribuir com seu envio de grupo!
+bulk-submission-success-subheader = Você ajuda o Common Voice a atingir nossas metas diárias de frases!
+upload-more-btn-text = Enviar mais frases?
+file-invalid-type = Arquivo inválido
+file-too-large = Arquivo grande demais
+file-too-small = Arquivo pequeno demais
+too-many-files = Arquivos demais
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Precisamos</mark><br/><mark>da sua ajuda!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Custa quase um milhão de dólares por ano hospedar os conjuntos de dados e melhorar a plataforma para as mais de 100 comunidades de idiomas que dependem do que fazemos. <strong>Se você valoriza dados abertos e inclusivos, faça uma doação!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Usa o Common Voice para</mark><br/><mark>sua pesquisa?</mark>
+languages-donate-banner-cta-explanation = Common Voice é financiado por doações e subsídios! Adoramos colaborar com pesquisadores acadêmicos, da sociedade civil e da indústria. O uso do Common Voice é gratuito, mas contribuir para os custos de plataforma e hospedagem por meio de propostas de subsídios é realmente útil.

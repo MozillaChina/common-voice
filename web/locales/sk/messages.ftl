@@ -1,17 +1,17 @@
 ## General
 
-yes-receive-emails = Áno, posielajte mi e-maily. Rád by som zostal o projekte Common Voice informovaný.
+yes-receive-emails = Áno, posielajte mi e‑maily. Rád by som zostal o projekte Common Voice informovaný.
 stayintouch = V Mozille budujeme komunitu okolo technológií rozpoznávania reči. Radi by sme s vami zostali v kontakte prostredníctvom noviniek, napríklad o nových zdrojoch údajov. Radi by sme sa taktiež dozvedeli, ako tieto údaje používate.
 privacy-info = Sľubujeme, že sa o vaše informácie budeme príkladne starať. Ďalšie informácie sa dočítate v našom <privacyLink>Vyhlásení o ochrane osobných údajov</privacyLink>.
 return-to-cv = Návrat do Common Voice
 email-input =
-    .label = E-mailová adresa
+    .label = E‑mailová adresa
 submit-form-action = Odoslať
 loading = Načítava sa…
-email-opt-in-info = Chcem dostávať e-maily, ako sú upozornenia na ciele, môj pokrok a novinky o službe Common Voice.
-email-opt-in-info-title = Pripojte so do e-mailovej skupiny Common Voice
-email-opt-in-info-sub-with-challenge = Dostávajte e-maily, ako sú upozornenia na ciele či výzvy, informácie o pokroku a novinky o službe Common Voice.
-email-opt-in-privacy-v2 = Prihlásením sa na odber e-mailov vyjadrujete, že súhlasíte s tým, že Mozilla narába s týmito informáciami tak, ako je vysvetlené v <privacyLink>Zásadách ochrany osobných údajov</privacyLink> spoločnosti Mozilla.
+email-opt-in-info = Chcem dostávať e‑maily, ako sú upozornenia na ciele, môj pokrok a novinky o službe Common Voice.
+email-opt-in-info-title = Pripojte so do e‑mailovej skupiny Common Voice
+email-opt-in-info-sub-with-challenge = Dostávajte e‑maily, ako sú upozornenia na ciele či výzvy, informácie o pokroku a novinky o službe Common Voice.
+email-opt-in-privacy-v2 = Prihlásením sa na odber e‑mailov vyjadrujete, že súhlasíte s tým, že Mozilla narába s týmito informáciami tak, ako je vysvetlené v <privacyLink>Zásadách ochrany osobných údajov</privacyLink> spoločnosti Mozilla.
 indicates-required = * označuje povinné pole
 not-available-abbreviation = N/A
 banner-error-slow-1 = Ospravedlňujeme sa, Common Voice beží pomaly. Ďakujeme za Váš záujem.
@@ -54,6 +54,7 @@ cak = kaqchikel
 ckb = stredná kurdčina
 cnh = hakha chin
 co = korzičtina
+crh = Krymská tatárčina
 cs = čeština
 cv = čuvaština
 cy = waleština
@@ -69,16 +70,20 @@ eo = esperanto
 es = španielčina
 et = estónčina
 eu = baskičtina
+ewo = ewondo
 fa = perzština
 ff = fulbčina
 fi = fínčina
 fo = faerčina
 fr = francúzština
+fuf = pularčina, Guinea
 fy-NL = frízština
 ga-IE = írčina
 gl = galícijčina
 gn = guarančina
 gom = goan konkani
+gu-IN = gudžarátčina
+guc = wayuunaiki
 ha = hauština
 he = hebrejčina
 hi = hindčina
@@ -98,6 +103,7 @@ it = taliančina
 izh = izorčina
 ja = japončina
 jbo = lojban
+jv = jávčina
 ka = gruzínčina
 kaa = karakalpačtina
 kab = kabylčina
@@ -118,7 +124,9 @@ lij = ligúrčina
 ln = lingalčina
 lo = laoština
 lt = litovčina
+ltg = latgalčina
 lv = lotyština
+lzz = lazčina
 mai = maithilčina
 mdf = mokša
 mg = malagaština
@@ -150,6 +158,7 @@ nyn = runyankole
 oc = okcitánčina
 om = afaan ormoo
 or = urijčina
+os = osetčina
 pa-IN = pandžábčina
 pap-AW = papiamento (Aruba)
 pl = poľština
@@ -157,6 +166,7 @@ ps = paštčina
 pt = portugalčina
 quc = k'iche'
 quy = quechua chanka
+qvi = kichwa
 rm-sursilv = rétorománčina (sursilvan)
 rm-vallader = rétorománčina (vallader)
 ro = rumunčina
@@ -166,6 +176,8 @@ sah = jakutčina
 sat = santali (Ol Chiki)
 sc = sardínčina
 scn = sicílčina
+sco = škótčina
+sd = sindština
 sdh = južná kurdčina
 shi = shilha
 si = sinhalčina
@@ -206,7 +218,9 @@ uz = uzbečtina
 ve = tshivenda
 vec = benátčina
 vi = vietnamčina
+vmw = emakhuwa
 vot = vodčina
+wep = vestfálčina
 wo = wolofčina
 xh = xhoština
 yi = jidiš
@@ -243,6 +257,7 @@ share-text = Pomôžte strojom pochopiť ľudskú reč. Prispejte svojím hlasom
 link-copied = Odkaz bol skopírovaný
 back-top = Návrat hore
 logout = Odhlásiť sa
+donate = Prispieť
 
 ## Home Page
 
@@ -251,7 +266,7 @@ default-tagline = Mozilla Common Voice je iniciatíva, ktorá pomáha strojom u�
 home-cta = Hovorte a prispejte svojím hlasom tu!
 wall-of-text-start =
     Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
-    pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo 
+    pre naše stroje. Aby sme ju však mohli vytvoriť, potrebujeme veľké množstvo 
     hlasových údajov.
 wall-of-text-more-mobile = Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie. Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
 wall-of-text-more-desktop =
@@ -261,7 +276,7 @@ wall-of-text-more-desktop =
     dobrovoľníkov a vylepšite jej kvalitu. Je to také jednoduché!
 wall-of-text-first =
     Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
-    pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
+    pre naše stroje. Aby sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
 wall-of-text-second =
     Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie.
     Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
@@ -323,11 +338,11 @@ join-newsletter = Prípadne sa pripojte na odber noviniek o projekte.
 ## What's public
 
 whats-public = Čo všetko zverejňujeme?
-email-not-public = Vašu e-mailovú adresu nezverejňujeme.
+email-not-public = Vašu e‑mailovú adresu nezverejňujeme.
 recordings-and-locale-public = Počet nahrávok a jazyky, do ktorých prispievate, budú verejné.
 username-optin-public = Môžete si vybrať, či bude vaše používateľské meno verejné alebo anonymné.
 demographic-deidentified-clarity-2 = Dobrovoľne odosielané demografické údaje (napr. vek, pohlavie, jazyk a prízvuk) nebudú na vašom profile nikdy sprístupnené verejne, a v kolekcii údajov nebudú spárované s vašim účtom. Individuálne zvukové nahrávky budú asociované s demografickými údajmi za účelom presnejšej analýzy - napríklad, výskumník môže chcieť cieliť trénovanie modelu na špecifickú demografickú skupinu.
-username-email-not-demographic = Vaše používateľské meno a e-mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
+username-email-not-demographic = Vaše používateľské meno a e‑mailová adresa nebudú nijakým spôsobom prepojené s uverejnenými údajmi.
 
 ## Speak & Listen Shortcuts
 
@@ -408,8 +423,12 @@ native-language =
 profile-form-add-accent = Pridať nový vlastný prízvuk "{ $inputValue }"
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložené
-male = Muž
-female = Žena
+male_masculine = Muž/mužské
+female_feminine = Žena/ženské
+intersex = Intersex
+transgender = Transgender
+non-binary = Nebinárne
+do_not_wish_to_say = Nechcem uviesť
 # Gender
 other = Iné
 why-profile-title = Prečo chcete profil?
@@ -425,15 +444,15 @@ profile-close = Zavrieť
 profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spresniť naše hlasové údaje.
 thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
 why-demographic = Prečo na tom záleží?
-why-demographic-explanation-2 = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
-accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>Zásadách ochrany osobných údajov</privacyLink>
+why-demographic-explanation-2 = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e‑mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
+accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>Zásadách ochrany osobných údajov</privacyLink>.
 accept-privacy-title = Zásady ochrany osobných údajov
 accept-privacy-and-terms = Súhlasím s <termsLink>Podmienkami používania služby</termsLink> a <privacyLink>Vyhlásení o ochrane osobných údajov</privacyLink> projektu Common Voice
 login-identity = Identita pre prihlásenie
 login = Prihlásiť sa
 login-signup = Prihlásenie/registrácia
 edit = Upraviť
-email-subscriptions = Odbery pomocou e-mailu
+email-subscriptions = Odbery pomocou e‑mailu
 download-profile = Stiahnuť moje údaje
 contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
@@ -445,13 +464,15 @@ help-accent = Potrebujete pomoc s prízvukom?
 help-accent-explanation = Váš prízvuk je spôsob, akým vyslovujete slová. Môže to byť ovplyvnené tým, kde ste žili, akými inými jazykmi hovoríte a mnohými ďalšími faktormi. Tu môžete zdieľať akékoľvek informácie, ktoré považujete za relevantné.
 help-variants = Potrebujete pomoc s variantmi?
 help-variants-explanation = Varianty sú špecifickou formou jazyka – napríklad zdieľané ľuďmi žijúcimi v určitej geografii alebo komunite. Niekedy sa im hovorí dialekty.
+help-sex-or-gender-changes = Potrebujete pomoc s definovaním pohlavia alebo rodu?
+help-sex-or-gender-changes-explanation = Ponúkame viac možností, ako dať ľuďom väčší výber v tom, čo nám hovoria o svojom pohlaví alebo rodovej identite. Opíšte sa tak, ako je to pre vás najprirodzenejšie. <learnMoreLink>Ďalšie informácie o našom prístupe k pohlaviu a rodu.</learnMoreLink>
 
 ## Profile - Email
 
 browse-file-title = Nahrať obrázok
 browse-file = Presuňte ho sem alebo si ho <browseWrap>vyhľadajte</browseWrap>
 connect-gravatar = Prepojiť so službou Gravatar
-gravatar_not_found = Pre vašu e-mailovú adresu nebol nájdený žiadny gravatar
+gravatar_not_found = Pre vašu e‑mailovú adresu nebol nájdený žiadny gravatar
 file_too_large = Vybraný súbor je príliš veľký
 avatar-uploaded = Avatar bol nahraný
 max-file-size = max. { $kb } kB
@@ -460,10 +481,10 @@ remove-avatar = Odstrániť avatar
 ## Profile - Email
 
 manage-subscriptions = Spravovať odbery
-manage-email-subscriptions = Spravovať odbery e-mailov
-email-already-used = E-mailová adresa sa už používa pre iný účet
+manage-email-subscriptions = Spravovať odbery e‑mailov
+email-already-used = E‑mailová adresa sa už používa pre iný účet
 add-language = Pridať jazyk
-change-email-setings = Svoju e-mailovú adresu môžete zmeniť v nastaveniach v časti Identita pre prihlásenie
+change-email-setings = Svoju e‑mailovú adresu môžete zmeniť v nastaveniach v časti Identita pre prihlásenie
 
 ## FAQ
 
@@ -574,7 +595,7 @@ about-clip-graveyard-text = Cintorín nahrávok obsahuje nahrávky, ktoré sa ne
 about-get-involved = Zapojte sa
 about-get-involved-text-2 =
     Chcete pomôcť spraviť technológiu Common Voice ešte lepšou?
-    Skvelé! Spojte sa s nami pomocou e-mailu alebo <discourseLink>diskusného fóra</discourseLink>, nahlasujte problémy s webom prostredníctvom <githubLink>GitHubu</githubLink>, alebo sa pripojte ku komunitnému četu
+    Skvelé! Spojte sa s nami pomocou e‑mailu alebo <discourseLink>diskusného fóra</discourseLink>, nahlasujte problémy s webom prostredníctvom <githubLink>GitHubu</githubLink>, alebo sa pripojte ku komunitnému četu
     na <matrixLink>Matrixe</matrixLink>.
 about-stay-in-touch = Ako zostanem v kontakte?
 about-stay-in-touch-button = Zaregistrujte sa
@@ -629,7 +650,6 @@ about-playbook-how-add-sentences = Ako pridám vety?
 about-playbook-how-add-sentences-content-1 = <strong>Zberač viet</strong> je nástroj na zhromažďovanie a overovanie viet dostupných pod verejnou licenciou. Budete si <scAccountLink>potrebovať vytvoriť účet</scAccountLink>. Potom pridajte svoj jazyk do svojho <strong>profilu</strong>. Môžete <strong>pridávať</strong> vety alebo <strong>kontrolovať</strong> už pridané vety.
 about-playbook-how-add-sentences-content-2 = Aby boli vety zahrnuté do Common Voice, musia ich skontrolovať a prijať dvaja ľudia. Pokyny pre svoj jazyk vytvoríte <languageGuidelinesLink>tu</languageGuidelinesLink>. Vety musia byť <licenseLink>dostupné pod verejnou licenciou</licenseLink> a kratšie ako 15 slov. Môžete požiadať vlastníka textu, aby texty licencoval ako <waiverLink>CC0 pomocou nášho procesu zrieknutia sa práva</waiverLink> a poslať nám ho na commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Na využitie krátkych viet z Wikipédie môžete použiť <scraperLink>Extraktor viet</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Vety, ktoré boli overené, sa exportujú v stredu a sú k dispozícii po ďalšom vydaní.
 
 ## How to record quality
 
@@ -649,7 +669,7 @@ about-playbook-how-grow-language-content-3 = Môžete organizovať podujatia, kt
 about-playbook-how-grow-language-content-4 = Sociálne médiá
 about-playbook-how-grow-language-content-5 = Na zverejnenie správy môžete použiť platformy sociálnych médií. Zdieľajte príspevky, ktoré vysvetľujú, prečo je to dôležité, a spojte sa s ostatnými ľuďmi, ktorí hovoria o problémoch, ako sú jazykové práva, hlasová AI alebo technické náležitosti. Pozrite si ďalšie rady o <campaignLink>spustení sociálnej kampane vrátane obsahu, ktorý môžete použiť</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerstvá a siete
-about-playbook-how-grow-language-content-7 = Nájdite ostatných, ktorým na tom záleží. Mohli by to byť univerzity, jazykové školy, advokačné skupiny alebo komunity dátovej vedy. Oslovte ich a jasne vysvetlite, ako vám môžu pomôcť a prečo. <outreachTemplates>Pozrite si naše informačné e-maily so šablónami</outreachTemplates>.
+about-playbook-how-grow-language-content-7 = Nájdite ostatných, ktorým na tom záleží. Mohli by to byť univerzity, jazykové školy, advokačné skupiny alebo komunity dátovej vedy. Oslovte ich a jasne vysvetlite, ako vám môžu pomôcť a prečo. <outreachTemplates>Pozrite si naše informačné e‑maily so šablónami</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Buďte kreatívni!</strong> Vaša jazyková komunita bude jedinečná a toto je len niekoľko spôsobov, ako začať.
 
 ## How to validate
@@ -663,7 +683,7 @@ about-playbook-how-validate-content-4 = Ak nahrávku odmietnu dvaja ľudia, je t
 ## How to access dataset
 
 about-playbook-how-access-dataset = Ako získam prístup ku kolekcii údajov a ako ju môžem používať?
-about-playbook-how-access-dataset-content-1 = Môžete prejsť na stránku s <datasetsPage>kolekciami údajov</datasetsPage>, vybrať si požadovanú verziu a jazyk(y), a stiahnuť si ju! Súbory majú <metadataLink>priradené metadáta</metadataLink>, ako sú demografické informácie a overovacie údaje. Na stiahnutie kolekcie údajov budete musieť zadať e-mailovú adresu.
+about-playbook-how-access-dataset-content-1 = Môžete prejsť na stránku s <datasetsPage>kolekciami údajov</datasetsPage>, vybrať si požadovanú verziu a jazyk(y), a stiahnuť si ju! Súbory majú <metadataLink>priradené metadáta</metadataLink>, ako sú demografické informácie a overovacie údaje. Na stiahnutie kolekcie údajov budete musieť zadať e‑mailovú adresu.
 about-playbook-how-access-dataset-content-2 = Ak hľadáte nástroje na vytváranie modelov ASR, môžete sa spojiť s ostatnými ľuďmi v komunite <discourseLink>cez Discourse</discourseLink>.
 
 ## How are decisions made
@@ -676,6 +696,13 @@ about-playbook-how-project-governance-content-4 = Účasť komunity a rozhodovan
 about-playbook-how-project-governance-content-5 = Hodnota a uznanie.
 about-playbook-how-project-governance-content-6 = Vzájomná zodpovednosť.
 about-playbook-how-project-governance-content-7 = <governanceLink>Prečítajte si viac o tom, ako sa riadime</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Ako je Common Voice financovaný?
+about-playbook-how-funded-content-1 = Common Voice je projekt Mozilla Foundation, US 501c3. Projekt je v súčasnosti plne financovaný z <philantropicGrantLink>filantropických grantov</philantropicGrantLink> a darov od ľudí z celého sveta.
+about-playbook-how-funded-content-2 = Neustále hosťovanie a zverejňovanie súborov údajov, zlepšovanie platformy a prevádzkovanie <africaMradiLink>komunitných programov</africaMradiLink> stojí veľa peňazí.
+about-playbook-how-funded-content-3 = Ak by ste vy alebo vaša organizácia chceli prispieť späť do projektu, môžete poskytnúť <donateLink>dar</donateLink> alebo sa obrátiť na náš tím pre partnerstvá na adrese <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -752,15 +779,17 @@ validated-hr-total = Overených Hod. Spolu
 overall-hr-total = Celkovo Hod. Spolu
 cv-license = Licencia
 audio-format = Formát zvuku
+dataset-splits = Rozchody (vek a pohlavie)
 number-of-voices = Počet hlasov
 splits = Rozdelenie
-email-to-download = Ak chcete stiahnuť, zadajte svoju e-mailovú adresu
-why-email = <b>Prečo e-mailová adresa?</b> Možno vás budeme musieť v budúcnosti kontaktovať v súvislosti so zmenami v kolekcii údajov, e-mail nám poskytuje spôsob kontaktu.
+email-to-download = Ak chcete stiahnuť, zadajte svoju e‑mailovú adresu
+why-email = <b>Prečo e‑mailová adresa?</b> Možno vás budeme musieť v budúcnosti kontaktovať v súvislosti so zmenami v kolekcii údajov, e‑mail nám poskytuje spôsob kontaktu.
+why-donate-datasets-page = Mozilla Common Voice je celosvetovo najrozmanitejšia otvorená crowdsourcingová jazyková množina údajov – a financovaná výlučne z darov. Hosting súborov údajov a zlepšovanie platformy pre viac ako 100 jazykových komunít, ktoré sa spoliehajú na to, čo robíme, stojí takmer milión dolárov ročne. Ak si ceníte otvorené, inkluzívne dáta – <b>môžete prispieť ešte dnes</b>.
 confirm-size = Bude potrebné stiahnuť <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Súhlasíte</b>, že sa nepokúsite určiť identitu hovoriacich v kolekcii údajov Common Voice
-confirm-join-mailing-list = Chcem sa pridať do e-mailovej skupiny Common Voice
+confirm-join-mailing-list = Chcem sa pridať do e‑mailovej skupiny Common Voice
 download-language = Stiahnuť jazyk { $language }
 validated-hours = Počet overených hodín
 recorded-hours = Počet nahraných hodín
@@ -774,6 +803,8 @@ subscribe = Prihlásiť sa k odberu
 get-started-speech = Začíname s rozpoznávaním reči
 other-datasets = Ďalšie kolekcie hlasových údajov
 feedback-q = Máte spätnú väzbu?
+# This indicates that there is no data to display
+no-information = Žiadne informácie
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>súprava nástrojov s otvoreným zdrojom</docsLink> pre výskumníkov, ktorí vyvíjajú najmodernejšie modely konverzácie AI.
 resource-deepspeech-info = Open source nástroj na rozpoznávanie hlasu Deep Speech od Mozilly možno použiť na vytváranie aplikácií na rozpoznávanie reči. Prečítajte si náš <githubLink>prehľad na Githube</githubLink> alebo sa pripojte na fórum <discourseLink>DeepSpeech Discourse</discourseLink> a zistite, ako začať.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> sa venuje technológii otvorenej reči. Ich projekty zahŕňajú systémy STT a TTS založené na hlbokom učení.
@@ -796,13 +827,22 @@ dataset-version = Verzia
 sha256-checksum-copied = Kontrolný súčet SHA256 bol skopírovaný!
 sha256-checksum-copied-error = Nepodarilo sa skopírovať kontrolný súčet SHA256
 clipboard-not-supported = Schránka nie je podporovaná
+no-information-available = Nie sú dostupné žiadne informácie
+dataset-metadata-sex = Pohlavie
+# dataset metadata - age of contributor
+dataset-metadata-age = Vek
+donate-modal-message = Váš súbor údajov sa sťahuje!
+dataset-donate-modal-heading = Vedeli ste, že…
+donate-modal-explanation-1 = Hosting súborov údajov a vylepšovanie platformy pre viac ako 100 jazykových komunít, ktoré sa spoliehajú na to, čo robíme, stojí takmer milión dolárov ročne?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ak si ceníte otvorené, inkluzívne dáta – prispejte ešte dnes!</bold>
 
 ## Download Modal
 
 download-title = Vaše sťahovanie sa začalo.
-download-helpus = Pomôžte nám vybudovať komunitu okolo technológií rozpoznávania reči - zostaňte s nami v kontakte prostredníctvom e-mailu.
+download-helpus = Pomôžte nám vybudovať komunitu okolo technológií rozpoznávania reči - zostaňte s nami v kontakte prostredníctvom e‑mailu.
 download-form-email =
-    .label = Zadajte svoju e-mailovú adresu
+    .label = Zadajte svoju e‑mailovú adresu
     .value = Ďakujeme, ozveme sa vám.
 download-back = Naspäť na Kolekcie údajov Common Voice
 download-no = Nie, ďakujem
@@ -829,10 +869,10 @@ other-language = Ostatné jazyky
 ## Request Language Pages
 
 request-language-heading = Opýtajte sa na nový jazyk
-request-language-explanation-1 = Skontrolujte, či je váš jazyk uvedený na <languagesPageLink>stránke Jazyky Common Voice</languagesPageLink>. Ak nie, vyplňte tento formulár a my vám <strong>pošleme praktický e-mail s vysvetlením, ako si nastaviť jazyk</strong>.
+request-language-explanation-1 = Skontrolujte, či je váš jazyk uvedený na <languagesPageLink>stránke Jazyky Common Voice</languagesPageLink>. Ak nie, vyplňte tento formulár a my vám <strong>pošleme praktický e‑mail s vysvetlením, ako si nastaviť jazyk</strong>.
 request-language-explanation-2 = <strong>Dáme tiež vedieť nášmu správcovi komunity, že máte záujem</strong>, aby vám mohol poskytnúť ďalšiu podporu alebo informácie, ktoré by ste mohli potrebovať.
 request-language-form-email =
-    .label = Vaša e-mailová adresa
+    .label = Vaša e‑mailová adresa
 request-language-form-info =
     .label = Informácie o jazyku
 request-language-form-info-explanation = Pridajte čo najviac informácií o jazyku. Toto môže zahŕňať:
@@ -840,11 +880,11 @@ request-language-form-info-explanation-list-1 = Názvy vášho jazyka
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, ak sú známe
 request-language-form-info-explanation-list-3 = Odkazy na webové stránky, ktoré nám môžu pomôcť porozumieť jazyku
 request-language-google-recaptcha-required = Ak chcete pokračovať, vyžaduje sa reCAPTCHA
-request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste znova.
+request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste to znova.
 # Success page
 request-language-success-heading = Ďakujem! Odoslali ste požiadavku na nový jazyk
 request-language-success-list-1 =
-    Čoskoro by ste mali dostať e-mail s vysvetlením
+    Čoskoro by ste mali dostať e‑mail s vysvetlením
     krokov na pridanie vášho jazyka do Common Voice
 request-language-success-list-2 = Náš komunitný manažér vás osloví, aby vám ponúkol ďalšiu podporu a dal vám vedieť, či už existuje komunita, ktorá pracuje na vašom jazyku
 request-language-success-list-3 = Ak sa vám do niekoľkých dní neozveme, kontaktujte nás na adrese <emailLink>{ $email }</emailLink> a my sa vám ozveme!
@@ -856,6 +896,8 @@ language-section-in-progress = Jazyky, ktoré sa pripravujú
 language-section-in-progress-new-description = Tieto jazyky sa momentálne pripravujú. Pri každom jazyku je uvedené, v akom stave je <localizationGlossaryLink>preklad stránky</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zber viet</sentenceCollectionGlossaryLink>.
 language-section-launched = Spustené jazyky
 language-section-launched-description = Pre tieto spustené jazyky bola webová stránka úspešne <localizationGlossaryLink>lokalizovaná</localizationGlossaryLink> a má dostatok <sentenceCollectionGlossaryLink>zozbieraných viet</sentenceCollectionGlossaryLink>, aby bolo možné <speakLink>nahrávať</speakLink> a <listenLink>počúvať</ listenLink > hlasové príspevky.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Posledná aktualizácia: { $lastUpdatedTimeStamp }
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-meter-in-progress = Pokrok
@@ -927,6 +969,9 @@ listen-empty-state = Zdá sa, že sa nám minuli nahrávky – obnovte stránku 
 listen-loading-error =
     Nepodarilo sa nám získať žiadne zvukové nahrávky, ktoré by ste si mohli vypočuť.
     Skúste neskôr prosím.
+listen-abort-title = Skončiť overovanie klipov?
+listen-abort-cancel = Pokračovať v overovaní
+listen-abort-confirm = Skončiť s overovaním
 speak-empty-state = Minuli sa nám vety na nahrávanie v tomto jazyku...
 speak-empty-state-cta = Pridajte ďalšie vety
 speak-loading-error = Nedostali sme žiadne vety, ktoré by ste mohli povedať. Skúste neskôr prosím.
@@ -1065,8 +1110,8 @@ activity-needed-calculation-plural =
 how-many-per-day = Skvelé! Koľko nahrávok za deň?
 how-many-a-week = Skvelé! Koľko nahrávok za týždeň?
 which-goal-type = Chcete hovoriť, počúvať alebo oboje?
-receiving-emails-info = Momentálne máte nastavený príjem e-mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
-not-receiving-emails-info = Momentálne <bold>NEMÁTE</bold> nastavený príjem e-mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
+receiving-emails-info = Momentálne máte nastavený príjem e‑mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
+not-receiving-emails-info = Momentálne <bold>NEMÁTE</bold> nastavený príjem e‑mailov, ako sú pripomienky k cieľom, informácie o postupe a novinky o projekte Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } nahrávku
@@ -1109,7 +1154,7 @@ profile-form-delete = Odstrániť profil
 download-q = Potrebujete stiahnuť svoje dáta?
 download-info = Povedzte nám, čo by ste si chceli stiahnuť:
 download-profile-title = Profil
-download-profile-info = Zahŕňa e-mail, používateľské meno a demografické informácie, ktoré sú ihneď k dispozícii
+download-profile-info = Zahŕňa e‑mail, používateľské meno a demografické informácie, ktoré sú ihneď k dispozícii
 download-profile-size = Niekoľko bajtov
 download-recordings-title = Nahrávky
 download-recordings-info = Obsahuje súbory mp3 a súvisiace vety, príprava môže chvíľu trvať
@@ -1139,7 +1184,7 @@ download-request-link-single = Môžete tiež skopírovať a prilepiť odkazy do
 
 welcome-staff = Vítame zamestnancov spoločnosti { $company }!
 help-contribute = Vytvorením profilu Common Voice a prispením svojim hlasom môžete pomôcť vybudovať rôznorodú otvorenú kolekciu hlasových údajov.
-login-company = Prihláste sa / zaregistrujte sa pomocou e-mailu { $company }
+login-company = Prihláste sa / zaregistrujte sa pomocou e‑mailu { $company }
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 read-more-about = Prečítajte si viac na stránke O nás
 
@@ -1165,7 +1210,7 @@ demo-account = Účet
 demo-account-card-header = Účet nie je nutnosťou, no môže byť užitočný
 demo-account-card-body = Vpravo uvádzame výhody a objasňujeme, ktoré informácie zverejňujeme. Pomocou nižšie uvedených odkazov môžete začať používať účet Common Voice vo svojom zariadení.
 demo-account-enter-email =
-    .label = Zadajte e -mail na odoslanie odkazu na registráciu
+    .label = Zadajte e‑mail na odoslanie odkazu na registráciu
 demo-account-sign-up = Odoslať prihlasovací odkaz
 
 ## Demo Contribute
@@ -1560,7 +1605,7 @@ sc-settings-ui-language = Jazyk používateľského rozhrania
 sc-settings-reset-skipped = Obnoviť vynechané vety
 sc-settings-skipped-decription = Predtým ste pri kontrole preskakovali vety. Obnovením preskočených viet sa znova zobrazia všetky preskočené vety. Toto je nezávislé od jazyka.
 sc-settings-show-all-button = Znova zobraziť všetky preskočené vety
-sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste znova.
+sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste to znova.
 # VALIDATION
 sc-validation-number-of-words = Veta musí obsahovať 1 až 14 slov
 sc-validation-no-numbers = Veta by nemala obsahovať čísla
@@ -1593,13 +1638,16 @@ partnerships-our-partners = Naši partneri
 first-cta-header-text = Ďakujeme za darovanie vašich hlasových nahrávok!
 first-cta-subtitle-text = Chceli by ste sa podeliť o nejaké informácie o tom, ako hovoríte?
 why-donate = Prečo sa pýtate?
-why-donate-explanation-1 = Poskytnutie týchto informácií je nepovinné – mali by ste ich pridať, iba ak sa cítite dobre. Keď zverejníme kolekciu údajov, pseudonymizujeme všetky osobné informácie a uistíme sa, že informácie, ako je vaše meno a e-mail, nie sú spojené s demografickými informáciami, ako je vek alebo pohlavie.
+why-donate-explanation-1 = Poskytnutie týchto informácií je nepovinné – mali by ste ich pridať, iba ak sa cítite dobre. Keď zverejníme kolekciu údajov, pseudonymizujeme všetky osobné informácie a uistíme sa, že informácie, ako je vaše meno a e‑mail, nie sú spojené s demografickými informáciami, ako je vek alebo pohlavie.
 why-donate-explanation-2 = Aby technológia fungovala dobre pre každého, údaje, ktoré pomáhajú vývojárom vytvárať technológie, musia odrážať rôznorodú škálu ľudí. Ak napríklad nezahrnieme nahrávky s konkrétnym prízvukom, potom táto technológia nebude fungovať spoľahlivo pre ľudí s týmto prízvukom. <learnMore>Pozrite si ďalšie informácie o tom, prečo sú metadáta dôležité</learnMore>.
 add-information-button = Pridať informácie
 continue-speaking-button = Nie, ďakujem, hovorme ďalej
 create-profile-text = Chcete uložiť tieto informácie? <createProfile>Vytvoriť profil</createProfile>
 thanks-for-voice-toast = Ďakujeme za vaše hlasové informácie
 thanks-for-voice-toast-error = Pri odosielaní vašich hlasových informácií sa vyskytla chyba
+first-cta-gender-select-default-option = Vyberte možnosť
+first-cta-gender-select-help-text =
+    .label = Ako by ste opísali svoje pohlavie alebo rod?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Ďakujeme, že ste prispeli svojím hlasom!
 second-cta-subtitle-text = Pomocou profilu môžete sledovať svoju aktivitu a spojiť sa s komunitou prispievateľov hlasových dát.
@@ -1660,6 +1708,7 @@ public-domain = Verejná licencia
 citing-sentences = Citovanie viet
 adding-sentences = Pridávanie viet
 reviewing-sentences = Kontrola viet
+sentence-domain = Zatriedenie vety
 public-domain-explanation-1 = Je veľmi dôležité, aby všetky textové vety boli dostupné pod <publicDomain>verejnou licenciou</publicDomain> (<cc0>cc0</cc0>), keďže kolekcia údajov Common Voice je vydávaná pod licenciou cc0. Nahrajte vetu, len ak ste si istí, a vždy uveďte príslušnú citáciu.
 public-domain-explanation-2 = Najlepšie vety na vytvorenie užitočného nástroja na rozpoznávanie reči sú hovorové, moderné výrazy. Niekoľko tipov, ktoré vám pomôžu pri vytváraní viet:
 public-domain-explanation-3 = Vytvárajte moderné hovorové vety sami alebo so svojimi priateľmi alebo jazykovou komunitou – napríklad prostredníctvom „write-a-thon“
@@ -1698,10 +1747,11 @@ reviewing-sentences-explanation-1 = Ak veta spĺňa vyššie uvedené kritériá
 reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Nie“.
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
-community-announcement-header = Oznámenie komunity!
-community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
-# WRITE PAGE
-write-instruction-second-part = vetu pod verejnou licenciou
+domain-explanation = Zatriedenie odkazuje na predmet vety. V súčasnosti si môžete vybrať z nasledovných položiek:
+
+## WRITE PAGE
+
+write-instruction = Pridajte <icon></icon> vetu dostupnú pod verejnou licenciou
 write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.
 sentence =
     .label = Veta
@@ -1709,7 +1759,8 @@ sentence-input-value = Tu zadajte svoju vetu dostupnú pod verejnou licenciou
 citation-input-value = Zdroj zadanej vety
 citation =
     .label = Citácia
-what-can-i-add = Aké druhy viet môžem pridať?
+sc-write-submit-confirm = Potvrdzujem, že táto veta je dostupná <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink> a mám povolenie na jej nahratie.
+sc-review-write-title = Aké vety môžem pridať?
 new-sentence-rule-1 = <noCopyright>Žiadne obmedzenia autorských práv</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Kratšie ako 15 slov
 new-sentence-rule-3 = Používajú správnu gramatiku
@@ -1726,16 +1777,88 @@ contact-us = Kontaktujte nás
 add-sentence-success = Pridaná 1 veta
 add-sentence-error = Chyba pri pridávaní vety
 required-field = Vyplňte toto pole.
-# REVIEW PAGE
-sc-review-instruction-first-part = Skontrolujte
-sc-review-instruction-second-part = či je toto jazykovo správna veta?
+single-sentence-submission = Odoslanie jednej vety
+bulk-sentence-submission = Odoslanie viacerých viet
+single-sentence = Jedna veta
+bulk-sentences = Viaceré vety
+sentence-domain-select =
+    .label = Zatriedenie vety
+sentence-domain-select-placeholder = Môžete zvoliť až tri zatriedenia
+# Sentence Domain dropdown option
+agriculture = Poľnohospodárstvo
+# Sentence Domain dropdown option
+automotive = Automobilový priemysel
+# Sentence Domain dropdown option
+finance = Financie
+# Sentence Domain dropdown option
+food_service_retail = Stravovanie, služby a maloobchod
+# Sentence Domain dropdown option
+general = Všeobecné
+# Sentence Domain dropdown option
+healthcare = Zdravotná starostlivosť
+# Sentence Domain dropdown option
+history_law_government = História, právo a vláda
+# Sentence Domain dropdown option
+language_fundamentals = Základy jazyka (napr. číslice, písmená, peniaze)
+# Sentence Domain dropdown option
+media_entertainment = Médiá a zábava
+# Sentence Domain dropdown option
+nature_environment = Príroda a životné prostredie
+# Sentence Domain dropdown option
+news_current_affairs = Správy a aktuálne udalosti
+# Sentence Domain dropdown option
+technology_robotics = Technológia a robotika
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Skontrolujte <icon></icon> či je toto jazykovo správna veta.
 sc-review-rules-title = Spĺňa veta pravidlá?
 sc-review-empty-state = Momentálne nie sú v tomto jazyku žiadne vety dostupné na kontrolu.
 report-sc-different-language = Iný jazyk
 report-sc-different-language-detail = Je napísaná v inom jazyku, než aký kontrolujem.
 sentences-fetch-error = Pri načítavaní viet sa vyskytla chyba
 review-error = Pri kontrole tejto vety sa vyskytla chyba
+review-error-rate-limit-exceeded = Idete príliš rýchlo. Venujte chvíľu kontrole vety, aby ste sa uistili, že je správna.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.
-sc-redirect-page-subtitle-2 = Pýtajte sa nás na <matrixLink>Matrixe</matrixLink>, <discourseLink>Discourse</discourseLink> alebo <emailLink>e-mailom</emailLink>.
+sc-redirect-page-subtitle-2 = Pýtajte sa nás na <matrixLink>Matrixe</matrixLink>, <discourseLink>Discourse</discourseLink> alebo <emailLink>e‑mailom</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Nahrajte <icon></icon> vety dostupné pod verejnou licenciou
+sc-bulk-upload-instruction = Presuňte sem súbor alebo ho <uploadButton>kliknutím odovzdajte</uploadButton>
+sc-bulk-upload-instruction-drop = Sem presuňte súbor na nahranie
+bulk-upload-additional-information = Ak chcete o tomto súbore poskytnúť ďalšie informácie, kontaktujte nás na adrese <emailFragment>commonvoice@mozilla.com</emailFragment>.
+template-file-additional-information = Ak chcete poskytnúť ďalšie informácie o tomto súbore, ktoré nie sú zahrnuté v šablóne, kontaktujte nás na adrese <emailFragment>commonvoice@mozilla.com</emailFragment>.
+try-upload-again = Skúste to znova presunutím súboru sem
+try-upload-again-md = Skúste nahrať znova
+select-file = zvoľte súbor
+select-file-mobile = Vyberte súbor na odovzdanie
+accepted-files = Akceptované typy súborov: iba .tsv
+maximum-file-size = Maximálna veľkosť súboru: 25 MB
+what-needs-to-be-in-file = Čo musí byť v mojom súbore?
+what-needs-to-be-in-file-explanation = Pozrite si náš <templateFileLink>vzorový súbor</templateFileLink>. Vaše vety by mali byť chránené autorskými právami (CC0 alebo autorizované pôvodné dielo zadávateľa) a mali by byť jasné, gramaticky správne a ľahko čitateľné. Čítanie odoslaných viet by malo trvať približne 10-15 sekúnd a nemali by obsahovať čísla, vlastné podstatné mená a špeciálne znaky.
+upload-progress-text = Prebieha nahrávanie...
+sc-bulk-submit-confirm = Potvrdzujem, že tieto vety sú dostupné <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink> a mám povolenie na ich nahratie.
+bulk-upload-success-toast = Vety boli úspešne odoslané
+bulk-upload-failed-toast = Odoslanie zlyhalo, skúste to znova.
+bulk-submission-success-header = Ďakujeme, že ste prispeli hromadným odoslaním!
+bulk-submission-success-subheader = Pomáhate iniciatíve Common Voice dosiahnuť naše denné ciele v počte viet!
+upload-more-btn-text = Nahrať ďalšie vety?
+file-invalid-type = Neplatný súbor
+file-too-large = Súbor je príliš veľký
+file-too-small = Súbor je príliš malý
+too-many-files = Príliš veľa súborov
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Potrebujeme</mark><br/><mark>vašu pomoc!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Hosťovanie súborov údajov a zlepšenie platformy pre viac ako 100 jazykových komunít, ktoré sa spoliehajú na to, čo robíme, stojí takmer milión dolárov ročne. <strong>Ak si ceníte otvorené, inkluzívne dáta – pošlite dar ešte dnes!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Používate Common Voice</mark><br/><mark>na svoj výskum?</mark>
+languages-donate-banner-cta-explanation = Common Voice je financovaný z darov a grantov! Radi spolupracujeme s akademikmi, občianskou spoločnosťou a priemyselnými výskumníkmi. Používanie Common Voice je bezplatné, ale prispievanie na náklady na platformu a hosťovanie prostredníctvom návrhov grantov je skutočne užitočné.

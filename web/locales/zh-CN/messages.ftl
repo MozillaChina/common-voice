@@ -54,6 +54,7 @@ cak = 喀克其奎语
 ckb = 中库尔德语
 cnh = 哈卡钦语
 co = 科西嘉语
+crh = 克里米亚鞑靼语
 cs = 捷克语
 cv = 楚瓦什语
 cy = 威尔士语
@@ -69,16 +70,20 @@ eo = 世界语
 es = 西班牙语
 et = 爱沙尼亚语
 eu = 巴斯克语
+ewo = 埃翁多语
 fa = 波斯语
 ff = 富拉语
 fi = 芬兰语
 fo = 法罗语
 fr = 法语
+fuf = Pular 语（几内亚）
 fy-NL = 弗里西语
 ga-IE = 爱尔兰语
 gl = 加利西亚语
 gn = 瓜拉尼语
 gom = 孔卡尼语（果阿）
+gu-IN = 古吉拉特语
+guc = 瓦尤语
 ha = 豪萨语
 he = 希伯来语
 hi = 印地语
@@ -98,6 +103,7 @@ it = 意大利语
 izh = 英格里亚语
 ja = 日语
 jbo = 逻辑语
+jv = 爪哇语
 ka = 格鲁吉亚语
 kaa = 卡拉卡尔帕克语
 kab = 卡拜尔语
@@ -120,6 +126,7 @@ lo = 老挝语
 lt = 立陶宛语
 ltg = 拉特加莱语
 lv = 拉脱维亚语
+lzz = 拉兹语
 mai = 迈蒂利语
 mdf = 莫克沙语
 mg = 马尔加什语
@@ -143,7 +150,7 @@ nhe = 东瓦斯特卡纳瓦特尔语
 nhi = 西部山脉普埃布拉纳瓦特尔语
 nia = 尼亚斯语
 nl = 荷兰语
-nn-NO = 新挪威语
+nn-NO = 挪威尼诺斯克语
 nr = 南恩德贝勒语
 nso = 北索托语
 ny = 齐切瓦语
@@ -151,6 +158,7 @@ nyn = 尼扬科勒语
 oc = 欧西坦语
 om = 阿方奥罗莫语
 or = 奥里亚语
+os = 奥塞梯语
 pa-IN = 旁遮普语
 pap-AW = 帕皮亚门托语（阿鲁巴）
 pl = 波兰语
@@ -158,15 +166,18 @@ ps = 普什图语
 pt = 葡萄牙语
 quc = 基切语
 quy = 克丘亚语（昌卡）
+qvi = Kichwa 语
 rm-sursilv = 罗曼什语（苏斯勒万）
 rm-vallader = 罗曼什瓦勒德语
 ro = 罗马尼亚语
 ru = 俄语
 rw = 卢旺达语
 sah = 萨哈语
-sat = 桑塔利语（Ol Chiki 文）
+sat = 桑塔利语（桑塔利文）
 sc = 萨丁尼亚语
 scn = 西西里语
+sco = 苏格兰语
+sd = 信德语
 sdh = 南库尔德语
 shi = 希尔哈语
 si = 僧伽罗语
@@ -207,7 +218,9 @@ uz = 乌兹别克语
 ve = 齐文达语
 vec = 威尼斯语
 vi = 越南语
+vmw = 马库瓦语
 vot = 沃提克语
+wep = 威斯特伐利亚语
 wo = 沃洛夫语
 xh = 科萨语
 yi = 意第绪语
@@ -218,7 +231,7 @@ zh-CN = 汉语（中国大陆）
 zh-HK = 汉语（香港）
 zh-TW = 汉语（台湾）
 zu = 祖鲁语
-zza = 扎扎其语
+zza = 扎扎语
 
 # [/]
 
@@ -240,10 +253,11 @@ cookies = Cookie
 faq = 常见问题
 content-license-text = 内容遵循<licenseLink>知识共享许可协议</licenseLink>进行授权
 share-title = 帮我们找人一起捐出一段声音！
-share-text = 请到 { $link } 捐出一段您的声音，帮助我们教导机器人们是如何说话的。
+share-text = 请到 { $link } 贡献一段您的声音，帮助我们教会机器人们是如何说话的。
 link-copied = 链接已复制
 back-top = 回到顶端
 logout = 退出登录
+donate = 捐助
 
 ## Home Page
 
@@ -390,8 +404,12 @@ native-language =
 profile-form-add-accent = 添加新的自定义口音“{ $inputValue }”
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
-male = 男
-female = 女
+male_masculine = 男
+female_feminine = 女
+intersex = 双性人
+transgender = 跨性别者
+non-binary = 非二元性别
+do_not_wish_to_say = 保密
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
@@ -427,6 +445,8 @@ help-accent = 需要口音方面的帮助？
 help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
 help-variants = 需要关于变体的帮助说明吗？
 help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
+help-sex-or-gender-changes = 需要更改“生理性别”或“性别认同”设置方面的帮助？
+help-sex-or-gender-changes-explanation = 我们提供更加多样的选项，让人们在向我们告知其生理性别或性别认同时，能够获得更全面的选择。请用您觉得最自然的方式来做自我描述。<learnMoreLink>详细了解我们处理生理性别和性别认同的方式</learnMoreLink>。
 
 ## Profile - Email
 
@@ -609,7 +629,6 @@ about-playbook-how-add-sentences = 如何添加语句？
 about-playbook-how-add-sentences-content-1 = <strong>语句收集工具</strong>是一个收集和审核公共领域语句的工具。您首先<scAccountLink>需要创建一个账户</scAccountLink>。然后，将您的语言添加到您的<strong>个人资料</strong>中。您可以<strong>添加</strong>句子并<strong>查看</strong>以前添加的句子。
 about-playbook-how-add-sentences-content-2 = 句子必须经过两个人的审核和接受才能出现在 Common Voice 中。您可以在<languageGuidelinesLink>此处</languageGuidelinesLink>为您的语言创建指南。句子必须属于<licenseLink>公有领域</licenseLink> 且少于 15 字。您可以请求文本的所有者<waiverLink>通过我们的放弃所有权流程将其转为采用 CC0 授权协议</waiverLink>，然后通过 commonvoice@mozilla.com 发送给我们
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
-about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
@@ -643,7 +662,7 @@ about-playbook-how-validate-content-4 = 如果有两人驳回了这条语音片�
 ## How to access dataset
 
 about-playbook-how-access-dataset = 如何访问和使用数据集？
-about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个电子邮箱地址就能下载数据集。
+about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个邮箱地址就能下载数据集。
 about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
@@ -656,6 +675,13 @@ about-playbook-how-project-governance-content-4 = 社区参与决策。
 about-playbook-how-project-governance-content-5 = 价值观和表彰。
 about-playbook-how-project-governance-content-6 = 相互问责。
 about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice 的筹资方式
+about-playbook-how-funded-content-1 = Common Voice 是 Mozilla 基金会（美国 501(c)(3) 组织）的项目，资金完全来源于世界各地人士<philantropicGrantLink>公益捐赠</philantropicGrantLink>。
+about-playbook-how-funded-content-2 = 我们需要花费大量资金来持续托管和发布数据集、改进平台以及运行<africaMradiLink>社区计划</africaMradiLink>。
+about-playbook-how-funded-content-3 = 如果您或您的组织愿意回馈该项目，您可以<donateLink>捐款</donateLink>或联系我们的合作伙伴团队 <emailFragment>commonvoice@mozilla.com</emailFragment>。
 
 ## Glossary
 
@@ -732,10 +758,12 @@ validated-hr-total = 总验证小时数
 overall-hr-total = 总综合小时数
 cv-license = 许可协议
 audio-format = 音频格式
+dataset-splits = 分割（年龄和性别）
 number-of-voices = 录音人数
 splits = 分割
 email-to-download = 输入电子邮件地址进行下载
 why-email = <b>为什么需要电子邮件地址？</b>这是因为未来我们可能会联系您，提供数据集的相关更新信息。 邮件地址可作为我们联系您的方式。
+why-donate-datasets-page = Mozilla Common Voice 是全世界最具多样性的公众构建开放语音数据集，其运营费用完全由捐款提供。为托管数据集，以及改善服务 100 余个语言社区的平台，我们每年需要支出约 100 万美元。我们的行动将支持这些语言社区的发展，如果您也珍视开放且包容的数据，请<b>向我们捐款</b>！
 confirm-size = 我已准备好下载 <b>{ $size }</b> 的文件
 size-gigabyte = GB
 size-megabyte = MB
@@ -754,6 +782,8 @@ subscribe = 订阅
 get-started-speech = 语音识别入门
 other-datasets = 其他语音数据集
 feedback-q = 有反馈要提供？
+# This indicates that there is no data to display
+no-information = 没有信息
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套可让研究者开发最先进的对话式 AI 模型的<docsLink>开源工具包</docsLink>。
 resource-deepspeech-info = Mozilla 的开源语音识别引擎 Deep Speech，可用于构建语音识别应用程序。您可以阅读我们的 <githubLink>Github 概述</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入门。
 resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力于开放语音技术。他们的项目包括使用深度学习技术的 STT 与 TTS 引擎。
@@ -776,6 +806,15 @@ dataset-version = 版本
 sha256-checksum-copied = SHA256 校验和已复制！
 sha256-checksum-copied-error = 复制 SHA256 校验和失败
 clipboard-not-supported = 剪贴板不支持
+no-information-available = 无相关信息
+dataset-metadata-sex = 生理性别
+# dataset metadata - age of contributor
+dataset-metadata-age = 年龄
+donate-modal-message = 正在下载您的数据集
+dataset-donate-modal-heading = 你知道吗…
+donate-modal-explanation-1 = 目前有 100 多个语言社区依靠我们的工作来活动及发展。为托管数据集，以及改善服务这些语言社区的平台，我们每年需要支出约 100 万美元。
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>如果您也珍视开放且包容的数据，请向我们捐款！</bold>
 
 ## Download Modal
 
@@ -843,6 +882,8 @@ language-section-in-progress = 准备中
 language-section-in-progress-new-description = 这些语言当前处于社区发展中。其中的进度条反映了<localizationGlossaryLink>网站的本地化</localizationGlossaryLink>翻译进度，以及<sentenceCollectionGlossaryLink>语句</sentenceCollectionGlossaryLink>收集进度。
 language-section-launched = 已上线
 language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够多<sentenceCollectionGlossaryLink>句子</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = 最后更新：{ $lastUpdatedTimeStamp }
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-meter-in-progress = 进度
@@ -906,6 +947,9 @@ listen-3rd-time-instruction = 完成两条了 <playIcon></playIcon>，继续加�
 listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 listen-empty-state = 我们已经没有这种语言的片段可以验证了…
 listen-loading-error = 暂无录音片段供您聆听确认，请稍后再试。
+listen-abort-title = 要完成片段验证吗？
+listen-abort-cancel = 继续验证
+listen-abort-confirm = 完成验证
 speak-empty-state = 我们已经没有这种语言的文本可以录音了…
 speak-empty-state-cta = 贡献语句
 speak-loading-error = 暂无语句供您录音，请稍后再试。
@@ -1523,7 +1567,7 @@ partnerships-governments-description = 我们非常愿意为公共部门的技�
 partnerships-academia-header = 高等院校、学者与研究人员
 partnerships-academia-description = 我们追求开放创新。如有意合作开展研究、收集数据或访谈，请<emailFragment>联系我们。</emailFragment>
 partnerships-small-business-header = 中小企业（包含科技或人工智能初创企业）
-partnerships-small-business-description = 我们一直希望了解数据使用者的具体需要和使用场景，请在数据收集平台上分享您对数据健康的见地，我们很乐意<emailFragment>听取您的意见。</emailFragment>
+partnerships-small-business-description = 我们一直希望了解数据使用者的具体需要和使用场景。从合作完善数据采集平台，到分享对数据健康的见地，我们都十分乐意<emailFragment>听取您的意见</emailFragment>。
 partnerships-corporates-header = 大型企业与平台型企业
 partnerships-corporates-description = 如果您想了解数据库、投资本平台或寻求合作机会，<emailFragment>请联系我们。</emailFragment>
 partnerships-our-partners = 我们的合作伙伴
@@ -1538,6 +1582,9 @@ continue-speaking-button = 不用了，继续朗读
 create-profile-text = 想保存您的信息吗？<createProfile>创建用户资料</createProfile>
 thanks-for-voice-toast = 感谢您的提供的语音信息
 thanks-for-voice-toast-error = 提交您的语音信息时发生错误
+first-cta-gender-select-default-option = 选择一项
+first-cta-gender-select-help-text =
+    .label = 您如何描述自己的生理性别或性别认同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感谢您贡献语音！
 second-cta-subtitle-text = 创建用户文件后，您就可以记录自己的活动并与语音数据贡献者社区联系。
@@ -1567,7 +1614,7 @@ varying-pronunciations-tip-2 = [有些人可能会把“楚”读作“cǔ”]
 offensive-content-explanation = 语句会通过社区进行审核，不过此过程无法确保万无一失。如果您看到或听到令您不快的的语句（例如觉得其违反了我们的<participationGuidelines>社区参与准则</participationGuidelines>），请务必使用界面中的“旗标”按钮来举报。您也可以通过 <emailFragment>commonvoice@mozilla.com</emailFragment> 来联系我们。
 misreadings-explanation-1 = 完整朗读文字内容十分重要。在聆听录音片段时，请注意录音内容是否与文字内容完全一致，如有添字、漏字，则将其驳回。
 misreadings-explanation-2 = 常见的错误有：
-misreadings-explanation-3 = 录音开头缺少“A”或“The”。（不适用于中文）
+misreadings-explanation-3 = 录音开头缺少“A”或“The”。（不适用）
 misreadings-explanation-4 = 省略了某些词缀，例如“桌子上”读成“桌上”。
 misreadings-explanation-5 = 省略了某些字，例如将“录音的注意事项”读成“录音注意事项”，反之亦然。
 misreadings-explanation-6 = 由于过快地结束录音而没有录入最后一个词。
@@ -1598,6 +1645,7 @@ public-domain = 公有领域
 citing-sentences = 引用语句
 adding-sentences = 添加语句
 reviewing-sentences = 审核语句
+sentence-domain = 语句领域
 public-domain-explanation-1 = 请注意，由于 Common Voice 数据集采用 CC0 许可协议发布，因此其所有语句文本都需来自公有领域（按 CC0 许可协议授权）。请在确定语句符合要求后再上传，上传时需要注明出处。
 public-domain-explanation-2 = 用于构建语音识别引擎的最佳语句类型是口语化的现代用语。以下是一些生成语句的方法：
 public-domain-explanation-3 = 自行撰写现代的口语化语句，或与朋友及语言社区一道，通过“造句马拉松”活动等形式去撰写句子。
@@ -1636,8 +1684,11 @@ reviewing-sentences-explanation-1 = 若句子符合上述要求，请点击“�
 reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否”按钮。
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
-# WRITE PAGE
-write-instruction-second-part = 公有领域的语句
+domain-explanation = 领域是指句子的专业主题。目前您可以选择：
+
+## WRITE PAGE
+
+write-instruction = 添加 <icon></icon> 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
 sentence =
     .label = 语句
@@ -1645,7 +1696,8 @@ sentence-input-value = 请在此输入您的公有领域语句
 citation-input-value = 语句的来源
 citation =
     .label = 引用
-what-can-i-add = 我可以添加什么样的语句？
+sc-write-submit-confirm = 我确认这句话以<wikipediaLink>公有领域</wikipediaLink>授权并且我有权上传。
+sc-review-write-title = 我可以添加什么语句？
 new-sentence-rule-1 = <noCopyright>无版权</noCopyright>限制（<cc0>cc-0</cc0>）
 new-sentence-rule-2 = 少于 15 个字
 new-sentence-rule-3 = 使用正确的语法
@@ -1662,16 +1714,88 @@ contact-us = 联系我们
 add-sentence-success = 已收集 1 条语句
 add-sentence-error = 添加语句时报错
 required-field = 请填写此字段。
-# REVIEW PAGE
-sc-review-instruction-first-part = 检查
-sc-review-instruction-second-part = 这是一个符合语言习惯的句子吗？
+single-sentence-submission = 提交单句
+bulk-sentence-submission = 批量提交语句
+single-sentence = 单句
+bulk-sentences = 批量语句
+sentence-domain-select =
+    .label = 语句领域
+sentence-domain-select-placeholder = 最多选择三个领域
+# Sentence Domain dropdown option
+agriculture = 农业
+# Sentence Domain dropdown option
+automotive = 汽车
+# Sentence Domain dropdown option
+finance = 金融
+# Sentence Domain dropdown option
+food_service_retail = 餐饮、服务与零售
+# Sentence Domain dropdown option
+general = 常规
+# Sentence Domain dropdown option
+healthcare = 医疗
+# Sentence Domain dropdown option
+history_law_government = 历史、法律与政府
+# Sentence Domain dropdown option
+language_fundamentals = 语言基础（例如数字、字母、货币）
+# Sentence Domain dropdown option
+media_entertainment = 媒体与娱乐
+# Sentence Domain dropdown option
+nature_environment = 自然与环境
+# Sentence Domain dropdown option
+news_current_affairs = 新闻与时事
+# Sentence Domain dropdown option
+technology_robotics = 技术与机器人
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = 检查 <icon><icon> 语句语法是否正确
 sc-review-rules-title = 该语句是否符合准则？
 sc-review-empty-state = 该语言目前没有需要审核的语句。
 report-sc-different-language = 其他语言
 report-sc-different-language-detail = 它与我正在审查的语言不同。
 sentences-fetch-error = 获取语句时出错
 review-error = 审阅语句时发生错误
+review-error-rate-limit-exceeded = 别太匆忙。请多花些时间来审核语句，确认其是否正确。
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = 重磅更新
 sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。
 sc-redirect-page-subtitle-2 = 在 <matrixLink>Matrix</matrixLink>、<discourseLink>Discourse</discourseLink> 上，或<emailLink>发邮件</emailLink>向我们提问。
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = 上传 <icon></icon> 公有领域的句子
+sc-bulk-upload-instruction = 将文件拖放到此处或<uploadButton>点此上传</uploadButton>
+sc-bulk-upload-instruction-drop = 将文件拖放到此处即可上传
+bulk-upload-additional-information = 若要提供关于此文件的附加信息，请联系 <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = 若要提供模板中未包括的关于此文件的附加信息，请联系 <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = 将文件拖至此处重试
+try-upload-again-md = 请尝试重新上传
+select-file = 选择文件
+select-file-mobile = 选择要上传的文件
+accepted-files = 文件类型：仅接受 .tsv
+maximum-file-size = 文件最大：25 MB
+what-needs-to-be-in-file = 文件要包含什么？
+what-needs-to-be-in-file-explanation = 请查看我们的<templateFileLink>模板文件</templateFileLink>。你的语句应该清晰易读、语法正确且不受版权保护（CC0或经原创作者许可）。提交的语句长度在 10-15 秒并且避免包含数字、专有名词和特殊字符。
+upload-progress-text = 正在上传...
+sc-bulk-submit-confirm = 我确认这些句子都以<wikipediaLink>公有领域条款</wikipediaLink>授权公开，并且我有权上传。
+bulk-upload-success-toast = 已批量上传语句
+bulk-upload-failed-toast = 上传失败，请重试。
+bulk-submission-success-header = 感谢您的批量提交！
+bulk-submission-success-subheader = 您正在帮助 Common Voice 达到我们的每日语句目标！
+upload-more-btn-text = 上传更多语句吗？
+file-invalid-type = 文件无效
+file-too-large = 文件太大
+file-too-small = 文件太小
+too-many-files = 文件过多
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>我们需要</mark><br/><mark>您的帮助！</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 每年托管数据集和为 100 多个依赖我们产品的语言社区改进平台需要花费将近一百万美元。 <strong>如果您也重视开放、包容的数据，那么今天就捐款吧</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>在用 Common Voice</mark><br/><mark>来做研究？</mark>
+languages-donate-banner-cta-explanation = Common Voice 的资金来自捐款和基金！我们热爱与学术界、民间社会和行业研究人员的合作。 Common Voice 可以免费使用，但通过基金支付平台改善和托管费用也会非常有帮助。

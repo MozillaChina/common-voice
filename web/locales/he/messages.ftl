@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = כן, שלחו לי דואל. אני רוצה עדכונים אודות מיזם Common Voice.
-stayintouch = אנו ב-־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
+stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
 privacy-info = אנו מבטיחים לטפל במידע שלכם במלוא הזהירות. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
 email-input =
@@ -10,7 +10,7 @@ submit-form-action = שליחה
 loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
 email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common Voice
-email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא״ל כגון תזכורות על אתגרים ויעדים, עדכונים על התקדמות ומבזקי חדשות על Common Voice.
+email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא"ל כגון תזכורות על אתגרים ויעדים, עדכונים על התקדמות ומבזקי חדשות על Common Voice.
 email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתכם ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא רלוונטי
@@ -69,6 +69,7 @@ eo = אספרנטו
 es = ספרדית
 et = אסטונית
 eu = בסקית
+ewo = אוונדו
 fa = פרסית
 ff = פולה
 fi = פינית
@@ -79,6 +80,7 @@ ga-IE = אירית
 gl = גליסית
 gn = גוארני
 gom = קונקאני של גואה
+gu-IN = גוג'ראטית
 ha = האוסה
 he = עברית
 hi = הינדי
@@ -98,6 +100,7 @@ it = איטלקית
 izh = איז׳ורית
 ja = יפנית
 jbo = לוז'באן
+jv = ג׳אווה
 ka = גאורגית
 kaa = קרקלפקית
 kab = קבילית
@@ -151,6 +154,7 @@ nyn = ‏‏ניאנקולה
 oc = אוקסיטנית
 om = אורומיפה
 or = אורייה
+os = אוסטית
 pa-IN = פנג׳אבי
 pap-AW = פפיאמנטו (ארובה)
 pl = פולנית
@@ -244,6 +248,7 @@ share-text = מזמינים אותך לסייע ללמד מכונות איך א�
 link-copied = קישור הועתק
 back-top = חזרה למעלה
 logout = התנתקות
+donate = תרומה כספית
 
 ## Home Page
 
@@ -253,7 +258,7 @@ home-cta = דברו בקול רם, כאן ניתן לתרום!
 wall-of-text-start = קול הוא דבר טבעי, קול הוא דבר אנושי. משום כך מרתק אותנו ליצור טכנולוגיית קול עבור המכונות שלנו שתהיה שמישה. אך כדי ליצור מערכות קול, נדרשת כמות עצומה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
 wall-of-text-more-desktop =
-    כעת באפשרותכם לתרום את קולכם ולסייע לנו לבנות מסד נתונים קוליים בקוד פתוח בו כולם יכולים להשתמש כדי ליצור יישומים מהפכניים למכשירים ולאינטרנט.
+    כעת באפשרותכם לתרום את קולכם ולסייע לנו לבנות מסד נתונים קוליים פתוח בו כולם יכולים להשתמש כדי ליצור יישומים מהפכניים למכשירים ולאינטרנט.
     קראו משפטים כדי לסייע למכונות ללמוד איך מדברים אנשים אמתיים. בדקו את התרומות של אחרים כדי לשפר את האיכות. פשוט וקל!
 wall-of-text-first = קול הוא דבר טבעי, קול הוא דבר אנושי. משום כך מרגש אותנו ליצור טכנולוגיית קול עבור המכונות שלנו שתהיה שמישה. אך על־מנת ליצור מערכות קול, מפתחים זקוקים לכמות עצומה של נתונים קוליים.
 wall-of-text-second = רוב המידע בו עושות שימוש חברות גדולות אינו זמין לכלל האנשים. מבחינתינו זה מערים קשיים על חדשנות. משום כך השקנו את Common Voice, מיזם שיסייע להפוך זיהוי קולי לפתוח ונגיש לכולם.
@@ -267,8 +272,8 @@ toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי לה�
 speak-subtitle = תרמו את קולכם
 speak-paragraph = הקלטת מקטעי קול היא חלק עיקרי בהרכבת מערך הנתונים הפתוח שלנו; חלק מהאנשים יאמרו שזהו גם החלק הכיפי ביותר.
 speak-goal-text = מקטעים שהוקלטו
-listen-subtitle = ניתן לסייע לנו לאמת הקלטות
-listen-paragraph = אימות של מקטעים שנתרמו חשוב באותה מידה למטרה של Common Voice. נשמח לתרומה באימות האזנה ויצירת נתוני קול איכותיים בקוד פתוח.
+listen-subtitle = עזרו לנו באימות קולות
+listen-paragraph = אימות של מקטעים שנתרמו חשוב באותה המידה למטרה של Common Voice. השאילו אוזן ועזרו לנו ליצור נתונים קוליים איכותיים ופתוחים.
 listen-goal-text = מקטעים שאומתו
 hours-recorded = שעות שהוקלטו
 hours-validated = שעות שאומתו
@@ -382,7 +387,7 @@ profile-form-variant-default-value = לא נבחר ניב
 profile-form-accent =
     .label = מבטא
 profile-form-custom-accent-help-text =
-    .label = איך היית מתאר את המבטא שלך?
+    .label = איך הייתם מתארים את המבטא שלכם?
 profile-form-custom-accent-placeholder-2 = הקלידו תיאור של המבטא שלכם
 profile-form-age =
     .label = גיל
@@ -412,9 +417,9 @@ edit-profile = עריכת פרופיל
 profile-create-success = הצלחנו, הפרופיל נוצר!
 profile-close = סגירה
 profile-explanation = ניתן לעקוב אחר התהליך שעברת בעזרת פרופיל ולסייע לנתוני הקול שלנו להיות מדויקים יותר
-thanks-for-account = תודה לך על אישור החשבון שלך, כעת הבה נבנה את הפרופיל שלך.
+thanks-for-account = תודה על אישור החשבון שלכם, כעת בואו ניגש לבניית הפרופיל שלכם.
 why-demographic = למה  זה משנה?
-why-demographic-explanation-2 = נתוני משתמש אנונימיים כמו גיל, מין ומבטא עוזרים לשפר את נתוני השמע המשמשים לאימון ולדיוק של מנועי זיהוי דיבור. שם המשתמש והדוא"ל שלכם לעולם לא ישויכו לנתונים שנשלחו, ואתם יכול לבחור אם להפוך את שם המשתמש שלכם לציבורי או לאנונימי.
+why-demographic-explanation-2 = נתוני משתמש אנונימיים כמו גיל, מין ומבטא עוזרים לשפר את נתוני השמע המשמשים לאימון ולדיוק של מנועי זיהוי דיבור. שם המשתמש והדוא"ל שלכם לעולם לא ישויכו לנתונים שנשלחו, ואתם יכולים לבחור אם להפוך את שם המשתמש שלכם לציבורי או לאנונימי.
 accept-privacy = מקובל עלי האופן בו המידע הזה מטופל כפי שמפורט ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla
 accept-privacy-title = מדיניות פרטיות
 accept-privacy-and-terms = אני מסכימ\ה ל<termsLink>תנאים</termsLink> ול<privacyLink>מדיניות הפרטיות</privacyLink> של Common Voice
@@ -609,10 +614,9 @@ about-playbook-how-localize-content-5 = ניתן לצפות בסרטון ההס�
 ## How to add sentences
 
 about-playbook-how-add-sentences = איך אני מוסיף משפטים?
-about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ואימות של משפטים שהינם בנחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
-about-playbook-how-add-sentences-content-2 = משפטים חייבים לעבור סקירה ולהתקבל על ידי שני אנשים כדי להיכלל ב-Common Voice. אתם יוצרים הנחיות לשפה שלכם <languageGuidelinesLink>כאן</languageGuidelinesLink>. משפטים חייבים להיות ב<licenseLink>נחלת הכלל</licenseLink> וקצרים מ-15 מילים. אתם יכולים לבקש מהבעלים של טקסט כלשהו להפוך אותו לזמין ברשיון <waiverLink>CC0 באמצעות כתב הוויתור שלנו</waiverLink>, ולשלוח אלינו לכתובת commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ואימות של משפטים המצויים בנחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
+about-playbook-how-add-sentences-content-2 = משפטים חייבים לעבור סקירה ולהתקבל על ידי שני אנשים כדי להיכלל ב-Common Voice. אתם יוצרים הנחיות לשפה שלכם <languageGuidelinesLink>כאן</languageGuidelinesLink>. משפטים חייבים להמצא ב<licenseLink>נחלת הכלל</licenseLink> וקצרים מ-15 מילים. אתם יכולים לבקש מהבעלים של טקסט כלשהו להפוך אותו לזמין ברשיון <waiverLink>CC0 באמצעות כתב הוויתור שלנו</waiverLink>, ולשלוח אלינו לכתובת commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = אפשר להשתמש ב<scraperLink>מחלץ המשפטים</scraperLink> כדי למנף משפטים קצרים מוויקיפדיה.
-about-playbook-how-add-sentences-content-4 = משפטים שעברו אימות מיוצאים בימי רביעי והם זמינים לאחר המהדורה הבאה.
 
 ## How to record quality
 
@@ -665,7 +669,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>קראו עו�
 glossary = מונחים
 localization = לוקליזציה
 localization-explanation = זהו התהליך שלנו לתרגום והתאמה של התוכן שלנו לשפות ומקומות רבים.
-sentence-collection = אוסף משפטים
+sentence-collection = איסוף משפטים
 sentence-collection-explanation = איסוף משפטים מן הציבור, או כתיבת חדשים עבור הציבור.
 hours-recorded-explanation = מספר שעות הדיבור המוקלט שאספנו עד עתה.
 hours-validated-explanation = ספירת שעות ההקלטה הקולית שאומתו על־ידי 2 מתוך 3 משתמשים עם הצבעה של ״כן״. אלו מסמנים את התקדמות הפרויקט אל היעד הכולל של 10,000 שעות.
@@ -853,6 +857,8 @@ language-section-in-progress = בתהליך
 language-section-in-progress-new-description = שפות אלה נמצאות כעת בתהליך פיתוח של הקהילה. בכדי להפוך את השפה לזמינה, יש להשלים קודם כל <localizationGlossaryLink> לוקליזציה של האתר</localizationGlossaryLink> ו<sentenceCollectionGlossaryLink>איסוף משפטים</ sentenceCollectionGlossaryLink>.
 language-section-launched = הושקו
 language-section-launched-description = עבור שפות אלה שהושקו, האתר עבר <localizationGlossaryLink> לוקליזציה </ localizationGlossaryLink> בהצלחה, ויש מספיק <sentenceCollectionGlossaryLink> משפטים שנאספו </ sentenceCollectionGlossaryLink> כדי לאפשר תרומות מתמשכות של <speakLink>דיבור</speakLink> ו<listenenLink>האזנה</ listenLink >.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = עודכן לאחרונה: { $lastUpdatedTimeStamp }
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
 language-meter-in-progress = התקדמות
@@ -867,8 +873,8 @@ language-validation-progress = אומתו
 
 ## Contribution
 
-action-click = לחיצה
-action-tap = נגיעה
+action-click = לחצו
+action-tap = לחצו
 contribute = תרומה
 listen = האזנה
 write = כתיבה
@@ -918,6 +924,9 @@ listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הז
 listen-loading-error =
     לא הצלחנו להשיג מקטעי שמע להאזנה.
     אנא נסו שוב מאוחר יותר.
+listen-abort-title = להפסיק עם אימות המקטעים?
+listen-abort-cancel = להמשיך באימות
+listen-abort-confirm = להפסיק את האימות
 speak-empty-state = נגמרו לנו כל המשפטים להקלטה בשפה הזו...
 speak-empty-state-cta = תרומת משפטים
 speak-loading-error =
@@ -1199,7 +1208,7 @@ contribution-misreadings-example-8-title = וואי איך בא לי מוקה.
 contribution-misreadings-example-8-explanation = [תוכן לא תואם את הטקסט]
 contribution-varying-pronunciations-title = הגיות משתנות
 contribution-varying-pronunciations-description = אנא, שימו לב לפני שאתם דוחים מקטע על סמך זה שלדעתכם ביטוי המילה שגוי, עם הדגש במקום הלא נכון, או עם התעלמות לכאורה מסימן שאלה. יש מגוון רחב של הגיות בשימוש ברחבי העולם, שאת חלקן אולי לא שמעתם בקהילה המקומית שלכם. אנא השאירו מקום גם לאלה שאולי דוברים אחרת מכם.
-contribution-varying-pronunciations-description-extended = מצד שני, אם ניכר שהמילה אינה מוכרת למי שקראו אותה, וההגיה של המילה היא בגדר ניחוש שגוי, אנא דחו את המקטע. אם אינכם בטוח, השתמשו בכפתור דלג.
+contribution-varying-pronunciations-description-extended = מצד שני, אם ניכר שהמילה אינה מוכרת למי שקראו אותה, וההגיה של המילה היא בגדר ניחוש שגוי, אנא דחו את המקטע. אם אינכם בטוחים, השתמשו בכפתור דלג.
 contribution-varying-pronunciations-example-1-title = על ראשו חבש מגבעת.
 contribution-varying-pronunciations-example-1-explanation = [את ה-ח' במילה 'חבש' וה-ע' במילה 'מגבעת' ניתן לקרוא כגרוניות - או לא, כתלות במבטא - שניהם בסדר]
 contribution-varying-pronunciations-example-2-title = החיים בקיבוץ שיתופיים.
@@ -1253,9 +1262,9 @@ sc-logout-button = התנתקות
 ## HOME
 
 sc-home-title = ברוכים הבאים לאספן המשפטים של Common Voice
-sc-home-intro = אספן המשפטים הוא חלק מ-<commonVoiceLink>Common Voice</commonVoiceLink>. כלי זה מאפשר לתורמים לאסוף ולאמת משפטים שנוצרו על ידי הקהילה. תוכלו להשתמש בכלי זה גם כדי לייבא ולנקות מאגר כתוב הנמצא בנחלל הכלל שמצאת או אספת, בגודל קטן עד בינוני. כל המשפטים צריכים להיות בנחלת הכלל. משפטים שאושרו עוברים ייצוא מידי שבוע למאגר Common Voice ומתפרסמים באתר Common Voice בכל פריסה חדשה.
+sc-home-intro = אספן המשפטים הוא חלק מ-<commonVoiceLink>Common Voice</commonVoiceLink>. כלי זה מאפשר לתורמים לאסוף ולאמת משפטים שנוצרו על ידי הקהילה. תוכלו להשתמש בכלי זה גם כדי לייבא ולנקות מאגר כתוב שמצאתם או אספתם המצוי בנחלת הכלל, בגודל קטן עד בינוני. כל המשפטים צריכים להמצא בנחלת הכלל. משפטים שאושרו עוברים ייצוא מידי שבוע למאגר Common Voice ומתפרסמים באתר Common Voice בכל פריסה חדשה.
 sc-home-collect-title = איסוף משפטים
-sc-home-collect-text = עזרו לנו על ידי כתיבה או איסוף משפטים הנמצאים בנחלת הכלל.
+sc-home-collect-text = עזרו לנו דרך כתיבה או איסוף של משפטים המצויים בנחלת הכלל.
 sc-home-review-title = סקירת משפטים
 sc-home-review-text = עזרו לנו על ידי בדיקה האם משפטים עומדים בהנחיות.
 
@@ -1592,7 +1601,7 @@ img-alt-success-checkmark = סימן הצלחה
 guidelines-header = הנחיות לתרומה
 guidelines-header-subtitle = הבינו כיצד לתרום ולאמת משפטים ומקטעי שמע למערך הנתונים של Common Voice
 voice-collection = איסוף קולות
-sentence-collection = אוסף משפטים
+sentence-collection = איסוף משפטים
 varying-pronunciations = הגיות שונות
 misreadings = קריאות שגויות
 offensive-content = תוכן פוגעני
@@ -1605,7 +1614,7 @@ example = דוגמא
 varying-pronunciations-explanation-1 = אנו מקדמים בברכה מבטאים שונים! שימו לב לפני שאתם דוחים מקטע על־סמך זה שלדעתכם ביטוי המילה שגוי, עם הדגש במקום הלא נכון או שהתעלמו לכאורה מסימני פיסוק. יש מגוון רחב של הגיות ברחבי העולם, שאת חלקן אולי לא שמעתם בקהילה המקומית שלכם. השתדלו לייצר הרבה מרחב גם לאלה שעשויים לדבר אחרת מכם.
 varying-pronunciations-explanation-2 = מצד שני, אם אתם חושבים שהקורא מעולם לא נתקל במילה הזו בעבר, והוא מנחש באופן לא נכון את הגייתה, אנא דחו את המקטע. אם אינכם בטוח, השתמשו בלחצן הדילוג.
 varying-pronunciations-example = וַחֲצַבְתִּיו מִלְּבָבִי.
-varying-pronunciations-tip-1 = [בהברה אשכנזית, עשוי להיקרא עם הטעם בראש כל מילה]
+varying-pronunciations-tip-1 = [בהגיה אשכנזית, עשוי להיקרא עם הטעם בראש כל מילה]
 varying-pronunciations-tip-2 = [בהגיה ספרדית ותימנית, ה-ח' עשויה להיקרא כעיצור לועי]
 offensive-content-explanation = משפטים נבדקים באמצעות תהליך של מיון קהילתי, אולם תהליך זה אינו מושלם. אם אתם רואים או שומעים משפט הפוגע או מרגיז אתכם - למשל מכיוון שהוא מפר את <participationGuidelines>הנחיות ההשתתפות בקהילה</participationGuidelines> שלנו - אנא השתמשו בכפתור הדגל כדי לדווח עליו. ניתן גם לפנות אלינו בכתובת <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = קריאה נכונה של כל המילים בעמוד כן חשובה. בעת האזנה, בדקו היטב שמה שהוקלט הוא בדיוק מה שנכתב; יש לדחות את המקטע אם מילים התווספו, התקצרו או הושמטו.
@@ -1680,15 +1689,16 @@ reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים �
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 # WRITE PAGE
-write-instruction-second-part = משפט בנחלת הכלל
+write-instruction = הוסיפו <icon></icon> משפט המצוי בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
     .label = משפט
-sentence-input-value = הזינו את המשפטים הנמצאים בנחלת הכלל כאן
+sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
 citation-input-value = מקור המשפטים שלכם
 citation =
     .label = ציטוט מקור
-what-can-i-add = אילו סוגי משפטים ניתן להוסיף?
+sc-write-submit-confirm = אני מאשר\ת כי משפט זה מצוי ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותו.
+sc-review-write-title = אילו משפטים אפשר להוסיף?
 new-sentence-rule-1 = <noCopyright>ללא הגבלות על זכויות יוצרים</noCopyright> (<cc0>CC0</cc0>)
 new-sentence-rule-2 = פחות מ-15 מילים
 new-sentence-rule-3 = שימוש בדקדוק נכון
@@ -1705,16 +1715,49 @@ contact-us = יצירת קשר
 add-sentence-success = נאסף משפט אחד.
 add-sentence-error = שגיאה בהוספת המשפט
 required-field = אנא מלא שדה זה.
-# REVIEW PAGE
-sc-review-instruction-first-part = בדקו
-sc-review-instruction-second-part = האם זה משפט תקין מבחינה לשונית?
+single-sentence-submission = שליחת משפט בודד
+bulk-sentence-submission = שליחת מאגד של משפטים
+single-sentence = משפט בודד
+bulk-sentences = מאגד משפטים
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = בדקו <icon></icon> האם אלה משפטים תקינים מבחינת השפה?
 sc-review-rules-title = האם המשפט מתאים להנחיות?
 sc-review-empty-state = כרגע אין משפטים לסקירה בשפה זו.
 report-sc-different-language = שפה אחרת
 report-sc-different-language-detail = זה כתוב בשפה שונה ממה שעליי לסקור.
 sentences-fetch-error = אירעה שגיאה בטעינת משפטים
 review-error = אירעה שגיאה בסקירת משפט זה
+review-error-rate-limit-exceeded = אתם זזים מהר מידי! קחו כמה רגעים לסקור כל משפט ולוודא שהוא תקין.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
 sc-redirect-page-subtitle-1 = אספן המשפטים עובר תחת הליבה של Common Voice. תוכלו כעת <writeURL>לכתוב</writeURL> או <reviewURL>לסקור</reviewURL> הגשות של משפטים בודדים ב-Common Voice.
 sc-redirect-page-subtitle-2 = שאלו אותנו שאלות ב-<matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> או <emailLink>בדוא"ל</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = העלו <icon></icon> משפטים המצויים בנחלת הכלל
+sc-bulk-upload-instruction = גררו את הקובץ הנה או <uploadButton>לחצו להעלאה</uploadButton>
+sc-bulk-upload-instruction-drop = שחררו את הקובץ כאן להעלאה
+try-upload-again = נסו מחדש לגרור את הקובץ הנה
+try-upload-again-md = נסו להעלות שוב
+select-file = בחירת קובץ
+select-file-mobile = בחירת קובץ להעלאה
+accepted-files = סוגי הקבצים המתאימים: קבצי .tsv בלבד
+maximum-file-size = גודל מירבי של הקובץ: 25 מגה-בית
+what-needs-to-be-in-file = מה צריך להיות בקובץ להעלאה?
+what-needs-to-be-in-file-explanation = אנא עיינו ב<templateFileLink>קובץ התבנית</templateFileLink>. המשפטים שאתם מעלים צריכים להיות ללא טענות לזכויות יוצרים (ברשיון CC0 או עבודה מקורית שמועלית ברשות היוצרים) ולהיות נהירים, נכונים מבחינה דקדוקית ופשוטים לקריאה. צריך לקחת כ-10-15 שניות לקרוא כל משפט, ויש להימנע משילוב מספרים, שמות או תווים מיוחדים כחלק מהמשפטים.
+upload-progress-text = ההעלאה מתבצעת...
+sc-bulk-submit-confirm = אני מאשר\ת כי משפטים אלה מצויים ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותם.
+bulk-upload-success-toast = מאגד המשפטים הועלה
+bulk-upload-failed-toast = ההעלאה נכשלה, אנו נסו שוב.
+bulk-submission-success-header = תודה שתרמתם את מאגד המשפטים!
+bulk-submission-success-subheader = אתם עוזרים ל-Common Voice להגיע ליעד המשפטים היומי!
+upload-more-btn-text = להעלות עוד משפטים?
+file-invalid-type = הקובץ מסוג לא מתאים
+file-too-large = הקובץ גדול מידי
+file-too-small = הקובץ קטן מידי
+too-many-files = יותר מידי קבצים

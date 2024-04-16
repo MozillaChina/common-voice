@@ -74,6 +74,7 @@ ga-IE = ਆਈਰਸ਼
 gl = ਗਾਲੀਲੀਅਨ
 gn = ਗੁਜਰਨੀ
 gom = ਗੋਆ ਕੋਕਣੀ
+gu-IN = ਗੁਜਰਾਤੀ
 ha = ਹੀਊਸਾ
 he = ਹੈਬਰਿਊ
 hi = ਹਿੰਦੀ
@@ -218,6 +219,7 @@ speak-now = ਹੁਣ ਬੋਲੋ
 datasets = ਡਾਟਾ-ਸਮੂਹ
 languages = ਭਾਸ਼ਾਵਾਂ
 about = ਬਾਰੇ
+partner = ਹਿੱਸੇਦਾਰ
 profile = ਪ੍ਰੋਫਾਈਲ
 help = ਮਦਦ
 contact = ਸੰਪਰਕ
@@ -231,6 +233,7 @@ share-text = ਮਸ਼ੀਨਾਂ ਨੂੰ ਸਿਖਾਉਣ ਵਿੱਚ ਮ
 link-copied = ਲਿੰਕ ਕਾਪੀ ਕੀਤਾ
 back-top = ਉੱਤੇ ਜਾਓ
 logout = ਲਾਗ ਆਉਟ
+donate = ਦਾਨ ਦਿਓ
 
 ## Home Page
 
@@ -371,7 +374,7 @@ profile-form-variant-default-value = ਕੋਈ ਉਪ-ਭਾਸ਼ਾ ਨਹੀਂ 
 profile-form-accent =
     .label = ਲਹਿਜ਼ਾ
 profile-form-custom-accent-help-text =
-    .label = ਕੀ ਤੁਸੀਂ ਆਪਨੇ ਲਹਿਜ਼ੇ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦੇਣਾ ਚਾਹੋਗੇ?
+    .label = ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਲਹਿਜ਼ੇ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦੇਣਾ ਚਾਹੋਗੇ?
 profile-form-custom-accent-placeholder-2 = ਆਪਣੇ ਲਹਿਜ਼ੇ ਦੀ ਜਾਣਕਾਰੀ ਦੇਣ ਲਈ ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ
 profile-form-age =
     .label = ਉਮਰ
@@ -386,8 +389,12 @@ native-language =
 profile-form-add-accent = ਨਵਾਂ ਪਸੰਦੀਦਾ ਲਹਿਜ਼ਾ "{ $inputValue }" ਜੋੜੋ
 profile-form-submit-save = ਸੰਭਾਲੋ
 profile-form-submit-saved = ਸੰਭਾਲਿਆ
-male = ਮਰਦ
-female = ਔਰਤ
+male_masculine = ਮਰਦ
+female_feminine = ਜ਼ਨਾਨਾ/ਔਰਤ
+intersex = ਅੰਤਰ-ਲਿੰਗ
+transgender = ਟਰਾਂਸਜੈਂਡਰ
+non-binary = ਨਾਨ-ਬਾਈਨਰੀ
+do_not_wish_to_say = ਦੱਸਣਾ ਨਹੀਂ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ
 # Gender
 other = ਹੋਰ
 why-profile-title = ਪਰੋਫਾਈਲ ਕਾਹਤੋਂ?
@@ -406,6 +413,7 @@ why-demographic = ਇਸ ਦੀ ਪਰਵਾਹ ਕਿਓ?
 accept-privacy = ਮੈਂ ਤੁਹਾਡੇ ਨਾਲ ਇਸ ਜਾਣਕਾਰੀ ਨੂੰ ਸੰਭਾਲਣ ਦੇ ਨਾਲ ਸਹਿਮਤ ਹਾਂ, ਜਿਵੇਂ ਤੁਸੀਂ Mozilla ਦੀ <privacyLink>ਪਰਦੇਦਾਰੀ ਨੀਤੀ</privacyLink>
 accept-privacy-title = ਪਰਦੇਦਾਰੀ ਨੀਤੀ
 login-identity = ਲਾਗਇਨ ਪਛਾਣ
+login = ਲਾਗ ਇਨ
 login-signup = ਲਾਗ ਇਨ / ਸਾਈਨ ਅੱਪ
 edit = ਸੋਧੋ
 email-subscriptions = ਈਮੇਲ ਮੈਂਬਰੀ
@@ -492,14 +500,19 @@ about-dataset-new = ਆਮ ਅਵਾਜ਼ ਡੇਟਾਸੇਟ
 about-dataset-new-text = ਆਮ ਅਵਾਜ਼ ਡੇਟਾਸੇਟ ਵਿਚ ਸੈਂਕੜੇ ਹਜ਼ਾਰਾਂ ਆਵਾਜ਼ ਦੇ ਨਮੂਨੇ ਹੁੰਦੇ ਹਨ ਜੋ ਵਿਕਾਸਕਰਤਾਵਾਂ ਨੂੰ ਅਵਾਜ਼ ਦੀ ਪਛਾਣ ਦੇ ਸੰਦਾਂ ਨੂੰ ਬਣਾਉਣ ਵਿਚ ਸਹਾਇਤਾ ਕਰਦੇ ਹਨ।
 about-clip-graveyard = ਕਲਿੱਪ ਕਬਰਸਤਾਨ
 about-get-involved = ਹਿੱਸਾ ਲਵੋ
+about-stay-in-touch = ਮੈਂ ਸੰਪਰਕ ਵਿੱਚ ਕਿਵੇਂ ਰਹਾਂ?
+about-stay-in-touch-button = ਸਾਈਨ ਅੱਪ ਕਰੋ
 about-nav-why-common-voice = ਕਿਉਂ?
 about-nav-how-it-works = ਕਿਵੇਂ ?
 about-nav-partners = ਹਿੱਸੇਦਾਰ
 about-nav-get-involved = ਹਿੱਸਾ ਬਣੋ
+about-nav-how-it-works-2 = Common Voice ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ?
+about-nav-playbook = ਹਿੱਸਾ ਬਣਨ ਬਾਰੇ ਸਿੱਖੋ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice ਉੱਤੇ ਕਿਹੜੀ ਭਾਸ਼ਾ ਹੈ?
 
 ## How do I add a language
 
@@ -508,15 +521,21 @@ about-playbook-how-add-language-translating-heading = ਸਾਈਟ ਦਾ ਉਲ
 
 ## How does localization work
 
+about-playbook-how-localize = ਸਾਈਟ ਦਾ ਇਲਾਕਾਈਕਰਨ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ?
+about-playbook-how-localize-content-1 = Common Voice ਦਾ ਅਨੁਵਾਦ <strong>Pontoon</strong> ਉੱਤੇ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ਮੈਂ ਵਾਕ ਕਿਵੇਂ ਜੋੜਾਂ?
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ਸਮਾਗਮ
+about-playbook-how-grow-language-content-4 = ਸੋਸ਼ਲ ਮੀਡੀਆ
+about-playbook-how-grow-language-content-6 = ਹਿੱਸੇਦਾਰ ਅਤੇ ਨੈੱਟਵਰਕ
 
 ## How to validate
 
@@ -525,6 +544,13 @@ about-playbook-how-add-language-translating-heading = ਸਾਈਟ ਦਾ ਉਲ
 
 
 ## How are decisions made
+
+about-playbook-how-project-governance-content-3 = ਪਰਦੇਦਾਰੀ, ਸੁਰੱਖਿਆ ਅਤੇ ਪਾਰਦਰਸ਼ਤਾ।
+about-playbook-how-project-governance-content-4 = ਕਮਿਊਨਟੀ ਵਲੋਂ ਹਿੱਸਾ ਲੈਣਾ ਅਤੇ ਫੈਸਲੇ ਕਰਨੇ।
+about-playbook-how-project-governance-content-5 = ਮੁੱਲ ਅਤੇ ਪਛਾਣ।
+about-playbook-how-project-governance-content-6 = ਆਪਸੀ ਜਵਾਬਦੇਹੀ।
+
+## How is Common Voice funded
 
 
 ## Glossary
@@ -550,6 +576,8 @@ data-other-title = …ਹੋਰ ਆਵਾਜ਼ ਡਾਟਾ-ਸਮੂਹ
 data-other-goto = { $name } ‘ਤੇ ਜਾਓ
 data-other-download = ਡਾਟਾ ਡਾਊਨਲੋਡ ਕਰੋ
 data-bundle-button = ਡਾਟਾ-ਸਮੂਹ ਬੰਡਲ ਡਾਊਨਲੋਡ ਕਰੋ
+release-version = ਵਰਜ਼ਨ
+dataset-date = ਤਾਰੀਖ
 license = ਲਸੰਸ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ਰਲਵੇਂ
 terms-agree = ਮੈਂ ਸਹਿਮਤ ਹਾਂ
@@ -767,6 +795,11 @@ cant-decide = ਫੈਸਲਾ ਨਹੀਂ ਕਰ ਸਕਦੇ?
 how-many-per-day = ਮਹਾਨ! ਪ੍ਰਤੀ ਦਿਨ ਕਿੰਨੇ ਕਲਿੱਪ?
 how-many-a-week = ਮਹਾਨ! ਇੱਕ ਹਫ਼ਤੇ ਵਿੱਚ ਕਿੰਨੇ ਕਲਿੱਪ?
 which-goal-type = ਕੀ ਤੁਸੀਂ ਬੋਲਣਾ, ਸੁਣਨਾ ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਦੋਵੇਂ?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } ਕਲਿੱਪ
+       *[other] { $count } ਕਲਿੱਪ
+    }
 help-share-goal = ਹੋਰ ਆਵਾਜ਼ਾਂ ਲੱਭਣ ਵਿਚ ਸਾਡੀ ਮਦਦ ਕਰੋ, ਆਪਣਾ ਟੀਚਾ ਸਾਂਝਾ ਕਰੋ
 confirm-goal = ਟੀਚੇ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ
 goal-interval-weekly = ਸਪਤਾਹਕ
@@ -798,6 +831,14 @@ profile-form-delete = ਪਰੋਫਾਈਲ ਹਟਾਓ
 
 ## Profile Download
 
+download-size = ਆਕਾਰ
+download-selected = ਚੁਣਿਆ
+download-start = ਪਰੋਫਾਈਲ ਡਾਟੇ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ
+download-request = ਰਿਕਾਰਡਿੰਗਾਂ ਦੀ ਬੇਨਤੀ
+download-requests = ਪਿਛਲੀਆਂ ਰਿਕਾਰਡਿੰਗਾਂ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨ ਦੀਆਂ ਬੇਨਤੀਆਂ
+download-request-button = ਡਾਊਨਲੋਡ
+download-request-title = { $created }
+download-request-metadata-link = ਵਾਕ ਦੀ ਲਿਖਤ
 
 ## Landing
 
@@ -809,12 +850,16 @@ read-more-about = ਸਾਡੇ ਇਸ ਬਾਰੇ ਸਫ਼ੇ ਉੱਤੇ ਹ
 
 ## DemoLayout
 
+demo-get-started = ਆਓ ਸ਼ੁਰੂ ਕਰੀਏ
+demo-welcome = ਕਾਮਨ ਵੌਇਸ ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
 
 ## Demo Datasets
 
+demo-account = ਖਾਤਾ
 
 ## Demo Account
 
+demo-account-card-header = ਹਾਲਾਂਕਿ ਯੋਗਦਾਨ ਪਾਉਣ ਲਈ ਖਾਤਾ ਨਹੀਂ ਚਾਹੀਦਾ ਹੈ, ਪਰ ਇਹ ਮਦਦਗਾਰ ਹੋ ਸਕਦਾ ਹੈ।
 
 ## Demo Contribute
 
@@ -824,6 +869,11 @@ read-more-about = ਸਾਡੇ ਇਸ ਬਾਰੇ ਸਫ਼ੇ ਉੱਤੇ ਹ
 
 ## Validation criteria
 
+contribution-criteria-nav = ਸ਼ਰਤਾਂ
+contribution-criteria-link = ਯੋਗਦਾਨ ਸ਼ਰਤ ਨੂੰ ਸਮਝੋ
+contribution-criteria-page-title = ਯੋਗਦਾਨ ਦੀ ਸ਼ਰਤ
+contribution-for-example = ਮਿਸਾਲ ਵਜੋਂ
+contribution-misreadings-title = ਗਲਤ-ਪੜ੍ਹਿਆ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -881,3 +931,15 @@ read-more-about = ਸਾਡੇ ਇਸ ਬਾਰੇ ਸਫ਼ੇ ਉੱਤੇ ਹ
 # [/SentenceCollector]
 
 sentence-collection = ਵਾਕ ਸੰਗ੍ਰਹਿ
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+

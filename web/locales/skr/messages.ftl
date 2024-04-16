@@ -54,6 +54,7 @@ cak = کاکچیل
 ckb = مرکزی کُردی
 cnh = ہخا چن
 co = کارسیکائی
+crh = کرایمن ٹاٹر
 cs = چیک
 cv = كوئیش
 cy = ویلش
@@ -69,16 +70,20 @@ eo = اسپرانٹو
 es = سپینی
 et = ایسٹونی
 eu = باسک
+ewo = ایوونڈو
 fa = فارسی
 ff = فولا
 fi = فینش
 fo = فاروس
 fr = فرانسیسی
+fuf = پولر گنی
 fy-NL = فریسیان
 ga-IE = آئرش
 gl = گیلیکین
 gn = گورانی
 gom = گوآن کونکانی
+gu-IN = گجراتی
+guc = وایونائیکی
 ha = ہوسا
 he = عبرانی
 hi = ہندی
@@ -98,6 +103,7 @@ it = اٹالین
 izh = ازہوریئن
 ja = جاپانی
 jbo = لوجبن
+jv = جاوانیس
 ka = جارجین
 kaa = کراکلپاک
 kab = کبائل
@@ -118,7 +124,9 @@ lij = لیگورین
 ln = لنگالی
 lo = لاؤ
 lt = لیتھونی
+ltg = لٹگالین
 lv = لاٹیوی
+lzz = لاز
 mai = مائتھیلی
 mdf = موکشا
 mg = مالاگاسی
@@ -150,6 +158,7 @@ nyn = رنیانکول
 oc = آكسيٹان
 om = افان اورمو
 or = اوڑیہ
+os = اوسیٹیائی
 pa-IN = پنجابی
 pap-AW = پاپانین (اروبا)
 pl = پولش
@@ -157,6 +166,7 @@ ps = پشتو
 pt = پرتگیزی
 quc = کیچہ
 quy = چوچا چنکا
+qvi = کیچوا
 rm-sursilv = رومانش سورسلوان
 rm-vallader = رومانش ویلڈر
 ro = رومانی
@@ -166,6 +176,8 @@ sah = ساکھا
 sat = سنتالی(اول چِکی)
 sc = سردینی
 scn = سسلین
+sco = سکوٹس
+sd = سندھی
 sdh = جنوبی کُردی
 shi = شلہا
 si = سنہالی
@@ -206,7 +218,9 @@ uz = اُزبک
 ve = شی وِنڈا
 vec = ونیتی
 vi = ویت نامی
+vmw = ایماکھُووا
 vot = ووٹک
+wep = ویسٹ پھالی
 wo = وُلوف
 xh = ہوسا
 yi = یدش
@@ -243,6 +257,7 @@ share-text = مشیناں کوں سکھاوݨ وچ مدد کرو جو اصل ل�
 link-copied = لنک نقل تھی ڳیا
 back-top = چوٹی تے واپس ون٘ڄو
 logout = لاگ آؤٹ
+donate = عطیہ ݙیوو
 
 ## Home Page
 
@@ -404,8 +419,10 @@ native-language =
 profile-form-add-accent = نواں مرضی دا لہجہ شامل کرو "{ $inputValue }"
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ تھیا
-male = مرد
-female = تریمت
+male_masculine = مرد/مذکر
+female_feminine = تریمت/مؤنث
+transgender = ہیجڑا
+do_not_wish_to_say = کجھ کائنی ݙساوݨ چاہندا
 # Gender
 other = ٻیا
 why-profile-title = ہک پروفائل کیوں؟
@@ -625,7 +642,6 @@ about-playbook-how-add-sentences-content-2 =
     کامن وائس وِچ شامل کیتے ونڄݨ کیتے جملیاں دا جائزہ گھنݨ تے ݙو لوکاں کو قبول کرݨا چاہیدا ہے۔ تساں اپݨی زبان کیتے ہدایت نامہ  <languageGuidelinesLink> اتھاں </languageGuidelinesLink> 
      بݨیندے ہو۔ جملے <licenseLink> عوامی ڈومین </licenseLink> وِچ تے 15 الفاظ کنوں چھوٹے ہووݨے چاہیدے ہں۔ تساں ٹیکسٹ دے مالک کنوں <waiverLink> اساݙے چھوٹ دے عمل کوں استعمال کریندے ہوئے CC0</waiverLink> بݨاوݨ کیتے آکھ سڳدے او، تے اساکوں  commonvoice@mozilla.com تے بھیڄ سڳدے او۔
 about-playbook-how-add-sentences-content-3 = تساں وکی پیڈیا کنوں مختصر جملیاں دا فائدہ چاوݨ کیتے <scraperLink> جملے نکھیڑݨ والا </scraperLink> استعمال کرسڳدے او۔
-about-playbook-how-add-sentences-content-4 = جہڑے جملے تصدیق تھی ویندن او ٻُدھ کوں ایکسپورٹ تھیندن تے اڳلی ریلیز وچ دستیاب ہوندن۔
 
 ## How to record quality
 
@@ -672,6 +688,9 @@ about-playbook-how-project-governance-content-4 = برادری دی شرکت ت�
 about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
 about-playbook-how-project-governance-content-7 = <governanceLink>اساں حکومت کین٘ویں کریندیسے، ایں بارے ٻیا پڑھو </governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -772,6 +791,8 @@ subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
 feedback-q = فیڈبیک ݙیسو؟
+# This indicates that there is no data to display
+no-information = کوئی معلومات کائنی
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ہک <docsLink>اوپن سورس ٹول کٹ </docsLink> انہاں محققین کیتے  ہے جیڑھے جدید ترین ڳالھ مہاڑ دے AI ماڈلز تیار کریندے پئے ہن۔
 resource-deepspeech-info =
     موزیلا دے اوپن سورس وائس ریکگنیشن انجن ڈیپ سپیچ کوں سپیچ ریکگنیشن ایپلی کیشنز بݨاوݨ کیتے استعمال کیتا ونڄ سڳدا ہے۔ اساݙا <githubLink>Github 
@@ -796,6 +817,10 @@ dataset-version = ورشن
 sha256-checksum-copied = ایس ایچ اے 256 پڑتالی جمع نقل تھی ڳیا!
 sha256-checksum-copied-error = ایس ایچ اے 256 پڑتالی جمع نقل کرݨ وچ ناکامی تھئی۔
 clipboard-not-supported = کلپ بورڈ سہارا تھیا کائنی
+no-information-available = کوئی معلومات دستیاب کائنی۔
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
 
 ## Download Modal
 
@@ -873,6 +898,8 @@ language-section-in-progress = تھیندیاں پیاں
 language-section-in-progress-new-description = ایہ زباناں اڄݨ  برادری ترقی دے تحت ہن. پیشرفت پٹی ایں ڳالھ دی نشاندہی کریندی ہے جو ہر زبان <localizationGlossaryLink/> ویب سائٹ مقامیت <localizationGlossaryLink>    تے <sentenceCollectionGlossaryLink/> جملہ کٹھے کرݨ <sentenceCollectionGlossaryLink> دے عمل وچ اڄݨ کتی دور ہے۔
 language-section-launched = لان٘چ تھی ڳیاں
 language-section-launched-description = انہاں شروع تھیوݨ آلیاں زباناں کیتے ویب سائٹ کوں کامیابی نال <localizationGlossaryLink> مقامی </localizationGlossaryLink> کیتا ڳیا ہے ، تے وافر تعداد وچ <speakLink> ٻولݨ</speakLink> تے <listenLink>سُݨݨ</listenLink> دیاں ونگاراں کو جاری رکھݨ کیتے <sentenceCollectionGlossaryLink>جملے کٹھے</sentenceCollectionGlossaryLink>  کیتے ڳئے ہن۔
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = چھیکڑی اپ ڈیٹ: { $lastUpdatedTimeStamp }
 languages-show-more = ٻیا ݙیکھو
 languages-show-less = گھٹ ݙیکھو
 language-meter-in-progress = پیش رفت
@@ -942,6 +969,9 @@ listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے ک
 listen-loading-error =
     اساں تہاݙے سُݨݨ کیتے کوئی آڈیو کلپ کائنی گھن سڳے۔
     سوہݨا، ولدا بعد وچ کوشش کرو۔
+listen-abort-title = کلپاں دی تصدیق دا خاتمہ کروں؟
+listen-abort-cancel = تصدیق کرݨ جاری رکھو
+listen-abort-confirm = تصدیق کرݨ ختم کرو
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
 speak-empty-state-cta = فقرے پاؤ
 speak-loading-error =
@@ -1597,6 +1627,9 @@ continue-speaking-button = کائناں شکریہ، ٻولݨ جاری رکھو
 create-profile-text = آپݨی ڄاݨکاری محفوظ کرݨ چاہندے ہو؟<createProfile> پروفائل بݨاؤ</createProfile>
 thanks-for-voice-toast = تہاݙی اواز معلومات پاروں تہاݙا شکریہ
 thanks-for-voice-toast-error = تہاݙی اواز معلومات جمع کرواوݨ وچ خرابی تھی ڳئی
+first-cta-gender-select-default-option = ہک اختیار چݨو
+first-cta-gender-select-help-text =
+    .label = تساں آپݨی صنف یا جنس کوں کین٘ویں بیان کریسو؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = آپݨی اواز دان کرݨ تے تہاݙے تھورائت ہیسے!
 second-cta-subtitle-text = پروفائل نال تساں آپݨی سرگرمی تے نظر رکھ سڳدے ہو تے صوتی ڈیٹا وچ حصہ پاوݨ آلی برادری نال جُڑ سڳدے ہو۔
@@ -1661,6 +1694,7 @@ citing-sentences-subheader-offline-sources-explanation = پبلک ڈومین ٹ�
 citation =
     .label = حوالہ ݙیوݨ
 self-citation = خود حوالہ ݙیوݨ
+self-citation-explanation = جے تساں آپݨاں مواد خود آپ لکھے تاں آپݨاں حوالہ ایں طرحاں ݙیسو۔
 adding-sentences-subheader-length = لمباݨ
 adding-sentences-subheader-length-explanation = جملے وچ 15 کنوں گھٹ لفظ ہووݨے چاہیدے ہن۔
 adding-sentences-subheader-spelling-punctuation = ہجے تے علامتی اکھر
@@ -1678,8 +1712,10 @@ reviewing-sentences-explanation-1 = جے جملے اُتلے معیار تے پ�
 reviewing-sentences-explanation-2 = جے جملے اُتلے معیار تے پورے کائنی آندے تاں "کو" بٹݨ کلک کرو۔
 reviewing-sentences-explanation-3 = جے تہاکوں جملے بارے پک کائنی تاں تساں ایں کوں چھوڑ تے اڳلے جملے تے ون٘ڄ سڳدے ہو۔
 reviewing-sentences-explanation-4 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
-# WRITE PAGE
-write-instruction-second-part = عوامی ڈومین جملہ
+
+## WRITE PAGE
+
+write-instruction = <icon></icon> ہک عوامی ڈومین جملہ شامل کرو
 write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی دستیاب cc-0 لائسنس تھئے ڈیٹا سیٹ وچ شامل تھی ویسن۔
 sentence =
     .label = جملہ
@@ -1687,7 +1723,8 @@ sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج �
 citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
-what-can-i-add = میں کہڑی قسم دے جملے شامل کر سڳداں؟
+sc-write-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں ایندے اپ لوڈ کرݨ دی اجازت ہے۔
+sc-review-write-title = میں کہڑے جملے شامل کر سڳداں؟
 new-sentence-rule-1 = <noCopyright>کوئی حق نقل </noCopyright> پابندیاں کائنی (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
 new-sentence-rule-3 = درست گرائمر ورتو
@@ -1703,9 +1740,28 @@ contact-us = ساݙے نال رابطہ کرو
 add-sentence-success = 1 جملہ کٹھا تھیا
 add-sentence-error = جملے شامل کرݨ وچ خرابی
 required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
-# REVIEW PAGE
-sc-review-instruction-first-part = پڑٹال کرو
-sc-review-instruction-second-part = بھلا ایہ لسانی طور تے درست جملہ ہے؟
+single-sentence-submission = کلھا جملہ جمع کرواوݨ
+bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
+single-sentence = کلھا جملہ
+bulk-sentences = ڈھڳ جملے
+sentence-domain-select =
+    .label = جملے دی ڈومین
+sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
+# Sentence Domain dropdown option
+agriculture = زراعت
+# Sentence Domain dropdown option
+automotive = آٹو موٹیو
+# Sentence Domain dropdown option
+finance = فنانس
+# Sentence Domain dropdown option
+food_service_retail = خوراک، خدمت تے پرچون
+# Sentence Domain dropdown option
+general = عمومی
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> دی پڑتال کرو جو بھلا ایہ لسانی طور تے درست جملہ ہے؟
 sc-review-rules-title = بھلا جملہ ہدایات دے مطابق ہے؟
 sc-review-empty-state = ایں زبان وچ نظرثانی کیتے ایں ویلے کوئی جملے کائنی۔
 report-sc-different-language = مختلف زبان
@@ -1715,3 +1771,31 @@ review-error = ایں جملے دی نظرثانی وچ خرابی تھی ڳئی
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریندے پئے ہیں
 sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> بارے سوالات پُچھو۔
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon> عوامی ڈومین جملے اپ لوڈ کرو
+sc-bulk-upload-instruction = آپݨی فائل اتھ گھیل آؤ یا <uploadButton> اپ لوڈ کرݨ کیتے کلک کرو</uploadButton>
+sc-bulk-upload-instruction-drop = اپ لوڈ کرݨ کیتے فائل اتھ سٹو
+try-upload-again = آپݨی فائل اتھ گھیلݨ نال ولدا کوشش کرو
+try-upload-again-md = ولدا اپ لوڈ کرݨ دی کوشش کرو
+select-file = فائل چݨو
+select-file-mobile = اپ لوڈ کرݨ کیتے فائل چݨو
+accepted-files = قابل قبول فائل قسماں: .tsv صرف
+maximum-file-size = ودھ و ودھ فائل سائز: 25 ایم بی
+what-needs-to-be-in-file = میکوں آپݨی حیاتی وچ کہڑی شئے دی لوڑ ہے؟
+upload-progress-text = اپ لوڈ تھیندا پئے۔۔۔
+sc-bulk-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
+bulk-upload-success-toast = ڈھڳ جملے اپ لوڈ تھی ڳئے
+bulk-upload-failed-toast = اپ لوڈ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
+bulk-submission-success-header = تہاݙے ڈھڳ جمع کرواوݨ تے دان کرݨ تے تہاݙے تھورائت ہیسے!
+bulk-submission-success-subheader = تساں ساݙے روز دے جملیاں دا ہدف پورا کرݨ کیتے مدد کریندے پئے ہو!
+upload-more-btn-text = ٻئے جملے اپ لوڈ کروں؟
+file-invalid-type = غلط فائل
+file-too-large = فائل ٻہوں وݙی ہے
+file-too-small = فائل ٻہوں چھوٹی ہے
+too-many-files = ٻہوں ساریاں فائلاں
+
+## Donate banner
+

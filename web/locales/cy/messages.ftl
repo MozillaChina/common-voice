@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Cwrdeg y Canoldir
 cnh = Hakha Chin
 co = Corseg
+crh = Tatar Crimea
 cs = Tsiec
 cv = Chuvash
 cy = Cymraeg
@@ -69,16 +70,20 @@ eo = Esperanto
 es = Sbaeneg
 et = Estoneg
 eu = Basgeg
+ewo = Ewondo
 fa = Persieg
 ff = Fulah
 fi = Ffinneg
 fo = Ffaroeg
 fr = Ffrangeg
+fuf = Gini Pular
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
 gl = Galisieg
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebraeg
 hi = Hindi
@@ -98,6 +103,7 @@ it = Eidaleg
 izh = Izhorieg
 ja = Japanëeg
 jbo = Lojban
+jv = Java
 ka = Georgeg
 kaa = Karakalpak
 kab = Kabyle
@@ -120,6 +126,7 @@ lo = Lao
 lt = Lithiuanieg
 ltg = Latgalieg
 lv = Latfieg
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagaseg
@@ -151,6 +158,7 @@ nyn = Nyankole
 oc = Occitaneg
 om = Afaan Ormoo
 or = Odia
+os = Ossetian
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Pwyleg
@@ -158,6 +166,7 @@ ps = Pashto
 pt = Portiwgaleg
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rwmaneg
@@ -167,6 +176,8 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sisilieg
+sco = Scots
+sd = Sindhi
 sdh = Cwrdeg Deheuol
 shi = Shilha
 si = Sinhala
@@ -207,7 +218,9 @@ uz = Wsbeceg
 ve = Tshivenda
 vec = Venetieg
 vi = Fietnameg
+vmw = Emakhuwa
 vot = Votig
+wep = Westffalaidd
 wo = Wolof
 xh = Xhosa
 yi = Iddeweg Almaenig
@@ -230,7 +243,7 @@ speak-now = Siaradwch nawr
 datasets = Setiau data
 languages = Ieithoedd
 about = Amdanom Ni
-partner = Partner
+partner = Partneru
 profile = Proffil
 help = Cymorth
 contact = Cysylltu
@@ -244,6 +257,7 @@ share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrann
 link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
 logout = Allgofnodi
+donate = Cyfrannu
 
 ## Home Page
 
@@ -412,8 +426,12 @@ native-language =
 profile-form-add-accent = Ychwanegwch acen o fath newydd "{ $inputValue }"
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
-male = Gwryw
-female = Benyw
+male_masculine = Gwryw/Gwrywaidd
+female_feminine = Benyw/Benywaidd
+intersex = Rhyngryw
+transgender = Trawsrywiol
+non-binary = Anneuaidd
+do_not_wish_to_say = Ddim yn dymuno dweud
 # Gender
 other = Arall
 why-profile-title = Pam proffil?
@@ -449,6 +467,8 @@ help-accent = Angen cymorth gydag acen?
 help-accent-explanation = Eich acen yw'r ffordd rydych chi'n ynganu geiriau. Mae'n cael ei ffurfio gan ble rydych chi wedi byw, pa ieithoedd eraill rydych chi'n eu siarad a llawer o ffactorau eraill. Gallwch chi rannu unrhyw wybodaeth rydych chi'n teimlo sy'n berthnasol yma.
 help-variants = Angen cymorth gydag amrywiadau?
 help-variants-explanation = Mae amrywiadau yn ffurf benodol ar iaith - er enghraifft sy'n cael eu rhannu gan y rhai sy'n byw mewn ardal ddaearyddol neu gymuned. Weithiau mae'r rhain yn cael eu galw'n dafodieithoedd.
+help-sex-or-gender-changes = Angen help gyda'r newidiadau Rhyw neu Rywedd?
+help-sex-or-gender-changes-explanation = Rydym yn cynnig mwy o ddewisiadau i bobl o ran yr hyn y maen nhw'n ei ddweud wrthym am eu hunaniaeth o ran eu rhyw neu rywedd. Disgrifiwch eich hun yn y ffordd sy'n teimlo'n fwyaf naturiol i chi. <learnMoreLink>Darllen rhagor am ein hagwedd tuag at ryw a rhywedd.</learnMoreLink>
 
 ## Profile - Email
 
@@ -633,7 +653,6 @@ about-playbook-how-add-sentences = Sut ydw i'n ychwanegu brawddegau?
 about-playbook-how-add-sentences-content-1 = Mae'r <strong>Casglwr Brawddegau </strong> yn offeryn ar gyfer casglu a dilysu brawddegau parth cyhoeddus. Bydd angen i chi <scAccountLink>greu cyfrif</scAccountLink>. Yna, ychwanegwch eich iaith at eich <strong>Proffil</strong>. Gallwch <strong>Ychwanegu</strong> brawddegau neu <strong>Adolygu</strong> brawddegau a ychwanegwyd yn flaenorol.
 about-playbook-how-add-sentences-content-2 = Rhaid i frawddegau gael eu hadolygu a'u derbyn gan ddau berson i'w cynnwys yn Common Voice. Rydych chi'n creu canllawiau ar gyfer eich iaith <languageGuidelinesLink>yma</languageGuidelinesLink>. Rhaid i frawddegau fod yn y <licenseLink>parth cyhoeddus</licenseLink> ac yn llai na 15 gair. Gallwch ofyn i berchennog neges destun ei wneud yn <waiverLink>CC0 gan ddefnyddio ein proses hepgor</waiverLink>, a'i anfon atom ar commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Gallwch ddefnyddio'r <scraperLink>Echdynnwr Brawddeg</scraperLink> i dynnu brawddegau byr o Wicipedia.
-about-playbook-how-add-sentences-content-4 = Mae brawddegau sydd wedi'u dilysu yn cael eu hallforio ar ddydd Mercher, a byddan nhw ar gael ar ôl y ryddhad nesaf.
 
 ## How to record quality
 
@@ -680,6 +699,13 @@ about-playbook-how-project-governance-content-4 = Cyfranogiad a penderfyniadau c
 about-playbook-how-project-governance-content-5 = Gwerth a chydnabyddiaeth.
 about-playbook-how-project-governance-content-6 = Atebolrwydd ar y cyd.
 about-playbook-how-project-governance-content-7 = <governanceLink>Darllenwch ragor am sut rydyn ni'n cael ein llywodraethu</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Sut mae Common Voice yn cael ei ariannu?
+about-playbook-how-funded-content-1 = Mae Common Voice yn broject gan y Mozilla Foundation, sy'n US 501c3. Ar hyn o bryd mae'r project yn cael ei ariannu'n gyfan gwbl drwy <philantropicGrantLink>grantiau dyngarol</philantropicGrantLink> a rhoddion gan bobl ar draws y byd.
+about-playbook-how-funded-content-2 = Mae'n ddrud iawn cynnal a rhyddhau'r setiau data, gwella'r platfform a rhedeg <africaMradiLink>rhaglenni cymunedol</africaMradiLink> yn barhaus.
+about-playbook-how-funded-content-3 = Os hoffech chi neu'ch sefydliad gyfrannu tuag at y project, gallwch roi <donateLink>rhodd</donateLink> neu gysylltu â'n tîm partneriaethau ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -756,10 +782,12 @@ validated-hr-total = Cyfanswm Oriau â Ddilyswyd
 overall-hr-total = Cyfanswm yr Oriau
 cv-license = Trwydded
 audio-format = Fformat Sain
+dataset-splits = Gwahaniaeth (Oedran a Rhyw)
 number-of-voices = Nifer y Lleisiau
 splits = Rhannu
 email-to-download = Rhowch E-bost i'w Lwytho i Lawr
 why-email = <b> Pam e-bost? </ b> Efallai y bydd angen i chi gysylltu â chi yn y dyfodol ynghylch newidiadau i'r set ddata, mae e-bost yn rhoi pwynt cyswllt inni.
+why-donate-datasets-page = Mozilla Common Voice yw set ddata lleferydd agored torfol fwyaf amrywiol y byd - ac rydyn ni'n cael ein pweru'n gyfan gwbl gan roddion. Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100  a mwy o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud. Os ydych yn gwerthfawrogi data agored, cynhwysol - <b>cyfranwch heddiw!</b>
 confirm-size = Rydych yn barod i gychwyn llwytho i lawr <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -778,6 +806,8 @@ subscribe = Tanysgryfio
 get-started-speech = Cychwyn gydag Adnabod Lleferydd
 other-datasets = Setiau Data Eraill
 feedback-q = Adborth?
+# This indicates that there is no data to display
+no-information = Dim gwybodaeth
 resource-nemo-info = Mae <githubLink> NVIDIA NeMo </githubLink> ™ yn <docsLink>becyn cymorth cod agored</docsLink> ar gyfer ymchwilwyr sy'n datblygu modelau AI sgyrsiol o'r radd flaenaf.
 resource-deepspeech-info = Mae modd defnyddio peiriant adnabod llais cod agored Mozilla, Deep Speech, i adeiladu rhaglenni adnabod lleferydd. Darllenwch ein <githubLink>trosolwg Github</githubLink> neu ymunwch â'r <discourseLink>DeepSpeech Discource</discourseLink> i ddysgu sut i ddechrau.
 resource-coqui-info = Mae <coquiLink>Coqui</coquiLink> yn ymroddedig i dechnoleg lleferydd agored. Mae eu prosiectau'n cynnwys peiriannau STT a TTS wedi'u seilio ar ddysgu dwfn.
@@ -800,6 +830,15 @@ dataset-version = Fersiwn
 sha256-checksum-copied = SHA256 Checksum Wedi'i Gopïo!
 sha256-checksum-copied-error = Wedi methu â chopïo SHA256 Checksum
 clipboard-not-supported = Nid yw'r clipfwrdd yn cael ei gopïo
+no-information-available = Dim gwybodaeth ar gael
+dataset-metadata-sex = Rhyw
+# dataset metadata - age of contributor
+dataset-metadata-age = Oed
+donate-modal-message = Mae eich set ddata yn cael ei lwytho i lawr!
+dataset-donate-modal-heading = Oeddech chi'n gwybod…
+donate-modal-explanation-1 = Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100+ o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Os ydych yn gwerthfawrogi data agored, cynhwysol - cyfrannwch heddiw!</bold>
 
 ## Download Modal
 
@@ -878,6 +917,8 @@ language-section-in-progress = Ar y Ffordd
 language-section-in-progress-new-description = Mae'r ieithoedd hyn ar hyn o bryd o dan ddatblygiad cymunedol. Mae'r bariau cynnydd yn nodi pa mor bell y mae pob iaith yn y broses o <localizationGlossaryLink>leoleiddio'u gwefan</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>chasglu brawddegau</sentenceCollectionGlossaryLink>.
 language-section-launched = Ar Gael
 language-section-launched-description = Ar gyfer yr ieithoedd sydd wedi'u lansio, mae'r wefan wedi'i <localizationGlossaryLink> leoleiddio'n </localizationGlossaryLink>llwyddiannus, ac mae ganddo ddigon o <sentenceCollectionGlossaryLink>frawddegau wedi'u casglu</sentenceCollectionGlossaryLink> i ganiatáu cyfraniadau <speakLink>Siarad</speakLink> a <listenLink>Gwrando</ listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Diweddariad Diwethaf: { $lastUpdate }
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-meter-in-progress = Cynnydd
@@ -947,6 +988,9 @@ listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
 listen-loading-error =
     Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
     Ceisiwch eto, rhywbryd eto.
+listen-abort-title = Wedi gorffen dilysu clipiau?
+listen-abort-cancel = Parhau i ddilysu
+listen-abort-confirm = Gorffen dilysu
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
 speak-empty-state-cta = Cyfrannu brawddegau
 speak-loading-error =
@@ -1685,6 +1729,9 @@ continue-speaking-button = Dim diolch, parhau i siarad
 create-profile-text = Eisiau cadw'ch gwybodaeth? <createProfile>Crëwch broffil</createProfile>
 thanks-for-voice-toast = Diolch am y wybodaeth am eich llais
 thanks-for-voice-toast-error = Bu gwall wrth gyflwyno'r wybodaeth am eich llais
+first-cta-gender-select-default-option = Dewis opsiwn
+first-cta-gender-select-help-text =
+    .label = Sut byddech chi'n disgrifio'ch rhyw neu'ch rhywedd?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Diolch am gyfrannu eich llais!
 second-cta-subtitle-text = Gyda phroffil, gallwch gadw golwg ar eich gweithgaredd a chysylltu â chymuned o gyfranwyr data llais.
@@ -1745,6 +1792,7 @@ public-domain = Parth Cyhoeddus
 citing-sentences = Dyfynnu Brawddegau
 adding-sentences = Ychwanegu Brawddegau
 reviewing-sentences = Adolygu Brawddegau
+sentence-domain = Parth Brawddeg
 public-domain-explanation-1 = Mae'n bwysig iawn bod pob brawddeg o destun yn un <publicDomain>parth cyhoeddus</publicDomain> (<cc0>cc0</cc0>) gan fod set ddata Common Voice yn cael ei rhyddhau o dan drwydded cc0. Dim ond os ydych yn siŵr o hynny y dylech lwytho brawddeg, a dylech gynnwys y cyfeiriad perthnasol bob tro.
 public-domain-explanation-2 = Y brawddegau gorau ar gyfer adeiladu peiriant adnabod lleferydd defnyddiol yw lleferydd llafar, modern. Dyma rhai syniadau i'ch helpu i greu brawddegau;
 public-domain-explanation-3 = Crëwch frawddegau modern, llafar ar eich pen eich hun neu gyda’ch ffrindiau neu’ch cymuned iaith – er enghraifft drwy gynnal ‘ysgrifennu-a-thon’!
@@ -1783,8 +1831,11 @@ reviewing-sentences-explanation-1 = Os yw'r frawddeg yn cwrdd â'r meini prawf, 
 reviewing-sentences-explanation-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch ar y botwm "Na".
 reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch chi ei hepgor a symud ymlaen i'r un nesaf.
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
-# WRITE PAGE
-write-instruction-second-part = brawddeg parth cyhoeddus
+domain-explanation = Mae parth yn cyfeirio at bwnc testun y frawddeg. Ar hyn o bryd, gallwch ddewis rhwng:
+
+## WRITE PAGE
+
+write-instruction = Ychwanegu <icon></icon> brawddeg parth cyhoeddus
 write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
 sentence =
     .label = Brawddeg
@@ -1792,7 +1843,8 @@ sentence-input-value = Rhowch eich brawddeg parth cyhoeddus yma
 citation-input-value = Ffynhonnell eich brawddeg
 citation =
     .label = Cyfeirio
-what-can-i-add = Pa fathau o frawddegau y gallaf eu hychwanegu?
+sc-write-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
+sc-review-write-title = Pa frawddegau y gallaf eu hychwanegu?
 new-sentence-rule-1 = <noCopyright>Dim cyfyngiadau hawlfraint</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Llai na 15 gair
 new-sentence-rule-3 = Defnyddiwch ramadeg cywir
@@ -1809,16 +1861,88 @@ contact-us = Cysylltwch â Ni
 add-sentence-success = 1 frawddeg wedi'i chasglu
 add-sentence-error = Gwall wrth ychwanegu brawddeg
 required-field = Llenwch y maes hwn, os gwelwch yn dda.
-# REVIEW PAGE
-sc-review-instruction-first-part = Gwirwch
-sc-review-instruction-second-part = a yw hon yn frawddeg ieithyddol gywir?
+single-sentence-submission = Cyflwyno Un Frawddeg
+bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
+single-sentence = Un Frawddeg
+bulk-sentences = Brawddegau Lluosog
+sentence-domain-select =
+    .label = Parth Brawddeg
+sentence-domain-select-placeholder = Dewiswch hyd at dri pharth
+# Sentence Domain dropdown option
+agriculture = Amaethyddiaeth
+# Sentence Domain dropdown option
+automotive = Modurol
+# Sentence Domain dropdown option
+finance = Cyllid
+# Sentence Domain dropdown option
+food_service_retail = Bwyd, Gwasanaethau a Manwerthu
+# Sentence Domain dropdown option
+general = Cyffredinol
+# Sentence Domain dropdown option
+healthcare = Gofal iechyd
+# Sentence Domain dropdown option
+history_law_government = Hanes, Cyfraith a Llywodraeth
+# Sentence Domain dropdown option
+language_fundamentals = Hanfodion Iaith (e.e. Nodau, Llythrennau, Arian)
+# Sentence Domain dropdown option
+media_entertainment = Cyfryngau ac Adloniant
+# Sentence Domain dropdown option
+nature_environment = Natur a'r Amgylchedd
+# Sentence Domain dropdown option
+news_current_affairs = Newyddion a Materion Cyfoes
+# Sentence Domain dropdown option
+technology_robotics = Technoleg a Roboteg
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Gwirio <icon></icon> os yw hon yn frawddeg ieithyddol gywir
 sc-review-rules-title = A yw'r frawddeg yn cyd-fynd â'r canllawiau?
 sc-review-empty-state = Nid oes brawddegau i'w hadolygu yn yr iaith hon ar hyn o bryd.
 report-sc-different-language = Iaith wahanol
 report-sc-different-language-detail = Mae wedi'i hysgrifennu mewn iaith sy'n wahanol i'r hyn rwy'n ei hadolygu.
 sentences-fetch-error = Digwyddodd gwall wrth nôl brawddegau
 review-error = Digwyddodd gwall wrth adolygu'r frawddeg hon
+review-error-rate-limit-exceeded = Rydych chi'n mynd yn rhy gyflym. Cymerwch eiliad i adolygu'r frawddeg i wneud yn siŵr ei bod yn gywir.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
 sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
 sc-redirect-page-subtitle-2 = Gofynnwch gwestiynau i ni ar <matrixLink>Matrics</matrixLink>, <discourseLink>Discourse</discourseLink> neu <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Llwytho i fyny <icon></icon> brawddegau parth cyhoeddus
+sc-bulk-upload-instruction = Llusgwch eich ffeil yma neu <uploadButton>cliciwch i'w llwytho i fyny</uploadButton>
+sc-bulk-upload-instruction-drop = Gollwng ffeil yma i'w llwytho i fyny
+bulk-upload-additional-information = Os oes unrhyw wybodaeth ychwanegol yr hoffech ei darparu am y ffeil hon, cysylltwch â <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Os oes unrhyw wybodaeth ychwanegol yr hoffech ei darparu am y ffeil hon nad yw wedi'i chynnwys yn y templed, cysylltwch â <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Ceisiwch eto trwy lusgo'ch ffeil yma
+try-upload-again-md = Ceisiwch lwytho i fyny eto
+select-file = Dewis Ffeil
+select-file-mobile = Dewiswch Ffeil i'w Llwytho i Fyny
+accepted-files = Mathau o ffeiliau derbyniol: .tsv yn unig
+maximum-file-size = Maint mwyaf ffeil: 25 MB
+what-needs-to-be-in-file = Beth sydd angen bod yn fy ffeil?
+what-needs-to-be-in-file-explanation = Gwiriwch ein <templateFileLink>ffeil templed</templateFileLink>. Dylai eich brawddegau fod yn rhydd o hawlfraint (CC0 neu waith gwreiddiol â chaniatâd y cyflwynydd) a dylen nhw fod yn glir, yn ramadegol gywir ac yn hawdd eu darllen. Dylai brawddegau sy'n cael ei chyflwyno cymryd tua 10-15 eiliad i'w darllen a dylent osgoi cynnwys rhifau, enwau priod a nodau arbennig.
+upload-progress-text = Wrthi'n llwytho i fyny...
+sc-bulk-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
+bulk-upload-success-toast = Brawddegau Lluosog wedi'u Llwytho i Fyny
+bulk-upload-failed-toast = Methodd yr llwytho i fyny, rhowch gynnig arall arni.
+bulk-submission-success-header = Diolch am gyfrannu eich cyflwyniad lluosog!
+bulk-submission-success-subheader = Rydych chi'n helpu Common Voice i gyrraedd ein nodau brawddegau dyddiol!
+upload-more-btn-text = Llwytho rhagor o frawddegau?
+file-invalid-type = Ffeil annilys.
+file-too-large = Mae'r ffeil yn rhy fawr
+file-too-small = Mae'r ffeil yn rhy fach
+too-many-files = Gormod o ffeiliau
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Rydym angen</mark><br/><mark>eich cymorth!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100+ o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud. <strong>Os ydych chi'n gwerthfawrogi data agored, cynhwysol - cyfrannwch heddiw!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Yn defnyddio CV ar gyfer</mark><br/><mark>eich ymchwil?</mark>
+languages-donate-banner-cta-explanation = Mae Common Voice yn cael ei ariannu gan roddion a grantiau! Rydym wrth ein bodd yn cydweithio ag academyddion, y gymdeithas sifil ac ymchwilwyr diwydiant. Mae Common Voice yn rhad ac am ddim i'w ddefnyddio, ond mae cyfrannu at gostau llwyfan a lletya trwy gynigion grant yn beth defnyddiol iawn.

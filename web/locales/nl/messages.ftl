@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Centraal-Koerdisch
 cnh = Hakha Chin
 co = Corsicaans
+crh = Krim-Tataars
 cs = Tsjechisch
 cv = Chuvash
 cy = Welsh
@@ -69,16 +70,20 @@ eo = Esperanto
 es = Spaans
 et = Estisch
 eu = Baskisch
+ewo = Ewondo
 fa = Perzisch
 ff = Fula
 fi = Fins
 fo = Faeröers
 fr = Frans
+fuf = Guinee-Pular
 fy-NL = Fries
 ga-IE = Iers
 gl = Galicisch
 gn = Guaraní
 gom = Goanees Konkani
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebreeuws
 hi = Hindi
@@ -98,6 +103,7 @@ it = Italiaans
 izh = Izjorisch
 ja = Japans
 jbo = Lojban
+jv = Javaans
 ka = Georgisch
 kaa = Karakalpaks
 kab = Kabylisch
@@ -120,6 +126,7 @@ lo = Laotiaans
 lt = Litouws
 ltg = Letgaals
 lv = Lets
+lzz = Laz
 mai = Maithili
 mdf = Moksja
 mg = Plateaumalagasi
@@ -151,6 +158,7 @@ nyn = Nyankole
 oc = Occitaans
 om = Afaan Oromo
 or = Odia
+os = Ossetisch
 pa-IN = Punjabi
 pap-AW = Papiaments (Aruba)
 pl = Pools
@@ -158,6 +166,7 @@ ps = Pashtu
 pt = Portugees
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Reto-Romaans Surselvisch
 rm-vallader = Reto-Romaans Vallader
 ro = Roemeens
@@ -167,6 +176,8 @@ sah = Jakoets
 sat = Santali (Ol Chiki)
 sc = Sardijns
 scn = Siciliaans
+sco = Schots
+sd = Sindhi
 sdh = Zuid-Koerdisch
 shi = Tashelhiyt (Shilha)
 si = Singalees
@@ -207,7 +218,9 @@ uz = Oezbeeks
 ve = Venda
 vec = Venetiaans
 vi = Vietnamees
+vmw = Emakhuwa
 vot = Wotisch
+wep = Westfaals
 wo = Wolof
 xh = Xhosa
 yi = Jiddisch
@@ -244,6 +257,7 @@ share-text = Help machines te leren hoe echte mensen spreken, doneer uw stem op 
 link-copied = Koppeling gekopieerd
 back-top = Naar boven
 logout = Afmelden
+donate = Doneren
 
 ## Home Page
 
@@ -394,8 +408,12 @@ native-language =
 profile-form-add-accent = Nieuw aangepast accent ‘{ $inputValue }’ toevoegen
 profile-form-submit-save = Opslaan
 profile-form-submit-saved = Opgeslagen
-male = Mannelijk
-female = Vrouwelijk
+male_masculine = Mannelijk/Mannelijk
+female_feminine = Vrouwelijk/Vrouwelijk
+intersex = Intersekse
+transgender = Transgender
+non-binary = Non-binair
+do_not_wish_to_say = Zeg ik liever niet
 # Gender
 other = Anders
 why-profile-title = Waarom een profiel?
@@ -431,6 +449,8 @@ help-accent = Hulp nodig met accent?
 help-accent-explanation = Uw accent is de manier waarop u woorden uitspreekt. Het kan worden gevormd door waar u hebt gewoond, welke andere talen u spreekt en tal van andere factoren. U kunt hier alle informatie delen die u relevant vindt.
 help-variants = Hulp nodig bij varianten?
 help-variants-explanation = Varianten zijn een specifieke vorm van een taal – bijvoorbeeld gesproken door mensen die in een gebied of gemeenschap wonen. Soms worden dit dialecten genoemd.
+help-sex-or-gender-changes = Hulp nodig bij de geslachts- of genderwijzigingen?
+help-sex-or-gender-changes-explanation = We bieden meer opties om mensen meer keuze te geven in wat ze ons vertellen over hun geslacht of genderidentiteit. Beschrijf uzelf op de manier die voor u het meest natuurlijk aanvoelt. <learnMoreLink>Meer info over onze benadering van geslacht en gender.</learnMoreLink>
 
 ## Profile - Email
 
@@ -616,7 +636,6 @@ about-playbook-how-add-sentences = Hoe voeg ik zinnen toe?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is een hulpmiddel voor het verzamelen en valideren van zinnen in het publieke domein. U moet <scAccountLink>een account aanmaken</scAccountLink>. Voeg vervolgens uw taal toe aan uw <strong>Profiel</strong>. U kunt zinnen <strong>Toevoegen</strong> of eerder toegevoegde zinnen <strong>Beoordelen</strong>.
 about-playbook-how-add-sentences-content-2 = Zinnen moeten door twee mensen worden beoordeeld en geaccepteerd om te worden opgenomen in Common Voice. U maakt <languageGuidelinesLink>hier</languageGuidelinesLink> richtlijnen voor uw taal. Zinnen moeten in het <licenseLink>publieke domein</licenseLink> staan en korter zijn dan 15 woorden. U kunt de eigenaar van een tekst vragen om deze <waiverLink>CC0 te maken met behulp van ons ontheffingsproces</waiverLink> en deze naar ons sturen op commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = U kunt de <scraperLink>Sentence extractor</scraperLink> gebruiken om korte zinnen uit Wikipedia te gebruiken.
-about-playbook-how-add-sentences-content-4 = Gevalideerde zinnen worden op woensdag geëxporteerd en zijn na de volgende uitgave beschikbaar.
 
 ## How to record quality
 
@@ -663,6 +682,13 @@ about-playbook-how-project-governance-content-4 = Deelname van en besluitvorming
 about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wederzijdse verantwoordelijkheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Meer info over hoe we worden bestuurd</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Hoe wordt Common Voice gefinancierd?
+about-playbook-how-funded-content-1 = Common Voice is een project van de Mozilla Foundation, een US 501c3. Het project wordt momenteel volledig gefinancierd door <philantropicGrantLink>filantropische subsidies</philantropicGrantLink> en donaties van mensen over de hele wereld.
+about-playbook-how-funded-content-2 = Het kost veel geld om continu de gegevenssets te hosten en uit te geven, het platform te verbeteren en <africaMradiLink>gemeenschapsprogramma’s</africaMradiLink> uit te voeren.
+about-playbook-how-funded-content-3 = Als u of uw organisatie een wederkerige bijdrage wil doen aan het project, dan kunt u een <donateLink>donatie</donateLink> doen of contact opnemen met ons partnerteam via <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -739,10 +765,12 @@ validated-hr-total = Totaal aantal gevalideerde uren
 overall-hr-total = Algemeen aantal uren
 cv-license = Licentie
 audio-format = Audio-indeling
+dataset-splits = Opsplitsingen (leeftijd en geslacht)
 number-of-voices = Aantal stemmen
 splits = Opdelingen
 email-to-download = Voer uw e-mailadres in om te downloaden
 why-email = <b>Waarom een e-mailadres?</b> Mogelijk moeten we in de toekomst contact met u opnemen over wijzigingen in de gegevensset, en een e-mailadres geeft ons contactinformatie.
+why-donate-datasets-page = Mozilla Common Voice is de meest diverse gecrowdsourcete open-spraakgegevensset ter wereld – en we worden volledig mogelijk gemaakt door donaties. Het kost bijna een miljoen dollar per jaar om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen. Als u open, inclusieve gegevens waardeert – <b>doneer dan vandaag nog!</b>
 confirm-size = U staat op het punt om een download van <b>{ $size }</b> te starten
 size-gigabyte = GB
 size-megabyte = MB
@@ -761,6 +789,8 @@ subscribe = Abonneren
 get-started-speech = Beginnen met spraakherkenning
 other-datasets = Andere spraakgegevenssets
 feedback-q = Hebt u feedback?
+# This indicates that there is no data to display
+no-information = Geen informatie
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is een <docsLink>opensource-toolkit</docsLink> voor onderzoekers die state-of-the-art-AI-modellen voor conversaties ontwikkelen.
 resource-deepspeech-info = Deep Speech, de opensource-spraakherkenningsengine van Mozilla, kan worden gebruikt om spraakherkenningstoepassingen te bouwen. Lees ons <githubLink>GitHub-overzicht</githubLink> of bezoek het <discourseLink>DeepSpeech-forum op Discourse</discourseLink> om te ontdekken hoe u kunt beginnen.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> is toegewijd aan open spraaktechnologie. Hun projecten omvatten op deep learning gebaseerde STT- en TTS-engines.
@@ -783,6 +813,15 @@ dataset-version = Versie
 sha256-checksum-copied = SHA256-checksum gekopieerd!
 sha256-checksum-copied-error = Kopiëren van SHA256-checksum mislukt
 clipboard-not-supported = Klembord wordt niet ondersteund
+no-information-available = Geen informatie beschikbaar
+dataset-metadata-sex = Geslacht
+# dataset metadata - age of contributor
+dataset-metadata-age = Leeftijd
+donate-modal-message = Uw gegevensset wordt gedownload!
+dataset-donate-modal-heading = Wist u dat…
+donate-modal-explanation-1 = het bijna een miljoen dollar per jaar kost om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</bold>
 
 ## Download Modal
 
@@ -860,6 +899,8 @@ language-section-in-progress = In uitvoering
 language-section-in-progress-new-description = Deze talen worden momenteel door de gemeenschap ontwikkeld. De voortgangsbalken geven aan hoe ver elke taal is met de <localizationGlossaryLink>websitevertaling</localizationGlossaryLink> en het <sentenceCollectionGlossaryLink>verzamelen van zinnen</sentenceCollectionGlossaryLink>.
 language-section-launched = Beschikbaar
 language-section-launched-description = Voor deze beschikbare talen is de website met succes <localizationGlossaryLink>vertaald</localizationGlossaryLink>, en zijn er voldoende <sentenceCollectionGlossaryLink>zinnen verzameld</sentenceCollectionGlossaryLink> voor doorlopende bijdragen aan het <speakLink>spreken</speakLink> en <listenLink>luisteren</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Laatst bijgewerkt: { $lastUpdatedTimeStamp }
 languages-show-more = Meer zien
 languages-show-less = Minder zien
 language-meter-in-progress = Voortgang
@@ -925,6 +966,9 @@ listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
 listen-loading-error =
     We kunnen geen audiofragmenten voor u ophalen om naar te luisteren.
     Probeer het later nog eens.
+listen-abort-title = Valideren van fragmenten voltooien?
+listen-abort-cancel = Doorgaan met valideren
+listen-abort-confirm = Valideren voltooien
 speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
 speak-empty-state-cta = Zinnen bijdragen
 speak-loading-error =
@@ -1656,6 +1700,9 @@ continue-speaking-button = Nee bedankt, ga door met spreken
 create-profile-text = Wilt u uw gegevens opslaan? <createProfile>Maak een profiel aan</createProfile>
 thanks-for-voice-toast = Bedankt voor uw steminformatie
 thanks-for-voice-toast-error = Er is een fout opgetreden bij het verzenden van uw steminformatie
+first-cta-gender-select-default-option = Selecteer een optie
+first-cta-gender-select-help-text =
+    .label = Hoe zou u uw geslacht of gender omschrijven?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Bedankt voor het doneren van uw stem!
 second-cta-subtitle-text = Met een profiel kunt u uw activiteit bijhouden en verbinding maken met een gemeenschap van bijdragers aan spraakgegevens.
@@ -1716,6 +1763,7 @@ public-domain = Publiek domein
 citing-sentences = Bronnen van zinnen vermelden
 adding-sentences = Zinnen toevoegen
 reviewing-sentences = Zinnen beoordelen
+sentence-domain = Zinsdomein
 public-domain-explanation-1 = Het is heel belangrijk dat alle tekstzinnen <publicDomain>publiek domein</publicDomain> (<cc0>cc0</cc0>) zijn, aangezien de Common Voice-dataset wordt uitgegeven onder een cc0-licentie. Upload een zin alleen als u hier zeker van bent en voeg altijd de relevante bronvermelding toe.
 public-domain-explanation-2 = De beste zinnen voor het bouwen van een bruikbare spraakherkenningsengine zijn in moderne spreektaal. Enkele ideeën om u te helpen bij het aanmaken van zinnen zijn;
 public-domain-explanation-3 = Maak zelf moderne, informele zinnen of met uw vrienden of taalgemeenschap – bijvoorbeeld door middel van een ‘write-a-thon’
@@ -1758,8 +1806,11 @@ reviewing-sentences-explanation-1 = Als de zin aan de bovenstaande criteria vold
 reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Nee’.
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
-# WRITE PAGE
-write-instruction-second-part = een zin uit het publieke domein
+domain-explanation = Domein verwijst naar het onderwerp van de zin. Momenteel kunt u kiezen tussen:
+
+## WRITE PAGE
+
+write-instruction = Een <icon></icon> zin uit het publieke domein toevoegen
 write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een openbaar beschikbare cc-0 gelicenseerde dataset.
 sentence =
     .label = Zin
@@ -1767,7 +1818,10 @@ sentence-input-value = Voer hier uw publieke domeinzin in
 citation-input-value = Bron van uw zin
 citation =
     .label = Citaat
-what-can-i-add = Wat voor soort zinnen kan ik toevoegen?
+sc-write-submit-confirm =
+    Ik bevestig dat deze zin <wikipediaLink>publiek domein</wikipediaLink> is en
+    ik toestemming heb om deze te uploaden.
+sc-review-write-title = Welke zinnen kan ik toevoegen?
 new-sentence-rule-1 = <noCopyright>Geen copyright</noCopyright>-beperkingen (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Minder dan 15 woorden
 new-sentence-rule-3 = Gebruik de juiste grammatica
@@ -1784,16 +1838,90 @@ contact-us = Contact opnemen
 add-sentence-success = 1 zin verzameld
 add-sentence-error = Fout bij toevoegen van zin
 required-field = Vul dit veld in.
-# REVIEW PAGE
-sc-review-instruction-first-part = Controleren
-sc-review-instruction-second-part = is dit een taalkundig correcte zin?
+single-sentence-submission = Indienen van één zin
+bulk-sentence-submission = Bulkindiening van zinnen
+single-sentence = Losse zin
+bulk-sentences = Bulkzinnen
+sentence-domain-select =
+    .label = Zinsdomein
+sentence-domain-select-placeholder = Selecteer maximaal drie domeinen
+# Sentence Domain dropdown option
+agriculture = Landbouw
+# Sentence Domain dropdown option
+automotive = Automotive
+# Sentence Domain dropdown option
+finance = Financieel
+# Sentence Domain dropdown option
+food_service_retail = Voedsel, service en detailhandel
+# Sentence Domain dropdown option
+general = Algemeen
+# Sentence Domain dropdown option
+healthcare = Gezondheidszorg
+# Sentence Domain dropdown option
+history_law_government = Geschiedenis, recht en overheid
+# Sentence Domain dropdown option
+language_fundamentals = Taalbasis (bijv. cijfers, letters, geld)
+# Sentence Domain dropdown option
+media_entertainment = Media en amusement
+# Sentence Domain dropdown option
+nature_environment = Natuur en milieu
+# Sentence Domain dropdown option
+news_current_affairs = Nieuws en actualiteiten
+# Sentence Domain dropdown option
+technology_robotics = Technologie en robotica
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Controleren <icon></icon> of dit een taalkundig correcte zin is?
 sc-review-rules-title = Voldoet de zin aan de richtlijnen?
 sc-review-empty-state = Er zijn momenteel geen zinnen om te beoordelen in deze taal.
 report-sc-different-language = Andere taal
 report-sc-different-language-detail = Het is geschreven in een andere taal dan die ik aan het beoordelen ben.
 sentences-fetch-error = Er is een fout opgetreden bij het ophalen van zinnen
 review-error = Er is een fout opgetreden bij het beoordelen van deze zin
+review-error-rate-limit-exceeded = U gaat te snel. Neem even de tijd om de zin te bekijken om er zeker van te zijn dat deze correct is.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ons vragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of <emailLink>e-mail</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Zinnen <icon></icon> uit het publieke domein uploaden
+sc-bulk-upload-instruction = Sleep uw bestand hierheen of <uploadButton>klik om te uploaden</uploadButton>
+sc-bulk-upload-instruction-drop = Sleep bestand hierheen om te uploaden
+bulk-upload-additional-information = Als u aanvullende informatie over dit bestand wilt verstrekken, neem dan contact op met <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Als u aanvullende informatie over dit bestand wilt verstrekken die niet in de sjabloon is opgenomen, neem dan contact op met <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Probeer het opnieuw door uw bestand hierheen te slepen
+try-upload-again-md = Probeer opnieuw te uploaden
+select-file = Bestand selecteren
+select-file-mobile = Selecteer te uploaden bestand
+accepted-files = Geaccepteerde bestandstypen: alleen .tsv
+maximum-file-size = Maximale bestandsgrootte: 25 MB
+what-needs-to-be-in-file = Wat moet er in mijn bestand zitten?
+what-needs-to-be-in-file-explanation = Bekijk ons <templateFileLink>sjabloonbestand</templateFileLink>. Uw zinnen moeten vrij van auteursrechten zijn (CC0 of origineel werk met toestemming van de indiener) en duidelijk, grammaticaal correct en gemakkelijk te lezen zijn. Ingediende zinnen zouden een leeslengte van ongeveer 10 tot 15 seconden moeten hebben en mogen geen cijfers, eigennamen en speciale tekens bevatten.
+upload-progress-text = Upload bezig…
+sc-bulk-submit-confirm =
+    Ik bevestig dat deze zinnen <wikipediaLink>publiek domein</wikipediaLink> zijn en
+    ik toestemming heb om ze te uploaden.
+bulk-upload-success-toast = Bulkupload zinnen voltooid
+bulk-upload-failed-toast = Upload mislukt, probeer het opnieuw.
+bulk-submission-success-header = Bedankt voor het indienen van uw bulkinzending!
+bulk-submission-success-subheader = U helpt Common Voice onze dagelijkse zinsdoelen te bereiken!
+upload-more-btn-text = Meer zinnen uploaden?
+file-invalid-type = Ongeldig bestand
+file-too-large = Bestand is te groot
+file-too-small = Bestand is te klein
+too-many-files = Te veel bestanden
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>We hebben</mark><br/><mark>uw hulp nodig!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Het kost bijna een miljoen dollar per jaar om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen. <strong>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Gebruikt u CV voor</mark><br/><mark>uw onderzoek?</mark>
+languages-donate-banner-cta-explanation = Common Voice wordt gefinancierd door donaties en subsidies! We werken graag samen met academici, onderzoekers van het maatschappelijk middenveld en de industrie. Common Voice is gratis te gebruiken, maar bijdragen aan de platform- en hostingkosten via subsidievoorstellen helpt echt.

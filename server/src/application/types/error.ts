@@ -1,17 +1,21 @@
 import { ValidatorRuleErrorType } from '../../core/sentences'
 
 export const SentencesRepositoryErrorKind = 'SentencesRepository'
-export const SentenceValidationKind = 'SentenceValidation'
-export const ValidationKind = 'Validation'
-export const DatabaseError = 'DatabaseError'
-export const Other = 'Other'
+export const SentenceValidationErrorKind = 'SentenceValidation'
+export const ValidationErrorKind = 'Validation'
+export const DatabaseErrorKind = 'DatabaseError'
+export const BulkSubmissionErrorKind = 'BulkSubmissionError'
+export const DatasetErrorKind = 'DatasetError'
+export const OtherErrorKind = 'Other'
 
 export const ApplicationErrorKinds = [
-  ValidationKind,
+  ValidationErrorKind,
   SentencesRepositoryErrorKind,
-  SentenceValidationKind,
-  DatabaseError,
-  Other,
+  SentenceValidationErrorKind,
+  DatabaseErrorKind,
+  BulkSubmissionErrorKind,
+  DatasetErrorKind,
+  OtherErrorKind,
 ] as const
 
 export type ApplicationErrorKind = typeof ApplicationErrorKinds[number]

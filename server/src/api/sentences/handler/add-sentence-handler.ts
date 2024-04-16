@@ -6,13 +6,13 @@ import { AddSentenceCommandHandler } from '../../../application/sentences/use-ca
 import { AddSentenceCommand } from '../../../application/sentences/use-case/command-handler/command/add-sentence-command'
 import {
   SentencesRepositoryErrorKind,
-  SentenceValidationKind,
+  SentenceValidationErrorKind,
 } from '../../../application/types/error'
 import { createPresentableError } from '../../../application/helper/error-helper'
 import { StatusCodes } from 'http-status-codes'
 
 export default async (req: Request, res: Response) => {
-  const { sentence, localeId, localeName, source } = req.body
+  const { sentence, localeId, localeName, source, domains } = req.body
 
   const command: AddSentenceCommand = {
     clientId: req.client_id,
@@ -20,18 +20,19 @@ export default async (req: Request, res: Response) => {
     localeId: localeId,
     localeName: localeName,
     source: source,
+    domains: domains
   }
 
   return pipe(
     AddSentenceCommandHandler(command),
     TE.mapLeft(createPresentableError),
-    TE.fold(
+    TE.match(
       err => {
         switch (err.kind) {
           case SentencesRepositoryErrorKind: {
             return T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err))
           }
-          case SentenceValidationKind:
+          case SentenceValidationErrorKind:
             return T.of(res.status(StatusCodes.BAD_REQUEST).json(err))
         }
       },

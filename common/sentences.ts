@@ -3,6 +3,7 @@ export type SentenceSubmission = {
   source: string
   localeId: number
   localeName: string
+  domains: string[]
 }
 
 export enum SentenceSubmissionError {
@@ -28,3 +29,10 @@ export type SentenceVote = {
   sentence_id: string
   sentenceIndex: number
 }
+
+export type BulkUploadStatus =
+  | 'off'
+  | 'waiting'
+  | 'uploading'
+  | 'done'
+  | 'error'

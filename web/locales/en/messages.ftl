@@ -50,6 +50,7 @@ cak = Kaqchikel
 ckb = Central Kurdish
 cnh = Hakha Chin
 co = Corsican
+crh = Crimean Tatar
 cs = Czech
 cv = Chuvash
 cy = Welsh
@@ -65,16 +66,20 @@ eo = Esperanto
 es = Spanish
 et = Estonian
 eu = Basque
+ewo = Ewondo
 fa = Persian
 ff = Fulah
 fi = Finnish
 fo = Faroese
 fr = French
+fuf = Pular Guinea
 fy-NL = Frisian
 ga-IE = Irish
 gl = Galician
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebrew
 hi = Hindi
@@ -94,6 +99,7 @@ it = Italian
 izh = Izhorian
 ja = Japanese
 jbo = Lojban
+jv = Javanese
 ka = Georgian
 kaa = Karakalpak
 kab = Kabyle
@@ -116,6 +122,7 @@ lo = Lao
 lt = Lithuanian
 ltg = Latgalian
 lv = Latvian
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagasy
@@ -147,6 +154,7 @@ nyn = Runyankole
 oc = Occitan
 om = Afaan Oromo
 or = Odia
+os = Ossetian
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polish
@@ -154,6 +162,7 @@ ps = Pashto
 pt = Portuguese
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Romanian
@@ -163,6 +172,8 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardinian
 scn = Sicilian
+sco = Scots
+sd = Sindhi
 sdh = Southern Kurdish
 shi = Shilha
 si = Sinhala
@@ -203,7 +214,9 @@ uz = Uzbek
 ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
+vmw = Emakhuwa
 vot = Votic
+wep = Westphalian
 wo = Wolof
 xh = Xhosa
 yi = Yiddish
@@ -237,6 +250,7 @@ share-text = Help teach machines how real people speak, donate your voice at { $
 link-copied = Link Copied
 back-top = Back to Top
 logout = Log Out
+donate = Donate
 
 ## Home Page
 home-title = Common Voice is Mozilla's initiative to help teach machines how real people speak.
@@ -387,7 +401,7 @@ profile-form-custom-accent-placeholder-2 = Start typing to describe your accent
 profile-form-age =
     .label = Age
 profile-form-gender-2 =
-    .label = Gender
+    .label = Sex or Gender
 leaderboard-visibility =
     .label = Leaderboard Visibility
 hidden = Hidden
@@ -400,8 +414,12 @@ profile-form-add-accent = Add new custom accent "{ $inputValue }"
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
 
-male = Male
-female = Female
+male_masculine = Male/Masculine
+female_feminine = Female/Feminine
+intersex = Intersex
+transgender = Transgender
+non-binary = Non-binary
+do_not_wish_to_say = Don't wish to say
 # Gender
 other = Other
 why-profile-title = Why a profile?
@@ -440,6 +458,8 @@ help-accent = Need some help with accent?
 help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
 help-variants = Need some help with variants?
 help-variants-explanation = Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.
+help-sex-or-gender-changes = Need help with the Sex or Gender changes?
+help-sex-or-gender-changes-explanation = We are offering more options to give people more choice in what they tell us about their sex or gender identity. Please self-describe in the way that feels most natural to you. <learnMoreLink>Learn more about our approach to sex and gender.</learnMoreLink>
 
 ## Profile - Email
 browse-file-title = Upload an image file
@@ -642,10 +662,9 @@ about-playbook-how-localize-content-5 = Watch our video explainer to help
 
 ## How to add sentences
 about-playbook-how-add-sentences = How do I add sentences?
-about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is a tool for collecting and validating public domain sentences. You will <scAccountLink>need to create an account</scAccountLink>. Then, add your language to your <strong>Profile</strong>.  You can <strong>Add</strong> sentences or <strong>Review</strong> previously-added sentences.
+about-playbook-how-add-sentences-content-1 = You can add sentences on the <writePageLink>Write page</writePageLink> or review sentences on the <reviewPageLink>Review page</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Sentences must be reviewed and accepted by two people to be included in Common Voice. You create guidelines for your language <languageGuidelinesLink>here</languageGuidelinesLink>. Sentences must be in the <licenseLink>public domain</licenseLink> and shorter than 15 words. You can ask the owner of a text to make it <waiverLink>CC0 using our waiver process</waiverLink>, and send to us on commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = You can use the <scraperLink>Sentence extractor</scraperLink> to leverage short sentences from Wikipedia.
-about-playbook-how-add-sentences-content-4 = Sentences that have been validated are exported on Wednesdays, and are available after the next release.
 
 ## How to record quality
 about-playbook-how-record-quality = How do I record a high quality voice clip?
@@ -688,6 +707,12 @@ about-playbook-how-project-governance-content-4 = Community participation and de
 about-playbook-how-project-governance-content-5 = Value and recognition.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
+
+## How is Common Voice funded
+about-playbook-how-funded = How is Common Voice funded?
+about-playbook-how-funded-content-1 = Common Voice is a project of the Mozilla Foundation, a US 501c3. The project is currently funded entirely by <philantropicGrantLink>philanthropic grants</philantropicGrantLink>, and donations from people around the world.
+about-playbook-how-funded-content-2 = It costs a lot of money to continually host and release the datasets, improve the platform and run <africaMradiLink>community programmes</africaMradiLink>.
+about-playbook-how-funded-content-3 = If you or your organisation would like to contribute back to the project, you can make a <donateLink>donation</donateLink> or reach out to our partnerships team on <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 glossary = Glossary
@@ -761,15 +786,17 @@ validated-hr-total = Validated Hr. Total
 overall-hr-total = Overall Hr. Total
 cv-license = License
 audio-format = Audio Format
+dataset-splits = Splits (Age and Sex)
 number-of-voices = Number of Voices
 splits = Splits
 email-to-download = Enter Email to Download
 why-email = <b>Why an email?</b> We may need to contact you in the future about changes to the dataset, an email provides us a point of contact.
+why-donate-datasets-page = Mozilla Common Voice is the world’s most diverse crowdsourced open speech dataset - and we’re powered entirely by donations. It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do. If you value open, inclusive data - <b>donate today!</b>
 confirm-size = You are prepared to initiate a download of <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>You agree</b> to not attempt to determine the identity of speakers in the Common Voice dataset
-confirm-join-mailing-list = I want to join the Common Voice mailing list
+confirm-join-mailing-list = You want to join the Common Voice mailing list
 download-language = Download { $language }
 validated-hours = Validated Hours
 recorded-hours = Recorded Hours
@@ -783,6 +810,8 @@ subscribe = Subscribe
 get-started-speech = Get Started with Speech Recognition
 other-datasets = Other Voice Datasets
 feedback-q = Have Feedback?
+# This indicates that there is no data to display
+no-information = No information
 
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is an <docsLink>open-source toolkit</docsLink> for researchers developing state-of-the-art conversational AI models.
 resource-deepspeech-info = Mozilla’s open source voice recognition engine Deep Speech can be used to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
@@ -807,6 +836,15 @@ dataset-version = Version
 sha256-checksum-copied = SHA256 Checksum Copied!
 sha256-checksum-copied-error = Failed to copy SHA256 Checksum
 clipboard-not-supported = Clipboard not supported
+no-information-available = No information available
+dataset-metadata-sex = Sex
+# dataset metadata - age of contributor
+dataset-metadata-age = Age
+donate-modal-message = Your dataset is downloading!
+dataset-donate-modal-heading = Did you know…
+donate-modal-explanation-1 = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>If you value open, inclusive data - donate today!</bold>
 
 ## Download Modal
 download-title = Your download has started.
@@ -886,6 +924,8 @@ language-section-in-progress = In Progress
 language-section-in-progress-new-description = These languages are currently under community development. <localizationGlossaryLink>Website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink> is needed to launch.
 language-section-launched = Launched
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Last Updated: { $lastUpdatedTimeStamp }
 languages-show-more = See More
 languages-show-less = See Less
 language-meter-in-progress = Progress
@@ -952,6 +992,9 @@ listen-empty-state = We may have run out of clips - refresh the page, or try aga
 listen-loading-error =
     We couldn’t get any audio clips for you to listen to.
     Please try again later.
+listen-abort-title = Finish validating clips?
+listen-abort-cancel = Continue validating
+listen-abort-confirm = Finish validating
 speak-empty-state = We've run out of sentences to record in this language...
 speak-empty-state-cta = Contribute sentences
 speak-loading-error =
@@ -1577,7 +1620,7 @@ partnerships-our-partners = Our Partners
 
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Thank you for donating your voice clips!
-first-cta-subtitle-text = Would you like to share some information about how you speak?
+first-cta-subtitle-text = By telling us about yourself, you will help developers build more inclusive technology
 why-donate = Why are you asking?
 why-donate-explanation-1 = This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.
 why-donate-explanation-2 = For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. <learnMore>Learn more about why metadata matters.</learnMore>
@@ -1586,6 +1629,9 @@ continue-speaking-button = No thanks, continue speaking
 create-profile-text = Want to save your information? <createProfile>Create a profile</createProfile>
 thanks-for-voice-toast = Thank you for your voice information
 thanks-for-voice-toast-error = An error occurred submitting your voice information
+first-cta-gender-select-default-option = Select an option
+first-cta-gender-select-help-text =
+  .label = How would you describe your sex or gender?
 
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Thank you for contributing your voice!
@@ -1649,6 +1695,7 @@ public-domain = Public Domain
 citing-sentences = Citing Sentences
 adding-sentences = Adding Sentences
 reviewing-sentences = Reviewing Sentences
+sentence-domain = Sentence Domain
 public-domain-explanation-1 = It is very important that all text sentences are <publicDomain>public domain</publicDomain> (<cc0>cc0</cc0>) as the Common Voice dataset is released under a cc0 license. Only ever upload a sentence if you are sure, and always include the relevant citation.
 public-domain-explanation-2 = The best sentences for building a useful speech recognition engine are colloquial, modern parlance. Some ideas to help you generate sentences are;
 public-domain-explanation-3 = Create modern, colloquial sentences by yourself or with your friends or language community - for example through a ‘write-a-thon’
@@ -1687,9 +1734,10 @@ reviewing-sentences-explanation-1 = If the sentence meets the criteria above, cl
 reviewing-sentences-explanation-2 = If the sentence does not meet the above criteria, click the "No" button.
 reviewing-sentences-explanation-3 = If you are unsure about the sentence, you may also skip it and move on to the next one.
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
+domain-explanation = Domain refers to the subject matter of the sentence. Currently, you can choose between:
 
-# WRITE PAGE
-write-instruction-second-part = a public domain sentence
+## WRITE PAGE
+write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
 sentence = 
     .label = Sentence
@@ -1697,9 +1745,10 @@ sentence-input-value = Enter your public domain sentence here
 citation-input-value = Source of your sentence
 citation = 
     .label = Citation
-what-can-i-add = What kinds of sentences can I add?
+sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
+sc-review-write-title = What sentences can I add?
 new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Fewer than 15 words
+new-sentence-rule-2 = Fewer than 15 words per sentence
 new-sentence-rule-3 = Use correct grammar
 new-sentence-rule-4 = Use correct spelling and punctuation
 new-sentence-rule-5 = No numbers and special characters
@@ -1714,18 +1763,86 @@ contact-us = Contact Us
 add-sentence-success = 1 sentence collected
 add-sentence-error = Error adding sentence
 required-field = Please fill out this field.
+single-sentence-submission = Single Sentence Submission
+bulk-sentence-submission = Bulk Sentence Submission
+single-sentence = Single Sentence
+bulk-sentences = Bulk Sentences
+sentence-domain-select =
+    .label = Sentence Domain
+sentence-domain-select-placeholder = Select up to three domains
+# Sentence Domain dropdown option
+agriculture = Agriculture
+# Sentence Domain dropdown option
+automotive = Automotive
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+food_service_retail = Food, Service and Retail
+# Sentence Domain dropdown option
+general = General
+# Sentence Domain dropdown option
+healthcare = Healthcare
+# Sentence Domain dropdown option
+history_law_government = History, Law and Government
+# Sentence Domain dropdown option
+language_fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
+# Sentence Domain dropdown option
+media_entertainment = Media and Entertainment
+# Sentence Domain dropdown option
+nature_environment = Nature and Environment
+# Sentence Domain dropdown option
+news_current_affairs = News and Current Affairs
+# Sentence Domain dropdown option
+technology_robotics = Technology and Robotics
 
-# REVIEW PAGE
-sc-review-instruction-first-part = Check
-sc-review-instruction-second-part = is this a linguistically correct sentence?
+## REVIEW PAGE
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Check <icon></icon> is this a linguistically correct sentence?
 sc-review-rules-title = Does the sentence meet the guidelines?
 sc-review-empty-state = There are currently no sentences to review in this language.
 report-sc-different-language = Different language
 report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
 sentences-fetch-error = An error occurred fetching sentences
 review-error = An error occurred reviewing this sentence
+review-error-rate-limit-exceeded = You're going too fast. Please take a moment to review the sentence to make sure it's correct.
 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We're making some big changes
 sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload <icon></icon> public domain sentences
+sc-bulk-upload-instruction = Drag your file here or <uploadButton>click to upload</uploadButton>
+sc-bulk-upload-instruction-drop = Drop file here to upload
+bulk-upload-additional-information = If there is additional information you want to provide about this file, please contact <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = If there is additional information you want to provide about this file that is not included in the template, please contact <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Try again by dragging your file here
+try-upload-again-md = Try uploading again
+select-file = Select File
+select-file-mobile = Select File to Upload
+accepted-files = Accepted file types: .tsv only
+maximum-file-size = Maximum file size: 25 MB
+what-needs-to-be-in-file = What needs to be in my file?
+what-needs-to-be-in-file-explanation = Please check our <templateFileLink>template file</templateFileLink>. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.
+upload-progress-text = Upload in progress...
+sc-bulk-submit-confirm = I confirm that these sentence are <wikipediaLink>public domain</wikipediaLink> and I have permission to upload them.
+bulk-upload-success-toast = Bulk Sentences Uploaded
+bulk-upload-failed-toast = Upload failed, please retry.
+bulk-submission-success-header = Thank you for contributing your bulk submission!
+bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
+upload-more-btn-text = Upload more sentences?
+file-invalid-type = Invalid file
+file-too-large = File is too large
+file-too-small = File is too small
+too-many-files = Too many files
+
+## Donate banner
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>We need</mark><br/><mark>your help!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do. <strong>If you value open, inclusive data - donate today!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Using CV for</mark><br/><mark>your research?</mark>
+languages-donate-banner-cta-explanation = Common Voice is funded by donations and grants! We love collaborating with academics, civil society and industry researchers. Common Voice is free to use, but contributing to platform and hosting costs through grant proposals is really helpful.

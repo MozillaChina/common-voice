@@ -54,6 +54,7 @@ cak = Kacsikel
 ckb = Közép-kurd
 cnh = Hakha Chin
 co = Korzikai
+crh = Krími tatár
 cs = Cseh
 cv = Csuvas
 cy = Walesi
@@ -69,6 +70,7 @@ eo = Eszperantó
 es = Spanyol
 et = Észt
 eu = Baszk
+ewo = Ewondo
 fa = Perzsa
 ff = Fula
 fi = Finn
@@ -79,6 +81,7 @@ ga-IE = Ír
 gl = Galícia
 gn = Guarani
 gom = Goan konkani
+gu-IN = Gudzsaráti
 ha = Hausza
 he = Héber
 hi = Hindi
@@ -98,6 +101,7 @@ it = Olasz
 izh = Izsór
 ja = Japán
 jbo = Lojban
+jv = Jávai
 ka = Grúz
 kaa = Karakalpak
 kab = Kabil
@@ -151,6 +155,7 @@ nyn = Nyankole
 oc = Okcitán
 om = Oromo
 or = Orija
+os = Oszét
 pa-IN = Pandzsábi
 pap-AW = Papiamento (Aruba)
 pl = Lengyel
@@ -167,6 +172,8 @@ sah = Szaha
 sat = Szantáli
 sc = Szárd
 scn = Szicíliai
+sco = Scots
+sd = Sindhi
 sdh = Déli kurd
 shi = Tachelhit
 si = Szingaléz
@@ -207,7 +214,9 @@ uz = Üzbég
 ve = Venda
 vec = Velencei
 vi = Vietnámi
+vmw = Makua
 vot = Vót
+wep = Vesztfáliai
 wo = Volof
 xh = Xhosza
 yi = Jiddis
@@ -244,6 +253,7 @@ share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az igazi embe
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
 logout = Kijelentkezés
+donate = Adományozás
 
 ## Home Page
 
@@ -404,8 +414,12 @@ native-language =
 profile-form-add-accent = Új egyéni akcentus hozzáadása: „{ $inputValue }”
 profile-form-submit-save = Mentés
 profile-form-submit-saved = Mentve
-male = Férfi
-female = Nő
+male_masculine = Férfi/férfias
+female_feminine = Női/nőies
+intersex = Interszexuális
+transgender = Transznemű
+non-binary = Nem bináris
+do_not_wish_to_say = Nem szeretném megmondani
 # Gender
 other = Egyéb
 why-profile-title = Miért kell a profil?
@@ -441,6 +455,8 @@ help-accent = Segítségre van szüksége az akcentussal kapcsolatban?
 help-accent-explanation = Az akcentusa az, ahogy a szavakat kiejti. Alakíthatja hogy hol élt, milyen más nyelveket beszél, és sok egyéb tényező. Itt megoszthat minden olyan információt, amelyet relevánsnak érez.
 help-variants = Segítségre van szüksége a változatokkal kapcsolatban?
 help-variants-explanation = A változatok egy nyelv sajátos formáját jelentik – például egy adott földrajzi területen vagy közösségben élők közös nyelvi formáját. Néha ezeket dialektusoknak nevezik.
+help-sex-or-gender-changes = Segítségre van szüksége a nem vagy nemi identitás változásával kapcsolatban?
+help-sex-or-gender-changes-explanation = Több lehetőséget kínálunk, hogy az emberek nemükről vagy nemi identitásukról többféle választási lehetőség közül választhassanak. Írja le magát az Ön számára legtermészetesebb módon. <learnMoreLink>Tudjon meg többet a biológiai és a társadalmi nemről alkotott megközelítésünkről.</learnMoreLink>
 
 ## Profile - Email
 
@@ -617,7 +633,6 @@ about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
 about-playbook-how-add-sentences-content-2 = A mondatokat két embernek kell átnéznie és elfogadnia, hogy bekerüljenek a Common Voice-ba. <languageGuidelinesLink>Itt</languageGuidelinesLink> hozhat létre irányelveket az Ön nyelvéhez. A mondatoknak <licenseLink>közkincsnek</licenseLink>, és 15 szónál rövidebbnek kell lenniük. Megkérheti a szöveg tulajdonosát, hogy <waiverLink>CC0 alatt licencelje a lemondási folyamatunk használatával</waiverLink>, majd küldje el nekünk a commonvoice@mozilla.com címre.
 about-playbook-how-add-sentences-content-3 = Használhatja a <scraperLink>Mondatgyűjtőt</scraperLink>, hogy rövid mondatokat vegyen át a Wikipédiáról.
-about-playbook-how-add-sentences-content-4 = Az ellenőrzött mondatok szerdánként kerülnek exportálásra, és a következő kiadás után lesznek elérhetők.
 
 ## How to record quality
 
@@ -664,6 +679,13 @@ about-playbook-how-project-governance-content-4 = Közösségi részvétel és d
 about-playbook-how-project-governance-content-5 = Érték és elismerés.
 about-playbook-how-project-governance-content-6 = Kölcsönös elszámoltathatóság.
 about-playbook-how-project-governance-content-7 = <governanceLink>További információk az irányításunkról</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Hogyan történik a Common Voice finanszírozása?
+about-playbook-how-funded-content-1 = A Common Voice a Mozilla Alapítvány projektje, egy amerikai nonprofit (501c3) szervezeté. A projektet jelenleg teljes egészében <philantropicGrantLink>jótékonysági támogatások</philantropicGrantLink>, és a világ minden tájáról érkező emberek adományai finanszírozzák.
+about-playbook-how-funded-content-2 = Sok pénzbe kerül az adatkészletek folyamatos tárolása és kiadása, a platform fejlesztése és a <africaMradiLink>közösségi programok</africaMradiLink> működtetése.
+about-playbook-how-funded-content-3 = Ha Ön vagy a szervezete szeretne hozzájárulni a projekthez, akkor <donateLink>adományozhat</donateLink> vagy felveheti a kapcsolatot a partnerségi csapattal a <emailFragment>commonvoice@mozilla.com</emailFragment> címen.
 
 ## Glossary
 
@@ -740,10 +762,12 @@ validated-hr-total = Ellenőrzött óra összesen
 overall-hr-total = Óra összesen
 cv-license = Licenc
 audio-format = Hangformátum
+dataset-splits = Megoszlások (kor és nem)
 number-of-voices = Hangok száma
 splits = Felosztások
 email-to-download = Adja meg az e-mail címét a letöltéshez
 why-email = <b>Miért szükséges az e-mail cím?</b> Előfordulhat, hogy a jövőben kapcsolatba kell lépnünk Önnel az adatkészlet változásával kapcsolatban, és ezt az e-mail cím biztosítja.
+why-donate-datasets-page = A Mozilla Common Voice a világ legváltozatosabb, közösségi forrásból származó nyílt beszéd-adatkészlete – és teljesen adományokból működünk. Évente majdnem egymillió dollárba kerül az adatkészletek kiszolgálása és a platform fejlesztése a ránk támaszkodó több mint 100 nyelvi közösség számára. Ha értékeli a nyílt, inkluzív adatokat – <b>adományozzon még ma!</b>
 confirm-size = Készen áll <b>{ $size }</b> letöltésének kezdeményezésére
 size-gigabyte = GB
 size-megabyte = MB
@@ -762,6 +786,8 @@ subscribe = Feliratkozás
 get-started-speech = Első lépések a beszédfelismeréssel
 other-datasets = Más hangadatkészletek
 feedback-q = Visszajelzése van?
+# This indicates that there is no data to display
+no-information = Nincs információ
 resource-nemo-info = Az <githubLink>NVIDIA NeMo</githubLink>™ egy <docsLink>nyílt forráskódú eszközkészlet</docsLink> a legmodernebb társalgási MI modelleket fejlesztő kutatók számára.
 resource-deepspeech-info = A Mozilla nyílt forráskódú hangfelismerő motorja, a Deep Speech, beszédfelismerő alkalmazások készítéséhez használható. Olvassa el a <githubLink>Github áttekintést</githubLink>, vagy az első lépésekhez csatlakozzon a <discourseLink>DeepSpeech Discourse-hoz</discourseLink>.
 resource-coqui-info = A <coquiLink>Coqui</coquiLink> elkötelezett a nyílt beszédtechnológia iránt. A projektjeik közé tartoznak a mély tanuláson alapuló STT (beszédfelismerés) és TTS (beszédszintézis) motorok.
@@ -784,6 +810,15 @@ dataset-version = Verzió
 sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva.
 sha256-checksum-copied-error = Az SHA256 ellenőrzőösszeg másolása sikertelen
 clipboard-not-supported = A vágólap nem támogatott
+no-information-available = Nem áll rendelkezésre információ
+dataset-metadata-sex = Nem
+# dataset metadata - age of contributor
+dataset-metadata-age = Életkor
+donate-modal-message = Az adatkészlet letöltése folyamatban van!
+dataset-donate-modal-heading = Tudta-e…
+donate-modal-explanation-1 = Évi majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100+ nyelvi közösség számára?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</bold>
 
 ## Download Modal
 
@@ -860,6 +895,8 @@ language-section-in-progress = Folyamatban
 language-section-in-progress-new-description = Ezek a nyelvek jelenleg közösségi fejlesztés alatt állnak. A folyamatjelzők a <localizationGlossaryLink>webhely lokalizáció</localizationGlossaryLink> és a <sentenceCollectionGlossaryLink>mondatgyűjtemény</sentenceCollectionGlossaryLink> előrehaladását jelzi.
 language-section-launched = Elindítva
 language-section-launched-description = Az elindított nyelvek esetén a webhely már sikeresen <localizationGlossaryLink>lokalizálva lett</localizationGlossaryLink>, és elég <sentenceCollectionGlossaryLink>összegyűjtött mondat</sentenceCollectionGlossaryLink> van, hogy lehetővé tegye a <speakLink>Beszéd</speakLink> és <listenLink>Hallgatás</listenLink> közreműködéseket.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Legutóbb frissítve: { $lastUpdatedTimeStamp }
 languages-show-more = Több
 languages-show-less = Kevesebb
 language-meter-in-progress = Előrehaladás
@@ -925,6 +962,9 @@ listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven: f
 listen-loading-error =
     Nem tudtunk meghallgatható hangfelvételeket lekérni.
     Próbálja újra később.
+listen-abort-title = Befejezi a klipek ellenőrzését?
+listen-abort-cancel = Ellenőrzés folytatása
+listen-abort-confirm = Ellenőrzés befejezése
 speak-empty-state = Elfogytak az felvételre váró mondatok ezen a nyelven…
 speak-empty-state-cta = Mondatok hozzáadása
 speak-loading-error =
@@ -1596,6 +1636,9 @@ continue-speaking-button = Köszönöm nem, beszéd folytatása
 create-profile-text = Szeretné menteni az adatait? <createProfile>Hozzon létre egy profilt</createProfile>
 thanks-for-voice-toast = Köszönjük a hanginformációit
 thanks-for-voice-toast-error = Hiba történt a hanginformációk elküldése során
+first-cta-gender-select-default-option = Válasszon egy lehetőséget
+first-cta-gender-select-help-text =
+    .label = Hogyan jellemezné a nemét?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Köszönjük, hogy közreműködött a hangjával.
 second-cta-subtitle-text = Egy profil segítségével nyomon követheti tevékenységét, és kapcsolatba léphet a hangadatokat biztosító közreműködők közösségével.
@@ -1653,6 +1696,8 @@ public-domain = Közkincs
 citing-sentences = Mondatok idézése
 adding-sentences = Mondatok hozzáadása
 reviewing-sentences = Mondatok ellenőrzése
+sentence-domain =
+    .label = Mondatdomén
 public-domain-explanation-1 = Nagyon fontos, hogy minden szöveges mondat <publicDomain>közkincs</publicDomain> (<cc0>cc0</cc0>) legyen, mivel a Common Voice adatkészlet cc0 licenc alatt kerül kiadásra. Csak akkor töltsön fel mondatot, ha biztos benne, és mindig adja meg a releváns idézetet.
 public-domain-explanation-2 = Egy hasznos beszédfelismerő motor építéséhez a legjobb mondatok köznyelviek, és modern szóhasználatúak. Néhány ötlet a mondatok előállításához:
 public-domain-explanation-3 = Alkosson modern, köznyelvi mondatokat egyedül, barátaival vagy nyelvi közösségével – például egy „write-a-thon” segítségével
@@ -1693,8 +1738,11 @@ reviewing-sentences-explanation-1 = Ha a mondat megfelel a fenti feltételeknek,
 reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltételeknek, kattintson a „Nem” gombra.
 reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
-# WRITE PAGE
-write-instruction-second-part = egy közkincsű mondat
+domain-explanation = A domén a mondat témakörére utal. Jelenleg ezek közül választhat:
+
+## WRITE PAGE
+
+write-instruction = Közkincsű mondat hozzáadása <icon></icon>
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
 sentence =
     .label = Mondat
@@ -1702,7 +1750,8 @@ sentence-input-value = Írja ide a közkincsű mondatot
 citation-input-value = A mondat forrása
 citation =
     .label = Idézet
-what-can-i-add = Milyen típusú mondatokat adhatok hozzá?
+sc-write-submit-confirm = Megerősítem, hogy ez a mondat <wikipediaLink>közkincs</wikipediaLink>, és engedéllyel töltöm fel.
+sc-review-write-title = Milyen mondatokat adhatok hozzá?
 new-sentence-rule-1 = <noCopyright>Nincs szerzői jogi</noCopyright> korlátozás (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Kevesebb mint 15 szó
 new-sentence-rule-3 = Használjon helyes nyelvtant
@@ -1719,16 +1768,88 @@ contact-us = Kapcsolat
 add-sentence-success = 1 mondat összegyűjtve
 add-sentence-error = Hiba a mondat hozzáadásakor
 required-field = Töltse ki ezt a mezőt.
-# REVIEW PAGE
-sc-review-instruction-first-part = Ellenőrzés
-sc-review-instruction-second-part = ez egy nyelvileg helyes mondat?
+single-sentence-submission = Egy mondatos beküldés
+bulk-sentence-submission = Mondatok tömeges beküldése
+single-sentence = Egyetlen mondat
+bulk-sentences = Több mondat
+sentence-domain-select =
+    .label = Mondatdomén
+sentence-domain-select-placeholder = Válasszon legfeljebb három domént
+# Sentence Domain dropdown option
+agriculture = Mezőgazdaság
+# Sentence Domain dropdown option
+automotive = Autóipar
+# Sentence Domain dropdown option
+finance = Pénzügy
+# Sentence Domain dropdown option
+food_service_retail = Élelmiszer, szolgáltatás és kiskereskedelem
+# Sentence Domain dropdown option
+general = Általános
+# Sentence Domain dropdown option
+healthcare = Egészségügy
+# Sentence Domain dropdown option
+history_law_government = Történelem, jog és kormányzás
+# Sentence Domain dropdown option
+language_fundamentals = Nyelvi alapok (például számok, betűk, pénz)
+# Sentence Domain dropdown option
+media_entertainment = Média és szórakoztatóipar
+# Sentence Domain dropdown option
+nature_environment = Természet és környezetvédelem
+# Sentence Domain dropdown option
+news_current_affairs = Hírek és aktuális témák
+# Sentence Domain dropdown option
+technology_robotics = Technológia és robotika
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Ellenőrizze <icon></icon>, hogy ez egy nyelvileg helyes mondat-e?
 sc-review-rules-title = A mondat megfelel az irányelveknek?
 sc-review-empty-state = Jelenleg nincsenek ellenőrizendő mondatok ezen a nyelven.
 report-sc-different-language = Más nyelv
 report-sc-different-language-detail = Ez más nyelven íródott, mint amit ellenőrzök.
 sentences-fetch-error = Hiba történt a mondatok lekérése során
 review-error = Hiba történt a mondat ellenőrzése során
+review-error-rate-limit-exceeded = Túl gyorsan halad. Szánjon rá egy kis időt a mondat helyességének ellenőrzésére.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Néhány nagy változtatást vezetünk be
 sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.
 sc-redirect-page-subtitle-2 = Kérdezzen a <matrixLink>Matrixon</matrixLink>, a <discourseLink>Discourse-on</discourseLink> vagy <emailLink>e-mailben</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Közkincsű mondatok feltöltése <icon></icon>
+sc-bulk-upload-instruction = Húzza ide a fájlt, vagy <uploadButton>kattintson a feltöltéshez</uploadButton>
+sc-bulk-upload-instruction-drop = A feltöltéshez vigye ide a fájlt
+bulk-upload-additional-information = Ha további információkat szeretne megadni erről a fájlról, vegye fel velünk a kapcsolatot a <emailFragment>commonvoice@mozilla.com</emailFragment> címen
+template-file-additional-information = Ha további információkat szeretne megadni erről a fájlról, melyek nem szerepelnek a sablonban, akkor vegye fel velünk a kapcsolatot a <emailFragment>commonvoice@mozilla.com</emailFragment> címen
+try-upload-again = Próbálja újra a fájl idehúzásával
+try-upload-again-md = Próbálja újból feltölteni
+select-file = Fájl kiválasztása
+select-file-mobile = Válassza ki a feltöltendő fájlt
+accepted-files = Elfogadott fájltípusok: csak .tsv
+maximum-file-size = Maximális fájlméret: 25 MB
+what-needs-to-be-in-file = Minek kell lennie a fájlomban?
+what-needs-to-be-in-file-explanation = Nézze meg a <templateFileLink>sablonfájlunkat</templateFileLink>. A mondatoknak szerzői jogoktól mentesnek (CC0 vagy a beküldő eredeti munkája), valamint egyértelműnek, nyelvtanilag helyesnek és könnyen olvashatónak kell lenniük. A beküldött mondatok felolvasásának nagyjából 10-15 másodpercet kellene igénybe vennie, valamint kerülje a számok, tulajdonnevek és speciális karakterek használatát.
+upload-progress-text = Feltöltés folyamatban…
+sc-bulk-submit-confirm = Megerősítem, hogy ezek a mondatok <wikipediaLink>közkincsek</wikipediaLink>, és engedéllyel töltöm fel őket.
+bulk-upload-success-toast = Mondatok tömeges feltöltése
+bulk-upload-failed-toast = A feltöltés sikertelen, próbálja újra.
+bulk-submission-success-header = Köszönjük, hogy közreműködött a tömeges feltöltésével!
+bulk-submission-success-subheader = Segít a Common Voice-nak elérni a napi mondatokkal kapcsolatos céljait!
+upload-more-btn-text = Tölt fel további mondatokat?
+file-invalid-type = Érvénytelen fájl
+file-too-large = A fájl túl nagy
+file-too-small = A fájl túl kicsi
+too-many-files = Túl sok fájl
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Szükségünk van</mark><br/><mark>a segítségére!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Évente majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100 nyelvi közösség számára. <strong>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Kutatáshoz használja</mark><br/><mark>a CV-t?</mark>
+languages-donate-banner-cta-explanation = A Common Voice-ot adományokból és támogatásokból finanszírozzuk! Szeretünk együttműködni akadémikusokkal, civil társadalmi és ipari kutatókkal. A Common Voice használata ingyenes, de pályázatok útján történő hozzájárulás a platform és a tárhely költségeihez nagyon hasznos.

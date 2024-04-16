@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Sorání kurdština
 cnh = Hakha Chin
 co = Korsičtina
+crh = Krymská tatarština
 cs = Čeština
 cv = Čuvaština
 cy = Velština
@@ -69,16 +70,20 @@ eo = Esperanto
 es = Španělština
 et = Estonština
 eu = Baskičtina
+ewo = Ewondo
 fa = Perština
 ff = Fulbština
 fi = Finština
 fo = Faerština
 fr = Francouzština
+fuf = Pulární Guinea
 fy-NL = Fríština
 ga-IE = Irština
 gl = Galicijština
 gn = Guaraní
 gom = Konkánština
+gu-IN = Gudžarátština
+guc = Wayuunaiki
 ha = Hauština
 he = Hebrejština
 hi = Hindština
@@ -98,6 +103,7 @@ it = Italština
 izh = Ižorština
 ja = Japonština
 jbo = Lojban
+jv = Jávština
 ka = Gruzínština
 kaa = Karakalpačtina
 kab = Kabylština
@@ -120,6 +126,7 @@ lo = Laoština
 lt = Litevština
 ltg = Latgalština
 lv = Lotyština
+lzz = Laz
 mai = Maithilština
 mdf = Mókša
 mg = Malgaština
@@ -151,6 +158,7 @@ nyn = Runyankole
 oc = Okcitánština
 om = Oromština
 or = Udijština
+os = Osetština
 pa-IN = Pandžábština
 pap-AW = Papiamento (Aruba)
 pl = Polština
@@ -158,6 +166,7 @@ ps = Paštština
 pt = Portugalština
 quc = K'iche'
 quy = Kečuánština
+qvi = Kichwa
 rm-sursilv = Rétorománština (sursilvan)
 rm-vallader = Rétorománština (vallader)
 ro = Rumunština
@@ -167,6 +176,8 @@ sah = Jakutština
 sat = Santali (Ol Chiki)
 sc = Sardinština
 scn = Sicilština
+sco = Skotština
+sd = Sindhština
 sdh = Jižní kurdština
 shi = Shilha
 si = Sinhalština
@@ -207,7 +218,9 @@ uz = Uzbečtina
 ve = Tshivenda
 vec = Benátština
 vi = Vietnamština
+vmw = Emakhuwa
 vot = Votština
+wep = Vestfálština
 wo = Volofština
 xh = Xhoština
 yi = Jidiš
@@ -244,6 +257,7 @@ share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na 
 link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
 logout = Odhlásit
+donate = Darovat
 
 ## Home Page
 
@@ -398,8 +412,12 @@ native-language =
 profile-form-add-accent = Přidat nový přízvuk „{ $inputValue }“
 profile-form-submit-save = Uložit
 profile-form-submit-saved = Uloženo
-male = Muž
-female = Žena
+male_masculine = Muž/mužské
+female_feminine = Žena/ženské
+intersex = Intersex
+transgender = Transgender
+non-binary = Nebinární
+do_not_wish_to_say = Nechci uvést
 # Gender
 other = Ostatní
 why-profile-title = Proč mít profil?
@@ -623,7 +641,6 @@ about-playbook-how-add-sentences = Jak přidávat věty?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> je nástroj pro shromažďování a ověřování public domain vět. Musíte si <scAccountLink>vytvořit účet</scAccountLink>. Poté přidejte svůj jazyk do svého <strong>profilu</strong>. Můžete také <strong>přidávat</strong> věty nebo <strong>ověřovat</strong> dříve přidané věty.
 about-playbook-how-add-sentences-content-2 = Věty musí být ověřeny a schváleny dvěma osobami, aby mohly být zařazeny do Common Voice. <languageGuidelinesLink>Zde</languageGuidelinesLink> si vytvoříte pokyny pro svůj jazyk. Musí se jednat o <licenseLink>public domain</licenseLink> věty kratší než 15 slov. Můžete požádat vlastníka textu, aby jej uvolnil pod <waiverLink>CC0 pomocí našeho postupu zřeknutí se práv</waiverLink> a dohodu nám poslali na commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = K získání krátkých vět z Wikipedie můžete použít nástroj <scraperLink>Sentence extractor</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Ověřené věty jsou exportovány ve středu a jsou dostupné v příštím vydání.
 
 ## How to record quality
 
@@ -670,6 +687,9 @@ about-playbook-how-project-governance-content-4 = Komunitní participace a rozho
 about-playbook-how-project-governance-content-5 = Hodnota a uznání.
 about-playbook-how-project-governance-content-6 = Vzájemná odpovědnost.
 about-playbook-how-project-governance-content-7 = <governanceLink>Přečtěte si více o našem fungování</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -746,6 +766,7 @@ validated-hr-total = Celkem validovaných hodin
 overall-hr-total = Celkový počet hodin
 cv-license = Licence
 audio-format = Zvukový formát
+dataset-splits = Rozdělení (věk a pohlaví)
 number-of-voices = Počet hlasů
 splits = Rozdělení
 email-to-download = Pro stažení zadejte svou e-mailovou adresu
@@ -768,6 +789,8 @@ subscribe = Odebírat
 get-started-speech = Začínáme s rozpoznáváním řeči
 other-datasets = Ostatní hlasové datasety
 feedback-q = Máte zpětnou vazbu?
+# This indicates that there is no data to display
+no-information = Žádné informace
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>open-source sada nástrojů</docsLink> pro výzkumníky nejpokročilejších konverzačních modelů umělé inteligence.
 resource-deepspeech-info = Open source systém Mozilly Deep Speech pro rozpoznávání hlasu můžete použít pro tvorbu aplikací rozpoznávajících řeč. Pro začátek si přečtěte naše <githubLink>shrnutí na GitHubu</githubLink> nebo se připojte na <discourseLink>DeepSpeech Discourse</discourseLink>.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> se zabývá otevřenými technologiemi týkající se práce s řečí. Jejich projekty zahrnují systémy pro rozpoznávání i syntézu řeči, a jsou založené na hlubokém učení.
@@ -790,6 +813,12 @@ dataset-version = Verze
 sha256-checksum-copied = Kontrolní součet SHA256 zkopírován!
 sha256-checksum-copied-error = Nepodařilo se zkopírovat kontrolní součet SHA256
 clipboard-not-supported = Schránka není podporována
+no-information-available = Nejsou k dispozici žádné informace
+dataset-metadata-sex = Pohlaví
+# dataset metadata - age of contributor
+dataset-metadata-age = Věk
+donate-modal-message = Probíhá stahování datasetu!
+dataset-donate-modal-heading = Věděli jste že…
 
 ## Download Modal
 
@@ -862,6 +891,8 @@ language-section-in-progress = Spouští se
 language-section-in-progress-new-description = Tyto jazyky jsou zatím v komunitním vývoji. Ukazatele informují o tom, jak daleko jazyk pokročil v <localizationGlossaryLink>překladu webu</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>sbírání vět</sentenceCollectionGlossaryLink>.
 language-section-launched = Spuštěno
 language-section-launched-description = V těchto jazycích už byly naše stránky <localizationGlossaryLink>přeloženy</localizationGlossaryLink> a mají i dostatek <sentenceCollectionGlossaryLink>nasbíraných vět</sentenceCollectionGlossaryLink> k tomu, aby bylo možné <speakLink>nahrávat</speakLink> a <listenLink>poslouchat</listenLink> hlasové příspěvky.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Poslední aktualizace: { $lastUpdatedTimeStamp }
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-meter-in-progress = Postup
@@ -933,6 +964,9 @@ listen-empty-state = Nahrávky ve vašem jazyce, které byste ještě mohli ově
 listen-loading-error =
     Další zvukové záznamy k poslechu již nemáme.
     Prosím, zkuste to znovu později.
+listen-abort-title = Dokončit ověřování klipů?
+listen-abort-cancel = Pokračovat v ověřování
+listen-abort-confirm = Dokončit ověřování
 speak-empty-state = Věty, které byste mohli ve vašem jazyce nahrát, nám už bohužel došly...
 speak-empty-state-cta = Přidejte další věty
 speak-loading-error =
@@ -1633,6 +1667,9 @@ continue-speaking-button = Ne, děkuji. Dál předčítat
 create-profile-text = Chcete informace uložit? <createProfile>Vytvořte si profil</createProfile>
 thanks-for-voice-toast = Děkuje za údaje o hlase.
 thanks-for-voice-toast-error = Při odesílání údajů o hlase došlo k chybě
+first-cta-gender-select-default-option = Vyberte možnost
+first-cta-gender-select-help-text =
+    .label = Jak byste popsali své pohlaví nebo gender?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Děkujeme, že jste přispěli svým hlasem!
 second-cta-subtitle-text = Pomocí profilu můžete sledovat svou aktivitu a spojit se s komunitou přispěvatelů hlasových dat.
@@ -1693,6 +1730,7 @@ public-domain = Public Domain
 citing-sentences = Uvádění zdrojů
 adding-sentences = Přidávání vět
 reviewing-sentences = Ověřování vět
+sentence-domain = Zařazení věty
 public-domain-explanation-1 = Je velmi důležité, aby všechny texty vět byly <publicDomain>public domain</publicDomain> (<cc0>cc0</cc0>), protože datová sada Common Voice se vydává pod licencí cc0. Věty nahrajte pouze tehdy, pokud jste si jisti, a vždy uveďte příslušný zdroj.
 public-domain-explanation-2 = Nejlepší věty pro sestavení užitečného nástroje pro rozpoznávání řeči jsou hovorové, moderní výrazy. Některé nápady, které vám pomohou při vytváření vět, jsou:
 public-domain-explanation-3 = Vytvářejte moderní, hovorové věty sami nebo se svými přáteli či jazykovou komunitou – například prostřednictvím „write-a-thon“
@@ -1731,8 +1769,11 @@ reviewing-sentences-explanation-1 = Splňuje-li věta výše uvedená kritéria,
 reviewing-sentences-explanation-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko "Ne".
 reviewing-sentences-explanation-3 = Pokud si větou nejste jisti, je možné ji přeskočit a přejít na další.
 reviewing-sentences-explanation-4 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
-# WRITE PAGE
-write-instruction-second-part = public domain věta
+domain-explanation = Zařazení se vztahuje k předmětu věty. V současné době si můžete vybrat mezi:
+
+## WRITE PAGE
+
+write-instruction = Přidat <icon></icon> větu jako volné dílo
 write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veřejně dostupného datasetu pod licencí cc-0.
 sentence =
     .label = Věta
@@ -1740,7 +1781,8 @@ sentence-input-value = Zde zadejte svou public doman větu
 citation-input-value = Zdroj zadané věty
 citation =
     .label = Zdroj
-what-can-i-add = Jaké druhy vět mohu přidat?
+sc-write-submit-confirm = Potvrzuji, že tato věta je <wikipediaLink>public domain</wikipediaLink> a mám oprávnění ji nahrát.
+sc-review-write-title = Jaké věty mohu přidat?
 new-sentence-rule-1 = <noCopyright>Bez omezení autorských práv</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Kratší než 15 slov
 new-sentence-rule-3 = Dbejte na gramatickou správnost
@@ -1757,16 +1799,83 @@ contact-us = Kontakt
 add-sentence-success = Přidána 1 věta
 add-sentence-error = Neúspěšné přidání věty
 required-field = Vyplňte prosím toto pole.
-# REVIEW PAGE
-sc-review-instruction-first-part = Ověřit
-sc-review-instruction-second-part = je tato věta jazykově správná?
+single-sentence-submission = Odeslání jedné věty
+bulk-sentence-submission = Odeslání více vět
+single-sentence = Jedna věta
+bulk-sentences = Více vět
+sentence-domain-select =
+    .label = Zařazení věty
+sentence-domain-select-placeholder = Vyberte až tři domény
+# Sentence Domain dropdown option
+agriculture = Zemědělství
+# Sentence Domain dropdown option
+automotive = Automobilový průmysl
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+food_service_retail = Jídlo, služby a maloobchod
+# Sentence Domain dropdown option
+general = Všeobecné
+# Sentence Domain dropdown option
+healthcare = Zdravotní péče
+# Sentence Domain dropdown option
+history_law_government = Historie, právo a stát
+# Sentence Domain dropdown option
+language_fundamentals = Základy jazyka (např. číslice, písmena, peníze)
+# Sentence Domain dropdown option
+media_entertainment = Média a zábava
+# Sentence Domain dropdown option
+nature_environment = Příroda a životní prostředí
+# Sentence Domain dropdown option
+news_current_affairs = Zprávy a události
+# Sentence Domain dropdown option
+technology_robotics = Technologie a robotika
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Zkontrolujte <icon></icon>, že je tato věta jazykově správně.
 sc-review-rules-title = Odpovídá věta doporučením?
 sc-review-empty-state = Tento jazyk nyní nemá k ověření žádné věty.
 report-sc-different-language = Další jazyk
 report-sc-different-language-detail = Je napsána v jiném jazyce, než jaký ověřuji.
 sentences-fetch-error = Při načítání vět došlo k chybě
 review-error = Při ověřování věty došlo k chybě
+review-error-rate-limit-exceeded = Jedete příliš rychle. Věnujte prosím chvíli kontrole věty, abyste se ujistili, že je správná.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Probíhají rozsáhlé úpravy
 sc-redirect-page-subtitle-1 = Aplikace Sentence Collector přechází na základní platformu Common Voice. Nyní můžete přímo na Common Voice jednotlivé věty <writeURL>psát</writeURL> nebo <reviewURL>ověřit</reviewURL>.
 sc-redirect-page-subtitle-2 = Ptejte se na <matrixLink>Matrixu</matrixLink>, <discourseLink>Discourse</discourseLink> nebo <emailLink>e-mailem</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Nahrát <icon></icon> věty jako volné dílo
+sc-bulk-upload-instruction = Přetáhněte sem soubor nebo <uploadButton>klepněte pro nahrání</uploadButton>
+sc-bulk-upload-instruction-drop = Sem přetáhněte soubor na nahrání
+bulk-upload-additional-information = Pokud chcete k tomuto souboru poskytnout další informace, kontaktujte nás prosím na adrese <emailFragment>commonvoice@mozilla.com</emailFragment>.
+template-file-additional-information = Pokud chcete o tomto souboru poskytnout další informace, které nejsou obsaženy v šabloně, kontaktujte nás prosím na adrese <emailFragment>commonvoice@mozilla.com</emailFragment>.
+try-upload-again = Zkuste to znovu přesunutím souboru sem
+try-upload-again-md = Zkuste nahrát znovu
+select-file = Vybrat soubor
+select-file-mobile = Vyberte soubor pro nahrání
+accepted-files = Přijímané typy souborů: pouze .tsv
+maximum-file-size = Maximální velikost souboru: 25 MB
+what-needs-to-be-in-file = Co musí být v mém souboru?
+what-needs-to-be-in-file-explanation = Podívejte se prosím na náš <templateFileLink>vzorový soubor</templateFileLink>. Vaše věty by neměly podléhat autorským právům (CC0 nebo autorizované původní dílo zadavatele) a měly by být jasné, gramaticky správné a snadno čitelné. Přečtení předložených vět by mělo trvat zhruba 10-15 sekund a neměly by obsahovat čísla, vlastní jména a speciální znaky.
+upload-progress-text = Probíhá nahrávání...
+sc-bulk-submit-confirm = Potvrzuji, že tyto věty jsou <wikipediaLink>public domain</wikipediaLink> a mám povolení je nahrát.
+bulk-upload-success-toast = Věty byly úspěšně odeslané
+bulk-upload-failed-toast = Nahrání se nezdařilo, zkuste to znovu.
+bulk-submission-success-header = Děkujeme za vaše hromadné odeslání!
+bulk-submission-success-subheader = Pomáháte iniciativě Common Voice dosáhnout našich denních cílů!
+upload-more-btn-text = Nahrát více vět?
+file-invalid-type = Neplatný soubor
+file-too-large = Soubor je příliš velký
+file-too-small = Soubor je příliš malý
+too-many-files = Příliš mnoho souborů
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Potřebujeme</mark><br/><mark>vaši pomoc!</mark>

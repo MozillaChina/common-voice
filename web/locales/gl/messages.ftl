@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Kurdo central
 cnh = Hakha Chin
 co = Corso
+crh = Tártaro de Crimea
 cs = Checo
 cv = Chuvaxo
 cy = Galés
@@ -69,16 +70,20 @@ eo = Esperanto
 es = Castelán
 et = Estonio
 eu = Éuscaro
+ewo = Euondo
 fa = Persa
 ff = Fula
 fi = Finés
 fo = Feroés
 fr = Francés
+fuf = Fula da Guinea
 fy-NL = Frisio
 ga-IE = Irlandés
 gl = Galego
 gn = Guaraní
 gom = Konkani de Goa
+gu-IN = Guxarati
+guc = Wayuu
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -98,6 +103,7 @@ it = Italiano
 izh = Ingrio
 ja = Xaponés
 jbo = Lojban
+jv = Xavanés
 ka = Xeorxiano
 kaa = Karakalpak
 kab = Cabilo
@@ -120,6 +126,7 @@ lo = Laosiano
 lt = Lituano
 ltg = Latgaliá
 lv = Letón
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malgaxe
@@ -151,6 +158,7 @@ nyn = Runyankole
 oc = Occitano
 om = Afaan Oromo
 or = Odia
+os = Oseto
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polaco
@@ -158,6 +166,7 @@ ps = Patxo
 pt = Portugués
 quc = Quiché
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romanche sursilvano
 rm-vallader = Romanche vallader
 ro = Romanés
@@ -167,6 +176,8 @@ sah = Iacut
 sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sco = Scots
+sd = Sindhi
 sdh = Kurdo do sur
 shi = Shilha
 si = Cingalés
@@ -207,7 +218,9 @@ uz = Uzbeko
 ve = Venda
 vec = Veneciano
 vi = Vietnamita
+vmw = Macua
 vot = Vótico
+wep = Westfaliano
 wo = Wolof
 xh = Xosa
 yi = Yiddish
@@ -244,6 +257,7 @@ share-text = Axude a ensinarlles ás máquinas como falamos, doe a súa voz en {
 link-copied = Ligazón copiada
 back-top = Volver arriba
 logout = Cerrar sesión
+donate = Doazóns
 
 ## Home Page
 
@@ -386,7 +400,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Xénero
 leaderboard-visibility =
-    .label = Visibilidade da táboa de clasificación
+    .label = Visibilidade na táboa de clasificación
 hidden = Agochada
 visible = Visible
 native-language =
@@ -394,12 +408,16 @@ native-language =
 profile-form-add-accent = Engada un novo acento personalizado "{ $inputValue }"
 profile-form-submit-save = Gardar
 profile-form-submit-saved = Gardado
-male = Masculino
-female = Feminino
+male_masculine = Macho/Masculino
+female_feminine = Femia/Feminino
+intersex = Intersexual
+transgender = Transxénero
+non-binary = Non binario
+do_not_wish_to_say = Prefiro non responder
 # Gender
 other = Outro
-why-profile-title = Por que un perfil?
-why-profile-text = Ao fornecer algunha información sobre si, os datos de son que vostede envía a Common Voice serán máis adecuados para os motores de recoñecemento da fala que os utilicen con fin de mellorar a súa precisión.
+why-profile-title = Por que crear un perfil?
+why-profile-text = Ao fornecer algunha información sobre si, os datos de son que vostede envía a Common Voice serán máis adecuados para os motores de recoñecemento da fala que os utilicen co fin de mellorar a súa precisión.
 dashboard = Taboleiro
 build-profile = Construír o perfil
 avatar = Avatar
@@ -431,6 +449,8 @@ help-accent = Necesita axuda co acento?
 help-accent-explanation = O acento é a forma en que pronuncia as palabras. Poden influír nel o(s) lugar(es) onde viviu, as outras linguas que fala e moitos outros factores. Pode compartir aquí calquera información que considere relevante.
 help-variants = Necesita axuda coas variedades?
 help-variants-explanation = As variedades son formas específicas dunha lingua. Por exemplo, unha variedade é a que comparten as persoas que viven nunha determinada zona xeográfica ou comunidade. Ás veces estas chámanse dialectos.
+help-sex-or-gender-changes = Necesita axuda cos cambios de sexo ou xénero?
+help-sex-or-gender-changes-explanation = Estamos ofrecendo máis opcións para darlle máis opcións á xente no que nos di sobre o seu sexo ou identidade de xénero. Por favor, autodescríbase da forma que lle pareza máis natural. <learnMoreLink>Obteña máis información sobre o noso enfoque do sexo e o xénero.</learnMoreLink>
 
 ## Profile - Email
 
@@ -558,8 +578,8 @@ about-clip-graveyard-text = O Cemiterio de fragmentos contén fragmentos de voz 
 about-get-involved = Participe
 about-get-involved-text-2 =
     Quere axudar a mellorar Common Voice?
-    Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>
-    remita incidencias da páxina vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
+    Xenial! Póñase en contacto vía correo electrónico ou vía os foros <discourseLink>Discourse</discourseLink>,
+    remita incidencias da páxina vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade en <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como estar en contacto?
 about-stay-in-touch-button = Unirse
 about-stay-in-touch-text-1 = <emailFragment>Unirse</emailFragment> á nosa lista de correo para descubrir como participar en campañas, eventos e iniciativas de mellora de Common Voice.
@@ -616,7 +636,6 @@ about-playbook-how-add-sentences = Como engadir frases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> é unha ferramenta para recompilar e validar frases de dominio público. Para empregala, debe <scAccountLink>crear unha conta</scAccountLink> e, logo, engadir o seu idioma ao seu <strong>perfil</strong>. Pode <strong>engadir</strong> frases ou <strong>revisar</strong> frases engadidas anteriormente.
 about-playbook-how-add-sentences-content-2 = As frases deben ser revisadas e aceptadas por dúas persoas para ser incluídas en Common Voice. Cree directrices para o seu idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. As frases deben ser de <licenseLink>dominio público</licenseLink> e ter menos de 15 palabras. Pode solicitarlle ao propietario dun texto que o faga <waiverLink>de dominio público (licenza CC0) mediante o noso proceso de cesión de dereitos</waiverLink> e enviárnolo a commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Pode empregar o <scraperLink>extractor de frases</scraperLink> para aproveitar frases curtas da Wikipedia.
-about-playbook-how-add-sentences-content-4 = As frases que foron validadas expórtanse os mércores e están dispoñibles despois da seguinte actualización.
 
 ## How to record quality
 
@@ -663,6 +682,13 @@ about-playbook-how-project-governance-content-4 = Participación e toma de decis
 about-playbook-how-project-governance-content-5 = Valorización e recoñecemento.
 about-playbook-how-project-governance-content-6 = Responsabilidade mutua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Saber máis sobre a nosa gobernanza</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Como se financia Common Voice?
+about-playbook-how-funded-content-1 = Common Voice é un proxecto da Fundación Mozilla, unha organización sen ánimo de lucro segundo a lei federal dos Estados Unidos. O proxecto está financiado na súa totalidade a través de <philantropicGrantLink>subvencións filantrópicas</philantropicGrantLink> e doazóns de persoas de todo o mundo.
+about-playbook-how-funded-content-2 = É moi custoso aloxar e liberar continuamente os conxuntos de datos, mellorar a plataforma e levar a cabo <africaMradiLink>programas comunitarios</africaMradiLink>.
+about-playbook-how-funded-content-3 = Se vostede ou a súa organización quere contribuír ao proxecto, pode facer unha <donateLink>doazón</donateLink> ou contactar co noso equipo en <emailFragment>commonvoice@mozilla.com</emailFragment> para facerse socio.
 
 ## Glossary
 
@@ -728,7 +754,7 @@ datasets-positioning =
     
     O conxunto de datos multilingüe de Common Voice xa é o maior conxunto de datos de voz do seu tipo que está dispoñible publicamente, mais non é o único.
     
-    Emprege esta página como centro de referencia para outros conxuntos de datos de voz de código abierto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
+    Empregue esta páxina como centro de referencia para outros conxuntos de datos de voz de código aberto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
 language = Idioma
 download-dataset-header = Descargar o conxunto de datos
 download-delta-explainer = Fixemos algúns cambios. Os segmentos Delta só conteñen os fragmentos máis recentes desde a última actualización. <deltaLink>Saber máis sobre este traballo</deltaLink>.
@@ -739,10 +765,12 @@ validated-hr-total = Total de horas validado
 overall-hr-total = Total xeral de horas
 cv-license = Licenza
 audio-format = Formato de son
+dataset-splits = Subconxuntos (por idade e xénero)
 number-of-voices = Número de voces
 splits = Subconxuntos
 email-to-download = Escriba o enderezo de correo para descargar
-why-email = <b>Por que un enderezo de correo?</b> É posible que precisemos poñernos en contacto con vostede no futuro para trasladarlle posibles cambios no conxuto de datos.
+why-email = <b>Por que un enderezo de correo?</b> É posible que precisemos poñernos en contacto con vostede no futuro para trasladarlle posibles cambios no conxunto de datos.
+why-donate-datasets-page = Mozilla Common Voice é o conxunto de datos de voz aberto de colaboración pública máis diversificado do mundo e é mantido enteiramente por doazóns. Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades de idiomas que dependen do que facemos. Se valora os datos abertos e inclusivos, <b>faga unha doazón!</b>
 confirm-size = Estou preparado para iniciar unha descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -755,12 +783,14 @@ whats-inside = Que inclúe o conxunto de datos de Common Voice?
 dataset-description-hours =
     Cada entrada do conxunto de datos consta dun único ficheiro MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a mellorar a precisión dos modelos de recoñecemento da fala.
     
-    O conxunto de datos inclúe actualmente <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero estamos a engadir constantemente máis voces e idiomas. Visite á nosa <languagesLink>pestana Idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
+    O conxunto de datos inclúe actualmente <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero estamos a engadir constantemente máis voces e idiomas. Visite a nosa <languagesLink>pestana Idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
 want-dataset-update = Quere recibir actualizacións de cando publicamos unha nova versión do conxunto de datos Common Voice? Subscríbase ao noso boletín.
 subscribe = Subscribir
 get-started-speech = Introdución ao recoñecemento da fala
 other-datasets = Outros conxuntos de datos de voz
 feedback-q = Desexa facer comentarios?
+# This indicates that there is no data to display
+no-information = Non hai información dispoñible
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ é un <docsLink>conxunto de ferramentas de código aberto</docsLink> para investigadores/as que desenvolven modelos conversacionais de última xeración.
 resource-deepspeech-info = Deep Speech é un motor de recoñecemento da fala de código aberto desenvolto por Mozilla que se pode usar para crear aplicacións de recoñecemento da fala. Consulte a nosa <githubLink>descrición xeral en Github</githubLink> e únase ao <discourseLink>DeepSpeech Discourse</discourseLink> para descubrir como comezar.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> dedícase á tecnoloxía da fala de código aberto. Os seus proxectos inclúen modelos de voz-a-texto e de texto-a-voz baseados na aprendizaxe profunda.
@@ -783,6 +813,15 @@ dataset-version = Versión
 sha256-checksum-copied = Copiouse a suma de verificación SHA256.
 sha256-checksum-copied-error = Produciuse un erro ao copiar a suma de verificación SHA256
 clipboard-not-supported = O portapapeis non é compatible
+no-information-available = Non hai información dispoñíbel
+dataset-metadata-sex = Xénero
+# dataset metadata - age of contributor
+dataset-metadata-age = Idade
+donate-modal-message = O seu conxunto de datos estase descargando!
+dataset-donate-modal-heading = Sabía…
+donate-modal-explanation-1 = Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que confían no que facemos?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = { "" }
 
 ## Download Modal
 
@@ -857,6 +896,8 @@ language-section-in-progress = En curso
 language-section-in-progress-new-description = Estes idiomas están actualmente en desenvolvemento por parte da comunidade. As barras de progreso indican en que punto se encontra cada un deles nos procesos de <localizationGlossaryLink>tradución da páxina</localizationGlossaryLink> e de <sentenceCollectionGlossaryLink>recollida de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = En produción
 language-section-launched-description = Os idiomas en produción teñen a páxina web completamente <localizationGlossaryLink>traducida</localizationGlossaryLink> e contan con suficientes <sentenceCollectionGlossaryLink>frases recollidas</sentenceCollectionGlossaryLink> para aceptar contribucións de <speakLink>Fala</speakLink> e <listenLink>Escoita</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Última actualización: { $lastUpdatedTimeStamp }
 languages-show-more = Ver máis
 languages-show-less = Ver menos
 language-meter-in-progress = Progreso
@@ -926,6 +967,9 @@ listen-empty-state = Posiblemente esgotamos os fragmentos para aprobar: actualic
 listen-loading-error =
     Non foi posible atopar ningún fragmento de audio para que o escoite.
     Por favor inténteo de novo máis tarde.
+listen-abort-title = Quere rematar de validar os fragmentos?
+listen-abort-cancel = Seguir validando
+listen-abort-confirm = Finalizar a validación
 speak-empty-state = Esgotamos as frases para gravar neste idioma
 speak-empty-state-cta = Propor novas frases
 speak-loading-error =
@@ -1631,6 +1675,9 @@ continue-speaking-button = Non, grazas. Prefiro seguir falando
 create-profile-text = Quere gardar a súa información? <createProfile>Crear un perfil</createProfile>
 thanks-for-voice-toast = Grazas pola información sobre a súa voz
 thanks-for-voice-toast-error = Produciuse un erro ao enviar a información sobre a súa voz
+first-cta-gender-select-default-option = Seleccione unha opción
+first-cta-gender-select-help-text =
+    .label = Como describiría o seu sexo ou xénero?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Grazas por aportar a súa voz!
 second-cta-subtitle-text = Cun perfil, pode facer o seguimento da súa actividade e participar na comunidade de colaboradores de datos de voz.
@@ -1691,6 +1738,7 @@ public-domain = Dominio Público
 citing-sentences = Citar frases
 adding-sentences = Engadir frases
 reviewing-sentences = Revisar frases
+sentence-domain = Dominio ao que pertence a frase
 public-domain-explanation-1 = É moi importante que todas as frases sexan de <publicDomain>dominio público</publicDomain> (<cc0>cc0</cc0>), xa que o conxunto de datos de Common Voice se publica baixo licenza cc0. Antes de subir frases, asegúrese diso e inclúa sempre a cita correspondente.
 public-domain-explanation-2 = As mellores frases para construír un motor de recoñecemento da fala útil son as da linguaxe coloquial e actual. A seguir atopará unha serie de ideas para axudarlle a xerar frases:
 public-domain-explanation-3 = Cree frases actuais e coloquiais en solitario, cos seus amigos ou coa súa comunidade lingüística, por exemplo, a través dun maratón de escritura
@@ -1729,8 +1777,11 @@ reviewing-sentences-explanation-1 = Se a frase cumpre os criterios anteriores, p
 reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriores, prema no botón "Non".
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
-# WRITE PAGE
-write-instruction-second-part = unha frase de dominio público
+domain-explanation = O dominio refírese ao asunto da oración. Actualmente, pode escoller entre:
+
+## WRITE PAGE
+
+write-instruction = Engada <icon></icon> unha frase de dominio público
 write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
     .label = Frase
@@ -1738,7 +1789,8 @@ sentence-input-value = Introduza aquí a súa frase de dominio público
 citation-input-value = Orixe da súa frase
 citation =
     .label = Cita
-what-can-i-add = Que tipos de frases podo engadir?
+sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargala.
+sc-review-write-title = Que frases podo engadir?
 new-sentence-rule-1 = <noCopyright>Sen restricións de copyright</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menos de 15 palabras
 new-sentence-rule-3 = Usar a gramática correcta
@@ -1749,22 +1801,94 @@ new-sentence-rule-7 = Incluír a cita axeitada
 new-sentence-rule-8 = Idealmente natural e conversacional (debería ser fácil de ler a frase)
 how-to-cite = Como citar?
 how-to-cite-explanation-bold = Citar coa URL da ligazón ou co nome completo da obra.
-how-to-cite-explanation = Se son as súas propias palabras, simplemente diga <italicizedText>«Cita propia»</italicizedText>. Necesitamos saber onde atopou este contido para poder comprobar que é de dominio público e non se aplican restricións de copyright. Para obter máis información sobre as citas, consulte a nosa <guidelinesLink>páxina de directrices</guidelinesLink>.
+how-to-cite-explanation = Se son as súas propias palabras, simplemente poña <italicizedText>«Cita propia»</italicizedText>. Necesitamos saber onde atopou este contido para poder comprobar que é de dominio público e non se aplican restricións de copyright. Para obter máis información sobre as citas, consulte a nosa <guidelinesLink>páxina de directrices</guidelinesLink>.
 guidelines = Directrices
 contact-us = Contacta connosco
 add-sentence-success = 1 frase recollida
 add-sentence-error = Produciuse un erro ao engadir a frase
 required-field = Por favor, cubra este campo.
-# REVIEW PAGE
-sc-review-instruction-first-part = Comprobar:
-sc-review-instruction-second-part = é esta unha frase lingüisticamente correcta?
+single-sentence-submission = Envío dunha única frase
+bulk-sentence-submission = Envío masivo de frases
+single-sentence = Frase única
+bulk-sentences = Grupo de frases
+sentence-domain-select =
+    .label = Dominio da oración
+sentence-domain-select-placeholder = Seleccione ata tres campos
+# Sentence Domain dropdown option
+agriculture = Agricultura
+# Sentence Domain dropdown option
+automotive = Automoción
+# Sentence Domain dropdown option
+finance = Finanzas
+# Sentence Domain dropdown option
+food_service_retail = Alimentos, servizos e comercio polo miúdo
+# Sentence Domain dropdown option
+general = Xeral
+# Sentence Domain dropdown option
+healthcare = Asistencia sanitaria
+# Sentence Domain dropdown option
+history_law_government = Historia, dereito e goberno
+# Sentence Domain dropdown option
+language_fundamentals = Categorías básicas da lingua (por exemplo, díxitos, letras, diñeiro)
+# Sentence Domain dropdown option
+media_entertainment = Medios e entretemento
+# Sentence Domain dropdown option
+nature_environment = Natureza e medio ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Noticias e actualidade
+# Sentence Domain dropdown option
+technology_robotics = Tecnoloxía e robótica
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Revise a frase: <icon></icon> é esta unha frase lingüísticamente correcta?
 sc-review-rules-title = A frase cumpre as directrices?
 sc-review-empty-state = Actualmente non hai frases para revisar neste idioma.
 report-sc-different-language = Idioma diferente
 report-sc-different-language-detail = Está escrita nun idioma diferente ao que estou revisando.
 sentences-fetch-error = Produciuse un erro ao recuperar as frases
 review-error = Produciuse un erro ao revisar esta frase
+review-error-rate-limit-exceeded = Vai moi á présa. Tómese un momento para revisar a frase e comprobar que é correcta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos a facer grandes cambios
 sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos de frases soltas no Common Voice.
 sc-redirect-page-subtitle-2 = Fáganos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>correo electrónico</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Envíe <icon></icon> frases de dominio público
+sc-bulk-upload-instruction = Arrastre o seu ficheiro aquí ou <uploadButton>prema para envialo</uploadButton>
+sc-bulk-upload-instruction-drop = Solte o ficheiro aquí para cargalo
+bulk-upload-additional-information = Se quere achegar máis información sobre este ficheiro, póñase en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Se quere achegar información sobre este ficheiro que non está incluída no modelo, póñase en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Inténteo de novo arrastrando o ficheiro aquí
+try-upload-again-md = Intente cargar de novo
+select-file = Seleccionar un ficheiro
+select-file-mobile = Seleccione un ficheiro para cargar
+accepted-files = Tipos de ficheiros aceptados: unicamente .tsv
+maximum-file-size = Tamaño máximo do ficheiro: 25 MB
+what-needs-to-be-in-file = Que ten que estar no meu ficheiro?
+what-needs-to-be-in-file-explanation = Comprobe o noso <templateFileLink>ficheiro modelo</templateFileLink>. As súas frases deben estar libres de dereitos de autor (CC0 ou traballo orixinal autorizado polo remitente) e deben ser claras, gramaticalmente correctas e fáciles de ler. Deberíase tardar uns 10-15 segundos en ler cada frase. Evite incluír nas frases enviadas caracteres numéricos, nomes propios e caracteres especiais.
+upload-progress-text = Subida en curso...
+sc-bulk-submit-confirm = Confirmo que estas frases son de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargalas.
+bulk-upload-success-toast = Cargouse o grupo de frases
+bulk-upload-failed-toast = Produciuse un erro na carga. Ténteo de novo.
+bulk-submission-success-header = Grazas por contribuír co seu envío masivo.
+bulk-submission-success-subheader = Acaba de axudar a que Common Voice alcance os obxectivos diarios de subida de frases!
+upload-more-btn-text = Desexa cargar máis frases?
+file-invalid-type = O ficheiro non é válido.
+file-too-large = O ficheiro é demasiado grande
+file-too-small = O ficheiro é demasiado pequeno
+too-many-files = Demasiados ficheiros
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Precisamos</mark><br/><mark>da súa axuda!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que dependen do noso traballo. <strong>Se valora os datos abertos e inclusivos, faga unha doazón hoxe.</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Está a usar CV para</mark><br/><mark>a súa investigación?</mark>
+languages-donate-banner-cta-explanation = Common Voice está financiado a través de doazóns e subvencións! Para nós é un pracer colaborar coa comunidade investigadora, a sociedade civil e o sector industrial. Malia que o uso de Common Voice é gratuíto, resúltanos moi útil recibir propostas de subvencións que axuden a cubrir os custos da plataforma e a almacenaxe dos datos.

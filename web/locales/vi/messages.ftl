@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Tiếng Soran
 cnh = Hakha Chin
 co = Corsican
+crh = Thổ Nhĩ Kỳ
 cs = Séc
 cv = Chuvash
 cy = Wales
@@ -69,16 +70,20 @@ eo = Quốc tế ngữ
 es = Tây Ban Nha
 et = Estonia
 eu = Basque
+ewo = Ewondo
 fa = Ba Tư
 ff = Fula
 fi = Phần Lan
 fo = Faroe
 fr = Pháp
+fuf = Pular Guinea
 fy-NL = Frisia
 ga-IE = Ireland
 gl = Galicia
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Do Thái
 hi = Hindi
@@ -98,6 +103,7 @@ it = Ý
 izh = Izhorian
 ja = Nhật
 jbo = Lojban
+jv = Javanese
 ka = Gruzia
 kaa = Karakalpak
 kab = Kabyle
@@ -120,6 +126,7 @@ lo = Lào
 lt = Litva
 ltg = Latgalian
 lv = Latvia
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagasy
@@ -151,6 +158,7 @@ nyn = Nyankole
 oc = Occitan
 om = Afaan Ormoo
 or = Odia
+os = Ossetia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Ba Lan
@@ -158,6 +166,7 @@ ps = Pashto
 pt = Bồ Đào Nha
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romansh Sursilva
 rm-vallader = Romansh
 ro = Rumani
@@ -167,6 +176,8 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardinia
 scn = Sicilian
+sco = Scots
+sd = Sindhi
 sdh = Southern Kurdish
 shi = Shilha
 si = Sinhala
@@ -207,7 +218,9 @@ uz = Uzbek
 ve = Tshivenda
 vec = Venetian
 vi = Việt
+vmw = Emakhuwa
 vot = Votic
+wep = Westphalian
 wo = Wolof
 xh = Xhosa
 yi = Yiddish
@@ -244,6 +257,7 @@ share-text = Hãy giúp dạy cho các phần mềm cách nói chuyện của co
 link-copied = Đã sao chép liên kết
 back-top = Trở về đầu trang
 logout = Đăng xuất
+donate = Quyên góp
 
 ## Home Page
 
@@ -390,8 +404,12 @@ native-language =
 profile-form-add-accent = Thêm trọng âm tùy chỉnh mới "{ $inputValue }"
 profile-form-submit-save = Lưu
 profile-form-submit-saved = Đã lưu
-male = Nam
-female = Nữ
+male_masculine = Nam/Nam tính
+female_feminine = Nữ/Nữ tính
+intersex = Liên giới tính
+transgender = Chuyển giới
+non-binary = Phi nhị nguyên giới
+do_not_wish_to_say = Không muốn nói
 # Gender
 other = Khác
 why-profile-title = Tại sao phải tạo một hồ sơ?
@@ -427,6 +445,8 @@ help-accent = Cần một số trợ giúp về trọng âm?
 help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
 help-variants = Cần một số trợ giúp với biến thể?
 help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
+help-sex-or-gender-changes = Cần trợ giúp về việc thay đổi giới tính?
+help-sex-or-gender-changes-explanation = Chúng tôi đang cung cấp nhiều lựa chọn hơn để giúp mọi người có nhiều lựa chọn hơn trong những gì họ cho chúng tôi biết về giới tính của họ. Hãy tự miêu tả theo cách mà bạn cảm thấy tự nhiên nhất. <learnMoreLink>Tìm hiểu thêm về cách tiếp cận của chúng tôi về giới tính.</learnMoreLink>
 
 ## Profile - Email
 
@@ -612,7 +632,6 @@ about-playbook-how-add-sentences = Làm cách nào để thêm câu?
 about-playbook-how-add-sentences-content-1 = <strong>Công cụ thu thập câu</strong> là một công cụ để thu thập và xác thực các câu trong miền công cộng. Bạn sẽ <scAccountLink>cần tạo một tài khoản</scAccountLink>. Sau đó, thêm ngôn ngữ của bạn vào <strong>Hồ sơ</strong> của bạn. Bạn có thể <strong>thêm</strong> câu hoặc <strong>xem lại</strong> các câu đã thêm trước đó.
 about-playbook-how-add-sentences-content-2 = Các câu phải được hai người xem xét và chấp nhận mới được đưa vào Common Voice. Bạn tạo nguyên tắc cho ngôn ngữ của mình <languageGuidelinesLink>tại đây</languageGuidelinesLink>. Các câu phải nằm trong <licenseLink>miền công khai</licenseLink> và ngắn hơn 15 từ. Bạn có thể yêu cầu chủ sở hữu của văn bản đặt nó thành <waiverLink>CC0 sử dụng quy trình từ bỏ của chúng tôi</waiverLink> và gửi cho chúng tôi theo địa chỉ commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Bạn có thể sử dụng <scraperLink>công cụ trích xuất câu</scraperLink> để tận dụng các câu ngắn từ Wikipedia.
-about-playbook-how-add-sentences-content-4 = Các câu đã được xác thực sẽ được xuất vào các ngày Thứ Tư và có sẵn sau bản phát hành tiếp theo.
 
 ## How to record quality
 
@@ -659,6 +678,13 @@ about-playbook-how-project-governance-content-4 = Sự tham gia của cộng đ�
 about-playbook-how-project-governance-content-5 = Giá trị và sự công nhận.
 about-playbook-how-project-governance-content-6 = Trách nhiệm giải trình.
 about-playbook-how-project-governance-content-7 = <governanceLink>Đọc thêm về cách chúng tôi quản lý</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice được tài trợ như thế nào?
+about-playbook-how-funded-content-1 = Common Voice là một dự án của Mozilla Foundation, a US 501c3. Dự án hiện được tài trợ hoàn toàn bởi <philantropicGrantLink>tài trợ từ thiện</philantropicGrantLink>, và sự quyên góp từ mọi người trên khắp thế giới.
+about-playbook-how-funded-content-2 = Sẽ tốn rất nhiều tiền để liên tục lưu trữ và phát hành các bộ dữ liệu, cải thiện nền tảng và chạy <africaMradiLink>chương trình cộng đồng</africaMradiLink>.
+about-playbook-how-funded-content-3 = Nếu bạn hoặc tổ chức của bạn muốn đóng góp lại cho dự án, bạn có thể <donateLink>quyên góp</donateLink> hoặc liên hệ với nhóm đối tác của chúng tôi trên <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -735,10 +761,12 @@ validated-hr-total = Tổng số giờ đã xác nhận
 overall-hr-total = Tổng số giờ
 cv-license = Giấy phép
 audio-format = Định dạng âm thanh
+dataset-splits = Chia tách (tuổi và giới tính)
 number-of-voices = Số lượng tiếng nói
 splits = Tách
 email-to-download = Nhập email để tải xuống
 why-email = <b>Tại sao lại cần email?</b> Chúng tôi có thể cần liên hệ với bạn trong tương lai về các thay đổi đối với tập dữ liệu, một email cung cấp cho chúng tôi một điểm liên hệ.
+why-donate-datasets-page = Mozilla Common Voice là tập dữ liệu giọng nói mở được huy động từ cộng đồng đa dạng nhất trên thế giới - và chúng tôi được hỗ trợ hoàn toàn bởi sự đóng góp. Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm. Nếu bạn coi trọng dữ liệu mở, toàn diện - <b>hãy quyên góp hôm nay!</b>
 confirm-size = Bạn đã sẵn sàng để bắt đầu tải xuống <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -757,6 +785,8 @@ subscribe = Đăng kí
 get-started-speech = Bắt đầu với nhận dạng giọng nói
 other-datasets = Bộ dữ liệu thoại khác
 feedback-q = Có phản hồi?
+# This indicates that there is no data to display
+no-information = Không có thông tin
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ là một <docsLink>bộ công cụ mã nguồn mở</docsLink> dành cho các nhà nghiên cứu đang phát triển các mô hình AI đàm thoại hiện đại.
 resource-deepspeech-info = Công cụ nhận dạng giọng nói nguồn mở Deep Speech của Mozilla có thể được sử dụng để xây dựng các ứng dụng nhận dạng giọng nói. Đọc <githubLink>tổng quan Github</githubLink> của chúng tôi hoặc tham gia <discourseLink>Discourse của DeepSpeech</discourseLink> để tìm hiểu cách bắt đầu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink>dành riêng cho công nghệ lời nói cởi mở. Các dự án của họ bao gồm các công cụ STT và TTS dựa trên deep learning.
@@ -779,6 +809,15 @@ dataset-version = Phiên bản
 sha256-checksum-copied = Đã sao chép Checksum SHA256!
 sha256-checksum-copied-error = Không thể sao chép Checksum SHA256
 clipboard-not-supported = Khay nhớ tạm không được hỗ trợ
+no-information-available = Không có thông tin có sẵn
+dataset-metadata-sex = Giới tính
+# dataset metadata - age of contributor
+dataset-metadata-age = Tuổi
+donate-modal-message = Tập dữ liệu của bạn đang được tải xuống!
+dataset-donate-modal-heading = Bạn có biết…
+donate-modal-explanation-1 = Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Nếu bạn coi trọng dữ liệu mở, toàn diện - hãy quyên góp ngay hôm nay!</bold>
 
 ## Download Modal
 
@@ -855,6 +894,8 @@ language-section-in-progress = Trong tiến trình
 language-section-in-progress-new-description = Những ngôn ngữ này hiện đang được phát triển cộng đồng. Các thanh tiến trình cho biết mỗi ngôn ngữ trong quá trình <localizationGlossaryLink>bản địa hóa trang web</localizationGlossaryLink> và <sentenceCollectionGlossaryLink>thu thập câu</sentenceCollectionGlossaryLink>.
 language-section-launched = Ra mắt
 language-section-launched-description = Đối với những ngôn ngữ được phát hành này, trang web đã được <localizationGlossaryLink>bản địa hóa</localizationGlossaryLink> thành công và có đủ <sentenceCollectionGlossaryLink>các câu được thu thập</sentenceCollectionGlossaryLink> để cho phép đóng góp <speakLink>Nói</speakLink> và <listenLink>Nghe</listenLink> liên tục.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Cập nhật lần cuối: { $lastUpdatedTimeStamp }
 languages-show-more = Xem thêm
 languages-show-less = Xem ít hơn
 language-meter-in-progress = Tiến trình
@@ -922,6 +963,9 @@ listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực b�
 listen-loading-error =
     Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
     Vui lòng thử lại sau.
+listen-abort-title = Hoàn tất xác thực clip?
+listen-abort-cancel = Tiếp tục xác thực
+listen-abort-confirm = Hoàn tất xác thực
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
 speak-empty-state-cta = Đóng góp câu
 speak-loading-error =
@@ -1628,6 +1672,9 @@ continue-speaking-button = Không, cảm ơn, tiếp tục nói
 create-profile-text = Bạn muốn lưu thông tin của bạn? <createProfile>Tạo hồ sơ</createProfile>
 thanks-for-voice-toast = Cảm ơn thông tin giọng nói của bạn
 thanks-for-voice-toast-error = Đã xảy ra lỗi khi gửi thông tin giọng nói của bạn
+first-cta-gender-select-default-option = Chọn một tùy chọn
+first-cta-gender-select-help-text =
+    .label = Bạn mô tả giới tính của mình như thế nào?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Cảm ơn bạn đã đóng góp tiếng nói của bạn!
 second-cta-subtitle-text = Với một hồ sơ, bạn có thể theo dõi hoạt động của mình và kết nối với cộng đồng những người đóng góp dữ liệu giọng nói.
@@ -1726,8 +1773,10 @@ reviewing-sentences-explanation-1 = Nếu câu đáp ứng các tiêu chí trên
 reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút "Không".
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
-# WRITE PAGE
-write-instruction-second-part = một câu trong phạm vi công cộng
+
+## WRITE PAGE
+
+write-instruction = Thêm <icon></icon> một câu thuộc phạm vi công cộng
 write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
 sentence =
     .label = Câu
@@ -1735,7 +1784,8 @@ sentence-input-value = Nhập câu thuộc phạm vi công cộng của bạn v�
 citation-input-value = Nguồn câu của bạn
 citation =
     .label = Nguồn trích dẫn
-what-can-i-add = Tôi có thể thêm những loại câu nào?
+sc-write-submit-confirm = Tôi xác nhận rằng câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải nó lên.
+sc-review-write-title = Tôi có thể thêm những câu nào?
 new-sentence-rule-1 = <noCopyright>Không hạn chế bản quyền</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Ít hơn 15 từ
 new-sentence-rule-3 = Sử dụng đúng ngữ pháp
@@ -1752,16 +1802,85 @@ contact-us = Liên hệ với chúng tôi
 add-sentence-success = 1 câu đã sưu tập
 add-sentence-error = Lỗi khi thêm câu
 required-field = Vui lòng điền vào trường này.
-# REVIEW PAGE
-sc-review-instruction-first-part = Séc
-sc-review-instruction-second-part = Đây có phải là một câu đúng về mặt ngôn ngữ không?
+single-sentence-submission = Gửi câu riêng lẻ
+bulk-sentence-submission = Gửi hàng loạt câu
+single-sentence = Câu đơn
+bulk-sentences = Hàng loạt câu
+# Sentence Domain dropdown option
+agriculture = Nông nghiệp
+# Sentence Domain dropdown option
+automotive = Công nghiệp ô tô
+# Sentence Domain dropdown option
+finance = Tài chính
+# Sentence Domain dropdown option
+food_service_retail = Thực phẩm, dịch vụ và bán lẻ
+# Sentence Domain dropdown option
+general = Tổng quát
+# Sentence Domain dropdown option
+healthcare = Chăm sóc sức khoẻ
+# Sentence Domain dropdown option
+history_law_government = Lịch sử, luật pháp và chính phủ
+# Sentence Domain dropdown option
+language_fundamentals = Nguyên tắc cơ bản về ngôn ngữ (ví dụ: chữ số, chữ cái, tiền)
+# Sentence Domain dropdown option
+media_entertainment = Truyền thông và giải trí
+# Sentence Domain dropdown option
+nature_environment = Thiên nhiên và môi trường
+# Sentence Domain dropdown option
+news_current_affairs = Tin tức và thời sự
+# Sentence Domain dropdown option
+technology_robotics = Công nghệ và máy móc
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kiểm tra <icon></icon> đây có phải là một câu đúng về mặt ngôn ngữ không?
 sc-review-rules-title = Liệu câu đáp ứng các nguyên tắc?
 sc-review-empty-state = Hiện tại không có câu nào để xem lại bằng ngôn ngữ này.
 report-sc-different-language = Ngôn ngữ khác
 report-sc-different-language-detail = Nó được viết bằng một ngôn ngữ khác với những gì tôi đang xem xét.
 sentences-fetch-error = Đã xảy ra lỗi khi tải câu
 review-error = Đã xảy ra lỗi khi xem xét câu này
+review-error-rate-limit-exceeded = Bạn đang đi quá nhanh. Hãy dành một chút thời gian để xem lại câu để đảm bảo nó đúng.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
 sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
 sc-redirect-page-subtitle-2 = Đặt câu hỏi cho chúng tôi trên <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> hoặc <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tải lên <icon></icon> các câu thuộc phạm vi công cộng
+sc-bulk-upload-instruction = Kéo tập tin của bạn vào đây hoặc <uploadButton>nhấp vào đây để tải lên</uploadButton>
+sc-bulk-upload-instruction-drop = Thả tập tin vào đây để tải lên
+bulk-upload-additional-information = Nếu có thêm thông tin bạn muốn cung cấp về tập tin này, vui lòng liên hệ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Nếu có thông tin bổ sung bạn muốn cung cấp về tập tin này mà nó không có trong mẫu, vui lòng liên hệ <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Hãy thử lại bằng cách kéo tập tin của bạn vào đây
+try-upload-again-md = Hãy thử tải lên lại
+select-file = Chọn tập tin
+select-file-mobile = Chọn tập tin để tải lên
+accepted-files = Các loại tập tin được chấp nhận: chỉ .tsv
+maximum-file-size = Kích thước tối đa của tập tin: 25 MB
+what-needs-to-be-in-file = Những gì cần có trong hồ sơ của tôi?
+what-needs-to-be-in-file-explanation = Hãy xem qua <templateFileLink>tập tin mẫu</templateFileLink> của chúng tôi. Câu của bạn phải không có bản quyền (CC0 hoặc tác phẩm gốc được người gửi cho phép) và rõ ràng, đúng ngữ pháp và dễ đọc. Các câu đã gửi sẽ mất khoảng 10-15 giây để đọc và nên tránh bao gồm số, danh từ riêng và ký tự đặc biệt.
+upload-progress-text = Đang tải lên...
+sc-bulk-submit-confirm = Tôi xác nhận rằng những câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải chúng lên.
+bulk-upload-success-toast = Đã gửi hàng loạt câu
+bulk-upload-failed-toast = Tải lên không thành công, vui lòng thử lại.
+bulk-submission-success-header = Cảm ơn bạn đã gửi số lượng lớn đóng góp của bạn!
+bulk-submission-success-subheader = Bạn đang giúp Common Voice đạt được mục tiêu câu hàng ngày của chúng tôi!
+upload-more-btn-text = Tải lên nhiều câu hơn?
+file-invalid-type = Tập tin không hợp lệ
+file-too-large = Tập tin quá lớn
+file-too-small = Tập tin quá nhỏ
+too-many-files = Quá nhiều tập tin
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Chúng tôi</mark><br/><mark>cần bạn giúp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm. <strong>Nếu bạn coi trọng dữ liệu mở, toàn diện - hãy quyên góp hôm nay!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Sử dụng CV</mark><br/><mark>cho nghiên cứu của bạn?</mark>
+languages-donate-banner-cta-explanation = Common Voice được tài trợ bởi quyên góp và tài trợ! Chúng tôi thích hợp tác với các học giả, xã hội dân sự và các nhà nghiên cứu trong ngành. Common Voice được sử dụng miễn phí nhưng việc quyên góp vào chi phí nền tảng và lưu trữ thông qua các đề xuất tài trợ thực sự hữu ích.

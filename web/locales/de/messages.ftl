@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Zentralkurdisch
 cnh = Hakha Chin
 co = Korsisch
+crh = Krimtatarisch
 cs = Tschechisch
 cv = Tschuwaschisch
 cy = Walisisch
@@ -69,16 +70,20 @@ eo = Esperanto
 es = Spanisch
 et = Estnisch
 eu = Baskisch
+ewo = Ewondo
 fa = Persisch
 ff = Fulah
 fi = Finnisch
 fo = Färöisch
 fr = Französisch
+fuf = Pular
 fy-NL = Friesisch
 ga-IE = Irisch
 gl = Galizisch
 gn = Guarani
 gom = Goanisches Konkani
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebräisch
 hi = Hindi
@@ -98,6 +103,7 @@ it = Italienisch
 izh = Ischorisch
 ja = Japanisch
 jbo = Lojban
+jv = Javanisch
 ka = Georgisch
 kaa = Karakalpak
 kab = Kabylisch
@@ -120,6 +126,7 @@ lo = Laotisch
 lt = Litauisch
 ltg = Lettgallisch
 lv = Lettisch
+lzz = Lasisch
 mai = Maithili
 mdf = Mokschanisch
 mg = Madagassisch
@@ -151,6 +158,7 @@ nyn = Nyankole
 oc = Okzitanisch
 om = Afaan Ormoo
 or = Odia
+os = Ossetisch
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polnisch
@@ -158,6 +166,7 @@ ps = Paschtu
 pt = Portugiesisch
 quc = K’iche’
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Surselvisch
 rm-vallader = Rätoromanisch Vallader
 ro = Rumänisch
@@ -167,6 +176,8 @@ sah = Sacha
 sat = Santali (Ol Chiki)
 sc = Sardisch
 scn = Sizilianisch
+sco = Scots
+sd = Sindhi
 sdh = Südkurdisch
 shi = Taschelhit
 si = Singhalesisch
@@ -207,7 +218,9 @@ uz = Usbekisch
 ve = Tshivenda
 vec = Venezianisch
 vi = Vietnamesisch
+vmw = Makua
 vot = Wotisch
+wep = Westfälisch
 wo = Wolof
 xh = Xhosa
 yi = Jiddisch
@@ -244,6 +257,7 @@ share-text = Zeigt Geräten, wie echte Menschen sprechen und spendet eure Stimme
 link-copied = Link kopiert
 back-top = Zum Seitenanfang
 logout = Abmelden
+donate = Spenden
 
 ## Home Page
 
@@ -394,8 +408,12 @@ native-language =
 profile-form-add-accent = Neuen benutzerdefinierten Akzent hinzufügen „{ $inputValue }“
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
-male = Männlich
-female = Weiblich
+male_masculine = Männlich
+female_feminine = Weiblich
+intersex = Intersexuell
+transgender = Transgender
+non-binary = Nicht-binär
+do_not_wish_to_say = Möchte ich nicht angeben
 # Gender
 other = Sonstiges
 why-profile-title = Warum ein Profil?
@@ -431,6 +449,8 @@ help-accent = Brauchen Sie Hilfe beim Akzent?
 help-accent-explanation = Ihr Akzent ist die Art und Weise, wie Sie Wörter aussprechen. Er kann davon geprägt sein, wo Sie gelebt haben, welche anderen Sprachen Sie sprechen und von vielen anderen Faktoren. Sie können hier alle Informationen teilen, die Sie für relevant halten.
 help-variants = Benötigen Sie Hilfe zu den Varianten?
 help-variants-explanation = Varianten sind eine spezifische Form einer Sprache – die zum Beispiel von Menschen geteilt wird, die in einer Region oder Gemeinschaft leben. Manchmal werden diese auch Dialekte genannt.
+help-sex-or-gender-changes = Benötigen Sie Hilfe bei der Änderung von Geschlecht oder Geschlechtsidentität?
+help-sex-or-gender-changes-explanation = Wir bieten mehr Optionen an, um Menschen mehr Wahlfreiheit zu lassen, was sie uns über ihr Geschlecht oder ihre Geschlechtsidentität mitteilen. Bitte beschreiben Sie sich so selbst, wie es für Sie am natürlichsten ist. <learnMoreLink>Erfahren Sie mehr über unseren Zugang zu Geschlecht und Geschlechtsidentität.</learnMoreLink>
 
 ## Profile - Email
 
@@ -616,7 +636,6 @@ about-playbook-how-add-sentences = Wie füge ich Sätze hinzu?
 about-playbook-how-add-sentences-content-1 = <strong>Satzsammler</strong> ist ein Werkzeug zum Sammeln und Validieren gemeinfreier Sätze. Sie müssen <scAccountLink>ein Konto erstellen</scAccountLink>. Fügen Sie dann Ihre Sprache zu Ihrem <strong>Profil</strong> hinzu. Sie können Sätze <strong>hinzufügen</strong> oder zuvor hinzugefügte Sätze <strong>überprüfen</strong>.
 about-playbook-how-add-sentences-content-2 = Sätze müssen von zwei Personen überprüft und akzeptiert werden, um in Common Voice aufgenommen zu werden. Richtlinien für Ihre Sprache erstellen Sie <languageGuidelinesLink>hier</languageGuidelinesLink>. Sätze müssen <licenseLink>gemeinfrei</licenseLink> und kürzer als 15 Wörter sein. Sie können den Eigentümer eines Textes bitten, ihn mithilfe unserer Verzichtserklärung unter <waiverLink>CC0</waiverLink> zu stellen, und uns an commonvoice@mozilla.com senden.
 about-playbook-how-add-sentences-content-3 = Sie können den <scraperLink>Satzextraktor</scraperLink> verwenden, um kurze Sätze aus Wikipedia zu beziehen.
-about-playbook-how-add-sentences-content-4 = Sätze, die validiert wurden, werden mittwochs exportiert und sind nach der nächsten Veröffentlichung verfügbar.
 
 ## How to record quality
 
@@ -663,6 +682,13 @@ about-playbook-how-project-governance-content-4 = Mitwirkung der Gemeinschaft un
 about-playbook-how-project-governance-content-5 = Wert und Anerkennung.
 about-playbook-how-project-governance-content-6 = Gegenseitige Rechenschaftspflicht.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lesen Sie mehr über unsere Führungsstruktur</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Wie wird Common Voice finanziert?
+about-playbook-how-funded-content-1 = Common Voice ist ein Projekt der Mozilla Foundation, einer US 501c3. Das Projekt wird derzeit vollständig durch <philantropGrantLink>philanthropische Zuwendungen</philantropGrantLink>, sowie Spenden von Menschen aus der ganzen Welt finanziert.
+about-playbook-how-funded-content-2 = Es kostet viel Geld, die Datensätze fortlaufend zu hosten und zu veröffentlichen, die Plattform zu verbessern und <africaMradiLink>Gemeinschaftsprogramme</africaMradiLink> zu betreiben.
+about-playbook-how-funded-content-3 = Wenn Sie oder Ihre Organisation das Projekt unterstützen möchte, können Sie an uns <donateLink>spenden</donateLink> oder sich unter <emailFragment>commonvoice@mozilla.com</emailFragment> an unser Partnerschaftsteam wenden.
 
 ## Glossary
 
@@ -739,10 +765,12 @@ validated-hr-total = Insgesamt bestätigte Stunden
 overall-hr-total = Gesamtstunden
 cv-license = Lizenz
 audio-format = Audioformat
+dataset-splits = Gruppen (Alter und Geschlecht)
 number-of-voices = Anzahl der Stimmen
 splits = Unterteilungen
 email-to-download = Zum Download E-Mail-Adresse eingeben
 why-email = <b>Warum eine E-Mail-Adresse?</b> Möglicherweise müssen wir Sie in Zukunft über Änderungen am Datensatz informieren. Eine E-Mail-Adresse gibt uns eine Kontaktmöglichkeit.
+why-donate-datasets-page = Mozilla Common Voice ist der weltweit vielfältigste offene Sprachdatensatz aus Crowdsourcing – und wir sind vollständig auf Spenden angewiesen. Es kostet fast eine Million Dollar im Jahr, die Datensätze zu hosten und die Plattform für die über 100 Sprachgemeinschaften zu verbessern, die sich auf das verlassen, was wir tun. Wenn Sie Wert auf offene, integrative Daten legen – <b>spenden Sie noch heute!</b>
 confirm-size = Sie können jetzt einen Download von <b>{ $size }</b> starten
 size-gigabyte = GB
 size-megabyte = MB
@@ -761,6 +789,8 @@ subscribe = Abonnieren
 get-started-speech = Erste Schritte mit der Spracherkennung
 other-datasets = Andere Sprachdatensätze
 feedback-q = Möchten Sie uns etwas mitteilen?
+# This indicates that there is no data to display
+no-information = Keine Informationen
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ist ein <docsLink>Open-Source-Toolkit</docsLink> für Forscher, die hochmoderne dialogorientierte KI-Modelle entwickeln.
 resource-deepspeech-info = Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, kann zur Entwicklung von Spracherkennungsanwendungen verwendet werden. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen
 resource-coqui-info = <coquiLink>Coqui</coquiLink> widmet sich der offenen Sprachtechnologie. Ihre Projekte umfassen Deep-Learning-basierte STT- und TTS-Engines.
@@ -783,6 +813,15 @@ dataset-version = Version
 sha256-checksum-copied = SHA256-Prüfsumme kopiert!
 sha256-checksum-copied-error = Kopieren der SHA256-Prüfsumme fehlgeschlagen
 clipboard-not-supported = Zwischenablage wird nicht unterstützt
+no-information-available = Keine Informationen verfügbar
+dataset-metadata-sex = Geschlecht
+# dataset metadata - age of contributor
+dataset-metadata-age = Alter
+donate-modal-message = Ihr Datensatz wird heruntergeladen!
+dataset-donate-modal-heading = Wussten Sie …
+donate-modal-explanation-1 = Es kostet fast eine Million Dollar im Jahr, die Datensätze zu hosten und die Plattform für die über 100 Sprachgemeinschaften zu verbessern, die sich auf unsere Arbeit verlassen.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Wenn Sie Wert auf offene, inklusive Daten legen – spenden Sie heute!</bold>
 
 ## Download Modal
 
@@ -859,6 +898,8 @@ language-section-in-progress = Vorbereitungsphase
 language-section-in-progress-new-description = Diese Sprachen werden derzeit durch die Gemeinschaft entwickelt. Die Fortschrittsbalken zeigen an, wie weit bei den einzelnen Sprachen die <localizationGlossaryLink>Website-Lokalisierung</localizationGlossaryLink> und die <sentenceCollectionGlossaryLink>Sammlung von Sätzen</sentenceCollectionGlossaryLink> umgesetzt wurde.
 language-section-launched = Aufnahmephase
 language-section-launched-description = Für diese aktiven Sprachen wurde die Website erfolgreich <localizationGlossaryLink>lokalisiert</localizationGlossaryLink>, und es wurden ausreichend <satzCollectionGlossaryLink>Sätze gesammelt</satzCollectionGlossaryLink>, damit weiterhin Beiträge <speakLink>gesprochen</speakLink> und <listenLink>angehört</listenLink> werden können.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Letzte Aktualisierung: { $lastUpdatedTimeStamp }
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-meter-in-progress = Fortschritt
@@ -924,6 +965,9 @@ listen-empty-state = Es gibt aktuell keine Aufzeichnungen – laden Sie die Seit
 listen-loading-error =
     Wir konnten für Sie keine Audioclips zum Anhören abrufen.
     Bitte versuchen Sie es später erneut.
+listen-abort-title = Überprüfung der Aufzeichnungen abschließen?
+listen-abort-cancel = Überprüfung fortsetzen
+listen-abort-confirm = Überprüfung abschließen
 speak-empty-state = Für diese Sprache gibt es keine Sätze mehr, die aufgenommen werden könnten…
 speak-empty-state-cta = Sätze beitragen
 speak-loading-error =
@@ -1642,6 +1686,9 @@ continue-speaking-button = Nein danke, mit dem Sprechen fortfahren
 create-profile-text = Möchten Sie Ihre Daten speichern? <createProfile>Erstellen Sie ein Profil</createProfile>
 thanks-for-voice-toast = Vielen Dank für Ihre Sprachinformationen
 thanks-for-voice-toast-error = Beim Senden Ihrer Sprachinformationen ist ein Fehler aufgetreten
+first-cta-gender-select-default-option = Wählen Sie eine Option
+first-cta-gender-select-help-text =
+    .label = Wie würden Sie Ihr Geschlecht oder Geschlechteridentität beschreiben?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Vielen Dank, dass Sie Ihre Stimme beitragen!
 second-cta-subtitle-text = Mit einem Profil können Sie Ihre Aktivitäten im Auge behalten und mit einer Gemeinschaft von Mitwirkenden an Sprachdaten in Kontakt treten.
@@ -1663,7 +1710,7 @@ volume = Lautstärke
 reader-effects = Lesereffekte
 just-unsure = Nur unsicher?
 example = Beispiel
-varying-pronunciations-explanation-1 = Wir begrüßen unterschiedliche Akzepte! Seien Sie sehr vorsichtig, bevor Sie einen Clip mit der Begründung ablehnen, dass der Leser Ihrer Meinung nach ein Wort falsch ausgesprochen hat, die Betonung an der falschen Stelle gesetzt oder ein Satzzeichen ignoriert hat. Es gibt eine Vielzahl von Aussprachen auf der ganzen Welt, von denen Sie einige in Ihrer Umgebung möglicherweise noch nicht gehört haben. Bitte berücksichtigen Sie, dass es Menschen gibt, die anders sprechen als Sie.
+varying-pronunciations-explanation-1 = Wir begrüßen unterschiedliche Akzente! Seien Sie sehr vorsichtig, bevor Sie einen Clip mit der Begründung ablehnen, dass der Leser Ihrer Meinung nach ein Wort falsch ausgesprochen hat, die Betonung an der falschen Stelle gesetzt oder ein Satzzeichen ignoriert hat. Es gibt eine Vielzahl von Aussprachen auf der ganzen Welt, von denen Sie einige in Ihrer Umgebung möglicherweise noch nicht gehört haben. Bitte berücksichtigen Sie, dass es Menschen gibt, die anders sprechen als Sie.
 varying-pronunciations-explanation-2 = Wenn Sie hingegen der Meinung sind, dass der Leser das Wort noch nie gesehen hat und die Aussprache falsch geraten hat, lehnen Sie es bitte ab. Wenn Sie unsicher sind, klicken Sie auf die Schaltfläche „Überspringen“.
 varying-pronunciations-example = Die Route war unklar.
 varying-pronunciations-tip-1 = [Im kanadischen Englisch könnte „route“ wie „rowt“ klingen]
@@ -1702,6 +1749,8 @@ public-domain = Gemeinfrei
 citing-sentences = Sätze zitieren
 adding-sentences = Sätze hinzufügen
 reviewing-sentences = Sätze überprüfen
+sentence-domain =
+    .label = Thema des Satzes
 public-domain-explanation-1 = Es ist sehr wichtig, dass alle Textsätze <publicDomain>gemeinfrei</publicDomain> (<cc0>cc0</cc0>) sind, da der Common-Voice-Datensatz unter einer cc0-Lizenz steht. Laden Sie einen Satz nur hoch, wenn Sie sicher sind, und fügen Sie immer das relevante Zitat hinzu.
 public-domain-explanation-2 = Die besten Sätze, um eine nützliche Spracherkennungs-Engine zu entwickeln, sind umgangssprachlicher, moderner Sprachgebrauch. Einige Ideen, die Ihnen helfen, Sätze zu erzeugen, sind;
 public-domain-explanation-3 = Bilden Sie moderne, umgangssprachliche Sätze selbst oder mit Ihren Freunden oder Ihrer Sprachgemeinschaft – zum Beispiel durch einen „Write-a-thon“
@@ -1750,8 +1799,11 @@ reviewing-sentences-explanation-1 = Wenn der Satz die genannten Kriterien erfül
 reviewing-sentences-explanation-2 = Wenn der Satz die genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Nein“.
 reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 reviewing-sentences-explanation-4 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
-# WRITE PAGE
-write-instruction-second-part = ein gemeinfreier Satz
+domain-explanation = Mit „Thema“ ist das Thema des Satzes gemeint. Derzeit können Sie wählen zwischen:
+
+## WRITE PAGE
+
+write-instruction = Fügen Sie <icon></icon> einen gemeinfreien Satz hinzu
 write-page-subtitle = Hier beigetragene Sätze werden zu einem öffentlich zugänglichen cc-0-lizenzierten Datensatz hinzugefügt.
 sentence =
     .label = Satz
@@ -1759,7 +1811,10 @@ sentence-input-value = Geben Sie hier Ihren gemeinfreien Satz ein
 citation-input-value = Quelle Ihres Satzes
 citation =
     .label = Zitat
-what-can-i-add = Welche Sätze kann ich hinzufügen?
+sc-write-submit-confirm =
+    Ich bestätige, dass dieser Satz <wikipediaLink>gemeinfrei</wikipediaLink> ist und
+    ich die Erlaubnis habe, ihn hochzuladen.
+sc-review-write-title = Welche Sätze kann ich hinzufügen?
 new-sentence-rule-1 = <noCopyright>Keine Urheberrechts</noCopyright>-Einschränkungen (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Weniger als 15 Wörter
 new-sentence-rule-3 = Verwendung korrekter Grammatik
@@ -1776,16 +1831,90 @@ contact-us = Kontakt
 add-sentence-success = 1 Satz gesammelt
 add-sentence-error = Fehler beim Hinzufügen des Satzes
 required-field = Bitte füllen Sie dieses Feld aus.
-# REVIEW PAGE
-sc-review-instruction-first-part = Überprüfen
-sc-review-instruction-second-part = Ist dies ein sprachlich korrekter Satz?
+single-sentence-submission = Einreichung eines einzelnen Satzes
+bulk-sentence-submission = Einreichung mehrerer Sätze
+single-sentence = Einzelner Satz
+bulk-sentences = Mehrere Sätze
+sentence-domain-select =
+    .label = Thema des Satzes
+sentence-domain-select-placeholder = Wählen Sie bis zu drei Domains aus
+# Sentence Domain dropdown option
+agriculture = Landwirtschaft
+# Sentence Domain dropdown option
+automotive = Autos
+# Sentence Domain dropdown option
+finance = Finanzen
+# Sentence Domain dropdown option
+food_service_retail = Essen, Service und Verkauf
+# Sentence Domain dropdown option
+general = Allgemein
+# Sentence Domain dropdown option
+healthcare = Gesundheit
+# Sentence Domain dropdown option
+history_law_government = Geschichte, Recht und Staat
+# Sentence Domain dropdown option
+language_fundamentals = Grundlagen der Sprache (z.B. Ziffern, Buchstaben, Geld)
+# Sentence Domain dropdown option
+media_entertainment = Medien und Unterhaltung
+# Sentence Domain dropdown option
+nature_environment = Natur und Umwelt
+# Sentence Domain dropdown option
+news_current_affairs = Nachrichten und aktuelle Themen
+# Sentence Domain dropdown option
+technology_robotics = Technologie und Robotik
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Überprüfen Sie, <icon></icon> ob dies ein linguistisch korrekter Satz ist.
 sc-review-rules-title = Entspricht der Satz dem Leitfaden?
 sc-review-empty-state = Es gibt derzeit keine Sätze in dieser Sprache, die überprüft werden müssen.
 report-sc-different-language = Andere Sprache
 report-sc-different-language-detail = Er ist in einer anderen Sprache geschrieben als der, die ich überprüfe.
 sentences-fetch-error = Beim Abrufen der Sätze ist ein Fehler aufgetreten
 review-error = Beim Überprüfen dieses Satzes ist ein Fehler aufgetreten
+review-error-rate-limit-exceeded = Sie sind zu schnell. Bitte nehmen Sie sich einen Moment Zeit, um den Satz auf Richtigkeit zu überprüfen.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wir nehmen einige wichtige Änderungen vor
 sc-redirect-page-subtitle-1 = Der Satzsammler zieht auf die Kern-Common-Voice-Plattform um. Sie können jetzt auf einen Satz Common Voice <writeURL>schreiben</writeURL> oder einzelne Sätze <reviewURL>überprüfen</reviewURL>.
 sc-redirect-page-subtitle-2 = Stellen Sie uns Fragen auf <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> oder per <emailLink>E-Mail</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Laden Sie <icon></icon> gemeinfreie Sätze hoch
+sc-bulk-upload-instruction = Ziehen Sie Ihre Datei hierher oder <uploadButton>klicken Sie zum Hochladen</uploadButton>
+sc-bulk-upload-instruction-drop = Datei zum Hochladen hier ablegen
+bulk-upload-additional-information = Wenn Sie weitere Informationen zu dieser Datei angeben möchten, wenden Sie sich bitte an <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Wenn Sie zusätzliche Informationen zu dieser Datei angeben möchten, die nicht in der Vorlage enthalten sind, wenden Sie sich bitte an <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Versuchen Sie es erneut, indem Sie Ihre Datei hierher ziehen
+try-upload-again-md = Hochladen erneut versuchen
+select-file = Datei auswählen
+select-file-mobile = Datei zum Hochladen auswählen
+accepted-files = Akzeptierte Dateitypen: nur .tsv
+maximum-file-size = Maximale Dateigröße: 25 MB
+what-needs-to-be-in-file = Was muss in meiner Datei enthalten sein?
+what-needs-to-be-in-file-explanation = Bitte überprüfen Sie unsere <templatFileLink>Vorlagen-Datei</templatFileLink>. Ihre Sätze sollten urheberrechtsfrei (CC0 oder Originalarbeit des Einreichenden) sein, klar, grammatikalisch korrekt und leicht zu lesen. Eingereichte Sätze sollten in etwa 10-15 Sekunden zu lesen sein und sollten keine Zahlen, Eigennamen und Sonderzeichen enthalten.
+upload-progress-text = Hochladen läuft…
+sc-bulk-submit-confirm =
+    Ich bestätige, dass diese Sätze <wikipediaLink>gemeinfrei</wikipediaLink> sind und
+    ich die Erlaubnis habe, sie hochzuladen.
+bulk-upload-success-toast = Mehrere Sätze hochgeladen
+bulk-upload-failed-toast = Hochladen fehlgeschlagen, bitte erneut versuchen.
+bulk-submission-success-header = Vielen Dank, dass Sie mehrere Sätze beigetragen haben!
+bulk-submission-success-subheader = Sie helfen Common Voice, unsere täglichen Satzziele zu erreichen!
+upload-more-btn-text = Weitere Sätze hochladen?
+file-invalid-type = Ungültige Datei
+file-too-large = Die Datei ist zu groß
+file-too-small = Die Datei ist zu klein
+too-many-files = Zu viele Dateien
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Wir brauchen</mark><br/><mark>Ihre Hilfe!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Es kostet fast eine Million Dollar im Jahr, die Datensätze zu hosten und die Plattform für die über 100 Sprachgemeinschaften zu verbessern, die sich auf das verlassen, was wir tun. <strong>Wenn Sie Wert auf offene, integrative Daten legen – spenden Sie heute!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Verwenden Sie Common Voice für</mark><br/><mark>Ihre Forschung?</mark>
+languages-donate-banner-cta-explanation = Common Voice wird durch Spenden und Zuwendungen finanziert! Wir arbeiten gerne mit Akademikern, der Zivilgesellschaft und Forschern aus der Industrie zusammen. Common Voice ist kostenlos, aber es ist wirklich hilfreich, sich durch Zuwendungsvorschläge an den Plattform- und Hostingkosten zu beteiligen.
